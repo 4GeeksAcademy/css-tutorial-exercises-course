@@ -1,0 +1,7 @@
+ports:
+    - port: 8080
+
+tasks:
+    - init: >
+        npm i jest -g;
+        npm i breathecode-cli -g;
