@@ -19,36 +19,18 @@ describe("All the styles should be applied", function() {
     jest.resetModules();
   });
 
-  it("the background should be blue", function() {
+  it("the background-size should be 'contain'", function() {
+    // get computed styles of any element you like
+    const body = document.querySelector("table");
+    var styles = window.getComputedStyle(body);
+    expect(styles["background-size"]).toBe("contain");
+  });
+
+  it("the background-repeat should be 'no-repeat'", function() {
     // get computed styles of any element you like
     const body = document.querySelector("body");
     var styles = window.getComputedStyle(body);
-    expect(styles["background-color"]).toBe("blue");
-  });
-});
 
-describe("All the css should match", function() {
-  beforeEach(() => {
-    //here I import the HTML into the document
-    document.documentElement.innerHTML = html.toString();
-  });
-  afterEach(() => {
-    jest.resetModules();
-  });
-
-  it("the html code should contain a p tag", function() {
-    // we can read from the source code
-    console.log(html.toString());
-    expect(html.toString().indexOf(`<p`) > -1).toBeTruthy();
-
-    //or use query selector to compare hoy mane scriptags do we have
-    const pTags = document.querySelectorAll("p");
-    expect(pTags.length).toBe(1);
-  });
-
-  it('the p tag should have a class "big"', function() {
-    //or use query selector to compare hoy mane scriptags do we have
-    const p = document.querySelector("p");
-    expect(p.classList.contains("big")).toBeTruthy();
+    expect(styles["background-repeat"]).toBe("inherit");
   });
 });

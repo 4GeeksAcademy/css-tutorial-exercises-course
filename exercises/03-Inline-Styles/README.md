@@ -1,15 +1,23 @@
 # `03` Inline Styles
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+Inline styles are a very bad idea unless you have no choice (and that's a very uncommon situation). Sadly, we have to teach you how to do it because there is a chance you will need to use them at some point.
+
+To use inline styles, instead of declaring a <style> tag in the header of the document, you have to set the "style" attribute of any element with the CSS code you need to apply to that specific element.
+
+For example:
+
+```html
+<a href="google.com" style="color: red; font-size: 14px;">Go to google</a>
+```
+
+Will set the color of that specific link to red and the font-size to 14px
+
+Note: You can append as many CSS rules as you want, within the same line, separated by semi-colon.
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+Set an inline style to change the background color of the table to green. For this exercise, do NOT use styles.css :(
 
-Hint:
+### Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+- How to use the background-size: http://lmgtfy.com/?q=css+inline+style

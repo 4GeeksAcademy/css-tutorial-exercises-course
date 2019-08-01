@@ -4,12 +4,16 @@ The "background" CSS rule allows us to assign and work with the background of an
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+```plan/text
+1.  Build the exercise.
+2.  Check the Preview.
+3.  Change the background-size to "contain" (check the styles.css tab).
+4.  Build and Preview the exercise again.
+5.  Change the background-repeat to inherit to make it repeat over the x axis and y axis.
+6.  Build and Preview the exercise again.
+```
 
 Hint:
 
 - How to use the background-size: http://lmgtfy.com/?q=css+background-size
+- How to use the background-repeat: http://lmgtfy.com/?q=css+background-repeat
