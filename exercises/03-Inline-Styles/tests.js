@@ -2,13 +2,16 @@ const fs = require("fs");
 const path = require("path");
 const html = fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
 const css = fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
-
+console.log(css);
 jest.dontMock("fs");
 
 describe("All the html should match", function() {
   beforeEach(() => {
     //here I import the HTML into the document
     document.documentElement.innerHTML = html.toString();
+    document.querySelector(
+      "head"
+    ).innerHTML = `<style>${css.toString()}</style>`;
   });
   afterEach(() => {
     jest.resetModules();

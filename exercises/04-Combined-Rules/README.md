@@ -1,15 +1,29 @@
 # `04` Combined Rules
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+CSS files take space on your server and also take time to download (like everything); it is yet another text document that the browser has to download before rendering the page, which is why is important to keep the CSS document as small as possible.
 
-## 📝 Instructions:
+One way to do that is by combining several properties into one such as with "border":
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+```css
+border-color: black;
+border-style: solid;
+border-width: 1px;
+```
 
-Hint:
+Border's properties can be consolidated into a single line as:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+```css
+border: black 1px solid;
+```
+
+# 📝 Instructions:
+
+Combine the 4 padding rules into just one using the "padding:" rule.
+Combine the all background rules, but the background size, into just one line using the "background:" rule.
+
+P.S: The background size cannot be combined, the browsers don't support it yet.
+
+# Hint:
+
+- How to use the background-size: http://lmgtfy.com/?q=css+background
+- How to use the background-size: http://lmgtfy.com/?q=css+padding

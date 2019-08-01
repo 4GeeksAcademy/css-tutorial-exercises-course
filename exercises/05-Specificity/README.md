@@ -1,6 +1,17 @@
 # `05` Specificity
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+When creating a CSS document, you need to start from the most generic selector and end with the most specific ones, that is the way CSS works.
+
+It's all about the level of Specificity.
+If you specify that your div with id="thirditem" has a blue background, and later in the document you specify that all divs will have yellow background, #thirditem will keep his blue background. Period!
+
+Because the more specific, the more priority it has.
+Instructions
+Override the background-color of #thirditem without deleting any css code, simply append to the css a more specific rule at the end of the document to override the background-color to green.
+
+Tip
+You can use the !important annotation
+https://css-tricks.com/when-using-important-is-the-right-choice/
 
 ## 📝 Instructions:
 
