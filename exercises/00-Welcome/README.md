@@ -1,3 +1,3 @@
 # Welcome!!
 
-Here are the DOM Excercises
+Here are the CSS Excercises
