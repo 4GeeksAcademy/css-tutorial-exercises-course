@@ -1,15 +1,16 @@
 # `07` Very Specific Rules
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+# **Important:**
+
+In this exercise, you can add your code only above the **READ ONLY BLOCK** of the code, you can add as many lines as you want, but always above.
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+- Set the <ul> text color to red (override conflicts with specificity).
+- Set the background color of the second <li> of the <ol> to green (don't use the #id selector).
+- Make the odd rows of the tables with yellow background using **tr:nth-child**.
 
+![Example Image](http://i.imgur.com/MyeiuOb.png)
 Hint:
 
 - How to use the background-size: http://lmgtfy.com/?q=css+background-size
