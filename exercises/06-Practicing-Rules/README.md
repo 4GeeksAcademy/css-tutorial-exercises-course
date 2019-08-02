@@ -1,15 +1,24 @@
 # `06` Practicing Rules
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
-
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+1. Set this URL as the background image of the page, and repeat it vertically only:
+   http://assets.breatheco.de/apis/img/bg/background-vertical.jpg
 
-Hint:
+2. Change the font-type of the h1 to Courier and the rest of the website to Times new Roman.
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+3. Change the color of h1 to red.
+
+4. Make all the h2's with an underline.
+
+5. Center the h1 to the middle.
+
+6. Add a left padding to the whole document of 20px to make it easier to read.
+
+7. Add a white semi-transparent background to the first paragraph of "3 reasons you know you are learning" to make it easier to read (you have tu use rgba for that), and then apply a padding of 5px to all sides of that paragraph.
+
+8. Change the anchor "hover" color to green and remove the underline. (you have to actually hover the anchor to test it).
+
+The result should be something like this:
+
+![Example Image](http://i.imgur.com/KGk6D4P.png)
