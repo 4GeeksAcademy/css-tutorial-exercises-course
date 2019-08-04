@@ -22,6 +22,7 @@ describe("All the styles should be applied", function() {
   it("the background-size should be 'contain'", function() {
     // get computed styles of any element you like
     const body = document.querySelector("table");
+    console.log("Body: " + body);
     var styles = window.getComputedStyle(body);
     expect(styles["background-size"]).toBe("contain");
   });
