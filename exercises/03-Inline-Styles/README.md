@@ -16,7 +16,9 @@ Note: You can append as many CSS rules as you want, within the same line, separa
 
 ## 📝 Instructions:
 
-Set an inline style to change the background color of the table to green. For this exercise, do NOT use styles.css :(
+```Plain/Text
+1. Set an inline style to change the background color of the table to green. For this exercise, do NOT use styles.css :(
+```
 
 ### Hint:
 

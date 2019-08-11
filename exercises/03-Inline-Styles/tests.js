@@ -9,22 +9,21 @@ describe("The Table tag should contain inline style background: green", function
   beforeEach(() => {
     //here I import the HTML into the document
     document.documentElement.innerHTML = html.toString();
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
   });
   afterEach(() => {
     jest.resetModules();
   });
   it("The styles.css file should be empty", function() {
-    console.log(css);
     expect(css.toString() === "").toBeTruthy();
+  });
+  it("The Head tag should not includes a Style tag", function() {
+    expect(html.toString().indexOf(`<style`) > -1).toBeFalsy();
   });
 
   it("The background should be green", function() {
     const table = document.querySelector("table");
-    expect(table.style.background === "green").toBeTruthy();
+    // expect(table.style.background === "green").toBeTruthy();
+    var styles = window.getComputedStyle(table);
+    expect(styles["background"]).toBe("green");
   });
 });
-
-
