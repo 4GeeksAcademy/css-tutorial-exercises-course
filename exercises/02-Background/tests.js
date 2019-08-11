@@ -14,8 +14,8 @@ describe("All the styles should be applied", function () {
     document.querySelector(
       "head"
     ).innerHTML=`<style>${css.toString()}</style>`;
-    const body=document.querySelector("body");
-    var styles=window.getComputedStyle(body);
+
+
   });
   afterEach(() => {
     jest.resetModules();
@@ -35,15 +35,15 @@ describe("All the styles should be applied", function () {
   });
   it("the background-size should be 'contain'", function () {
     // get computed styles of any element you like
-
+    const body=document.querySelector("body");
+    let styles=window.getComputedStyle(body);
     expect(styles["background-size"]).toBe("contain");
   });
 
   it("the background-repeat should be 'no-repeat'", function () {
-    // get computed styles of any element you like
-    // const body = document.querySelector("body");
-    // var styles = window.getComputedStyle(body);
 
+    const body=document.querySelector("body");
+    let styles=window.getComputedStyle(body);
     expect(styles["background-repeat"]).toBe("inherit");
   });
 });
