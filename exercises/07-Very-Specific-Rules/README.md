@@ -6,11 +6,13 @@ In this exercise, you can add your code only above the **READ ONLY BLOCK** of th
 
 ## 📝 Instructions:
 
-- Set the <ul> text color to red (override conflicts with specificity).
-- Set the background color of the second <li> of the <ol> to green (don't use the #id selector).
-- Make the odd rows of the tables with yellow background using **tr:nth-child**.
+```Plain/Text
+1. Set the <ul> text color to red (override conflicts with specificity).
+2. Set the background color of the second <li> of the <ol> to green (don't use the #id selector).
+3. Make the odd rows of the tables with yellow background using **tr:nth-child**.
+```
 
 ![Example Image](http://i.imgur.com/MyeiuOb.png)
 Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+
