@@ -1,15 +1,20 @@
 # `11` Font Awesome Icons
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+As a developer/designer, you want to use certain icons to make your website easy to understand; for example, we know that a "trash" icon means "delete".
+
+But using icons can be frustrating and time-consuming because each icon is an image and working with images is horrible!
+
+Font-awesome solve the "image" problem by creating a new font- each letter is a different icon and you can now import the whole font into your website and use whatever icon you want.
+
+After linking your website with font-awesome, you can use the following to code to insert a specific icon:
+
+```html
+<i class="fa fa-camera-retro"></i> "camera-retro" will be the name of the icon,
+you can find all the available names here: http://fontawesome.io/icons/
+```
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
-
-Hint:
-
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+```Plain/Text
+Add two more items into your list and add a different icon at the beginning of each item.
+```
