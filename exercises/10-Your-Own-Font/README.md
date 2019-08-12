@@ -1,15 +1,18 @@
 # `10` Your Own Font
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+Google Fonts can be found here: https://fonts.google.com
+
+After you pick your favorite one, you can use it by linking your website with the URL in which the font is stored. You have to do that in the <head> tag of the HTML document like this:
+
+```Plain/Text
+<link href="https://fonts.googleapis.com/css?family=YOUR_FONT" rel="stylesheet">
+```
+
+After your font is linked you need to assign the "font-family" CSS rule to whatever you want to apply the font, for example an <h1>.
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
-
-Hint:
-
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+```Plain/Text
+1. Link any google-font that you like into the website.
+2. Apply that specific font-family to #myTitle.
+```
