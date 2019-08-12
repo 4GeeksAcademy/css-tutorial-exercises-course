@@ -1,15 +1,23 @@
 # `09` 3D Anchor Styles
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+People like to feel that they are clicking on something, a great approach to accomplish that is by faking a 3D effect. To do so, designers normally play with the borders. Example:
+
+![Example Image](http://i.imgur.com/kLPzBXc.png)
+
+You can control what css rules apply to each state of an anchor by using the ":hover" (for mouse hover) or ":active" (for mouse pressing) selectors, example:
+
+```css
+a:active {
+  /* here you can specify whatever css rule that applies to the anchor while being 'pressed' */
+}
+```
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+```Plain/Text
+1. Change the border colors of the anchor,
+when being pressed, to the following:
 
-Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+border-color: #000 #aaa #aaa #000;
+```
