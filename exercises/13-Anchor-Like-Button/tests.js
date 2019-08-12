@@ -1,54 +1,70 @@
-
-const fs = require('fs');
-const path = require('path');
-const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
-
-jest.dontMock('fs');
-
-describe('All the styles should be applied', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-        document.documentElement.innerHTML = html.toString();
-
-        //apply the styles from the stylesheet if needed
-        document.querySelector('head').innerHTML = `<style>${css.toString()}</style>`;
-    });
-    afterEach(() => { jest.resetModules(); });
-
-    it('the background should be blue', function () {
-
-        // get computed styles of any element you like
-        const body = document.querySelector('body');
-        var styles = window.getComputedStyle(body);
-        expect(styles["background-color"]).toBe("blue");
-    });
-});
+const fs=require("fs");
+const path=require("path");
+const html=fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
+const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
+let divTag=null
+let classTagStyles=null
+jest.dontMock("fs");
 
 
-describe('All the html should match', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-        document.documentElement.innerHTML = html.toString();
-    });
-    afterEach(() => { jest.resetModules(); });
 
-    it('the html code should contain a p tag', function () {
+describe("All the styles should be applied", function () {
+  beforeEach(() => {
+    //here I import the HTML into the document
+    document.documentElement.innerHTML=html.toString();
+    // let classTagStyles = window.getComputedStyle(
+    //   document.querySelector(".orange-btn")
+    // );
+    //apply the styles from the stylesheet if needed
+    document.querySelector(
+      "head"
+    ).innerHTML=`<style>${css.toString()}</style>`;
+    divTag=document.querySelector(".orange-btn");
+    classTagStyles=window.getComputedStyle(divTag);
+  });
+  afterEach(() => {
+    jest.resetModules();
+  });
 
-        // we can read from the source code
-        console.log(html.toString());
-        expect(html.toString().indexOf(`<p`) > -1).toBeTruthy();
+  it("the  padding  should be '10px'", function () {
 
-        //or use query selector to compare hoy mane scriptags do we have
-        const pTags = document.querySelectorAll("p");
-        expect(pTags.length).toBe(1);
-    });
+    expect(classTagStyles["padding"]).toBe("10px");
+  });
+  it("the  border radius should be '4px'", function () {
+
+    expect(classTagStyles["border-radius"]).toBe("4px");
+  });
+  it("the  border should be '1px solid #ffffff;'", function () {
+
+    expect(classTagStyles["border"]).toBe("1px solid #ffffff");
+  });
+  it("the  background should be 'rgb(255, 153, 51)'", function () {
+
+    expect(classTagStyles["background"]).toBe("rgb(255, 153, 51)");
+  });
+  it("the  underline should to be removed", function () {
+
+    expect(classTagStyles["text-decoration"]).toBe("none");
+  });
+  it("The Mouse hover property should be blue", function () {
+    // get computed styles of any element you like
+    let cssArray=document.styleSheets[0].cssRules;
+    console.log("***", cssArray)
+    let orangeHoverSelector="";
+    for (let i=0; i<cssArray.length; i++) {
+      if (cssArray[i].selectorText===".orange-btn:hover") {
+        orangeHoverSelector=cssArray[i].style.background;
+      }
+    }
+
+    expect(orangeHoverSelector).toBe("#cc7a00");
+  });
+
+  it("You should be careful the specifity", function () {
+    let cssArray=document.styleSheets[0].cssRules[0].selectorText;
+    expect(cssArray).toBe(".orange-btn");
+  }
+  )
 
 
-    it('the p tag should have a class "big"', function () {
-
-        //or use query selector to compare hoy mane scriptags do we have
-        const p = document.querySelector("p");
-        expect(p.classList.contains("big")).toBeTruthy();
-    });
 });
