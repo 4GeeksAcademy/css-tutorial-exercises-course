@@ -1,54 +1,48 @@
+const fs=require("fs");
+const path=require("path");
+const html=fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
+const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 
-const fs = require('fs');
-const path = require('path');
-const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-const css = fs.readFileSync(path.resolve(__dirname, './styles.css'), 'utf8');
+jest.dontMock("fs");
 
-jest.dontMock('fs');
+describe("All the styles should be applied", function () {
+  beforeEach(() => {
+    //here I import the HTML into the document
+    document.documentElement.innerHTML=html.toString();
 
-describe('All the styles should be applied', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-        document.documentElement.innerHTML = html.toString();
+    //apply the styles from the stylesheet if needed
+    document.querySelector(
+      "head"
+    ).innerHTML=`<style>${css.toString()}</style>`;
+  });
+  afterEach(() => {
+    jest.resetModules();
+  });
+  it("The Head tag should not includes a Style tag", function () {
+    expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
+  });
+  it("The H2 Tag has to have font-size: 0.8em", function () {
+    // get computed styles of any element you like
+    const h2Tag=document.querySelector("h2");
+    var styles=window.getComputedStyle(h2Tag);
+    expect(styles["font-size"]).toBe("0.8em");
+  });
+  it("The H3 Tag has to have font-size: 0.8rem", function () {
+    // get computed styles of any element you like
+    const h3Tag=document.querySelector("h3");
+    var styles=window.getComputedStyle(h3Tag);
+    expect(styles["font-size"]).toBe("0.8rem");
+  });
+  it("You should add your rules below the existing code", function () {
+    let cssArray=document.styleSheets[0].cssRules[0].selectorText;
 
-        //apply the styles from the stylesheet if needed
-        document.querySelector('head').innerHTML = `<style>${css.toString()}</style>`;
-    });
-    afterEach(() => { jest.resetModules(); });
+    expect(cssArray).toBe("#my-first-div");
+  }
+  )
+  it("You should add your rules below the existing code", function () {
+    let cssArray=document.styleSheets[0].cssRules[1].selectorText;
+    expect(cssArray).toBe("#the-second-one");
+  }
+  )
 
-    it('the background should be blue', function () {
-
-        // get computed styles of any element you like
-        const body = document.querySelector('body');
-        var styles = window.getComputedStyle(body);
-        expect(styles["background-color"]).toBe("blue");
-    });
-});
-
-
-describe('All the html should match', function () {
-    beforeEach(() => {
-        //here I import the HTML into the document
-        document.documentElement.innerHTML = html.toString();
-    });
-    afterEach(() => { jest.resetModules(); });
-
-    it('the html code should contain a p tag', function () {
-
-        // we can read from the source code
-        console.log(html.toString());
-        expect(html.toString().indexOf(`<p`) > -1).toBeTruthy();
-
-        //or use query selector to compare hoy mane scriptags do we have
-        const pTags = document.querySelectorAll("p");
-        expect(pTags.length).toBe(1);
-    });
-
-
-    it('the p tag should have a class "big"', function () {
-
-        //or use query selector to compare hoy mane scriptags do we have
-        const p = document.querySelector("p");
-        expect(p.classList.contains("big")).toBeTruthy();
-    });
 });

@@ -1,14 +1,23 @@
 # `12` Relative Length EM, REM
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+By now, we are used to working with pixels as measurement unit, for example, saying that a box has 100px of width.
 
+There are other types of units that are not fixed, but relative. We use them when we want the element size to be related to another element or measurement unit.
+
+### Example using em:
+In this exercise we have two <h2> headings. They are both <h2>, but one is bigger than the other because headings have relative font-sizes by default. Since the first div has a bigger based font-size, then the heading resizes accordingly.
+```Plain/Text
+em: Relative to the current font-size of the parent.
+rem: Relative to the original font-size of the page.
+```
 ## 📝 Instructions:
+```Plain/Text
+1. Give a font-size of 0.8em to both h2's
+2. Now give a font-size of 0.8rem to both h3's
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+```
+The result should look like this:
+![Example Image](http://i.imgur.com/UZFY6HG.png)
 
 Hint:
 
