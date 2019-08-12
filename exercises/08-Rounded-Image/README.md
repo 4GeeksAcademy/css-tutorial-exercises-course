@@ -1,15 +1,26 @@
 # `08` Rounded Image
 
-The "background" CSS rule allows us to assign and work with the background of any container- the background can be a color or an image. If it is an image you can specify if you want the image to repeat horizontally, vertically, both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+A lot of websites use rounded profile images, a technique that really makes a website more beautiful!
+
+The obvious way create a rounded profile picture is to create an image tag and apply border-radius:100%. The problem with this approach, is that it only works for squared pictures... profile pictures with different height and width will not look like a circle, they will look like ovals:
+
+![Example Image](http://i.imgur.com/H7btEoU.png)
+
+Instead of doing that, the right approach will be to create a squared div (a.ka: with equal width and height), assign the image as a background, and then apply a border-radius to that div.
+
+If the image ends up being bigger than the div (or with different proportions) we can adjust the background-position or background-size to choose what part of the image we want to display inside of the circle.
 
 ## 📝 Instructions:
 
-Run the exercise.
-Change the background-size to "contain" (check the index.css tab).
-Run the exercise again.
-Change the background-repeat to inherit to make it repeat over the x axis and y axis.
-Run the exercise again.
+```Plain/Text
+1. Instead of doing that, the right approach will
+be to create a squared div (a.ka: with equal width
+and height), assign the image as a background, and
+then apply a border-radius to that div.
 
-Hint:
-
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size
+2. If the image ends up being bigger than the div
+(or with different proportions) we can adjust the
+background-position or background-size to choose
+what part of the image we want to display inside
+of the circle.
+```
