@@ -7,7 +7,7 @@ The "background" CSS rule allows us to assign and work with the background of an
 ```plain/text
 1.  Build the exercise.
 2.  Check the Preview.
-3.  Change the background-size to 'contain' (check the styles.css tab).
+3.  On the styles.css file the background-size to 'contain' (check the styles.css tab).
 4.  Build and Preview the exercise again.
 5.  Change the background-repeat to 'inherit' to make it repeat over the x axis and y axis.
 6.  Build and Preview the exercise again.

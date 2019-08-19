@@ -33,14 +33,14 @@ describe("All the styles should be applied", function () {
   it("The Head tag should not includes a Style tag", function () {
     expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
   });
-  it("the background-size should be 'contain'", function () {
+  it("the background-size should be 'contain' without quotes", function () {
     // get computed styles of any element you like
     const body=document.querySelector("body");
     let styles=window.getComputedStyle(body);
     expect(styles["background-size"]).toBe("contain");
   });
 
-  it("the background-repeat should be 'no-repeat'", function () {
+  it("the background-repeat should be 'inherit' without quotes", function () {
 
     const body=document.querySelector("body");
     let styles=window.getComputedStyle(body);
