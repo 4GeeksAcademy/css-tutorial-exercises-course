@@ -20,7 +20,7 @@ $ npm i breathecode-cli -g
 
 2) Download the react exercises by cloning this repository
 ```
-$ git clone https://github.com/4GeeksAcademy/html-exercises
+$ git clone https://github.com/4GeeksAcademy/css-exercises
 ```
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
@@ -29,6 +29,7 @@ Note: Once you finish downloading, you will find a "exercises" folder that conta
 
 ```sh
 $ npm i jest@24.8.0 -g
+$ cd ./css-exercises
 $ bc run:exercises
 ```
 
