@@ -68,7 +68,7 @@ describe("All the styles should be applied", function () {
   //   expect(styles["padding-left"]).toBeFalsy();
 
   // });
-  it("the padding should include the shorthand property", function () {
+  it("the padding should include the shorthand property in the right order (top, right, bottom, left)", function () {
     // get computed styles of any element you like
     const body=document.querySelector(".myBox");
     var styles=window.getComputedStyle(body);
