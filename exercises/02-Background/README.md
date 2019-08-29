@@ -15,7 +15,7 @@ If it is an image you can specify if you want the image to repeat horizontally, 
 6.  Build and Preview the exercise again.
 ```
 
-##💡Hint:
+## 💡Hint:
 
 Google is your best friend:
 
