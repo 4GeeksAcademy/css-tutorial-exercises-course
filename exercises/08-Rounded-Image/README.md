@@ -12,7 +12,7 @@ If the image ends up being bigger than the div (or with different proportions) w
 
 ## 📝 Instructions:
 
-```Plain/Text
+
 1. Instead of doing that, the right approach will
 be to create a squared div (a.ka: with equal width
 and height), assign the image as a background, and
@@ -23,4 +23,4 @@ then apply a border-radius to that div.
 background-position or background-size to choose
 what part of the image we want to display inside
 of the circle.
-```
+
