@@ -11,9 +11,7 @@ describe("All the styles should be applied", function () {
     document.documentElement.innerHTML=html.toString();
 
     //apply the styles from the stylesheet if needed
-    document.querySelector(
-      "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
+
   });
   afterEach(() => {
     jest.resetModules();
@@ -21,6 +19,9 @@ describe("All the styles should be applied", function () {
 
 
   it("The ul li color has to be red", function () {
+    document.querySelector(
+      "head"
+    ).innerHTML=`<style>${css.toString()}</style>`;
     let cssArray=document.styleSheets[0].cssRules;
 
     let orangeHoverSelector="";
@@ -36,46 +37,61 @@ describe("All the styles should be applied", function () {
 
   });
   it("The ul second element background should be green", function () {
+    document.querySelector(
+      "head"
+    ).innerHTML=`<style>${css.toString()}</style>`;
     let cssArray=document.styleSheets[0].cssRules;
 
     let orangeHoverSelector="";
     for (let i=0; i<cssArray.length; i++) {
       if (cssArray[i].selectorText==="ol li:nth-child(2)") {
-        orangeHoverSelector=cssArray[i].style.background;
+        orangeHoverSelector=cssArray[i].style['background-color'];
 
       }
-      expect(orangeHoverSelector).toBe("green");
-    }
+
+    }expect(orangeHoverSelector).toBe("green");
   })
   it("The odd rows of the table should have yellow background", function () {
+    document.querySelector(
+      "head"
+    ).innerHTML=`<style>${css.toString()}</style>`;
     let cssArray=document.styleSheets[0].cssRules;
 
     let orangeHoverSelector="";
     for (let i=0; i<cssArray.length; i++) {
       if (cssArray[i].selectorText==="tr:nth-child(odd)") {
-        orangeHoverSelector=cssArray[i].style["background-color"];
+        orangeHoverSelector=cssArray[i].style['background-color'];
 
       }
-      expect(orangeHoverSelector).toBe("yellow");
-    }
+
+    }expect(orangeHoverSelector).toBe("yellow");
   })
-  it("You should not add your rules below the existing code", function () {
-    let cssArray=document.styleSheets[0].cssRules[3].selectorText;
-    expect(cssArray).toBe("body");
-  }
-  )
-  it("You should not add your rules below the existing code", function () {
+
+  it("Write all your rules above the existing code", function () {
+    document.querySelector(
+      "head"
+    ).innerHTML=`<style>${css.toString()}</style>`;
+    let cssBody=document.styleSheets[0].cssRules[3].selectorText;
     let cssArray=document.styleSheets[0].cssRules[4].selectorText;
     expect(cssArray).toBe("ul li,\nol li");
+    expect(cssBody).toBe("body");
   }
   )
-  it("The Head tag should not includes a Style tag", function () {
+ it("You should not change the head tag", function () {
+
+    let meta1 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
+    let meta2 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
+    let link = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
+    let title = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
+    expect(meta1).not.toBe(-1)
+    expect(meta2).not.toBe(-1)
+    expect(link).not.toBe(-1)
+    expect(title).not.toBe(-1)
     expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
-  });
+  })
 
 
 
 
 
 });
-
