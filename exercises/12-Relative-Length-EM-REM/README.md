@@ -11,14 +11,12 @@ em: Relative to the current font-size of the parent.
 rem: Relative to the original font-size of the page.
 ```
 ## 📝 Instructions:
-```Plain/Text
+
 1. Give a font-size of 0.8em to both h2's
 2. Now give a font-size of 0.8rem to both h3's
 
-```
+
 The result should look like this:
 ![Example Image](http://i.imgur.com/UZFY6HG.png)
 
-Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background-size

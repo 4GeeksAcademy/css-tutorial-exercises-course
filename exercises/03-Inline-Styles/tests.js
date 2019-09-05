@@ -16,9 +16,18 @@ describe("The Table tag should contain inline style background: green", function
   it("The styles.css file should be empty", function() {
     expect(css.toString() === "").toBeTruthy();
   });
-  it("The Head tag should not includes a Style tag", function() {
-    expect(html.toString().indexOf(`<style`) > -1).toBeFalsy();
-  });
+ it("You should not change the head tag", function () {
+
+    let meta1 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
+    let meta2 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
+    let link = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
+    let title = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
+    expect(meta1).not.toBe(-1)
+    expect(meta2).not.toBe(-1)
+    expect(link).not.toBe(-1)
+    expect(title).not.toBe(-1)
+    expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
+  })
 
   it("The background should be green", function() {
     const table = document.querySelector("table");
