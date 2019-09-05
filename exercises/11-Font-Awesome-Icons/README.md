@@ -15,6 +15,6 @@ you can find all the available names here: http://fontawesome.io/icons/
 
 ## 📝 Instructions:
 
-```Plain/Text
+
 Add two more items into your list and add a different icon at the beginning of each item.
-```
+
