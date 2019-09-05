@@ -11,3 +11,14 @@ During this course you will be learning the following concepts:
 5. Learn the most popular CSS Tricks.
 
 As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what is CSS all about! Learn CSS to make your website beautiful. Let's make it shine!
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+
+This project follows the
+[all-contributors](https://github.com/kentcdodds/all-contributors)
+specification. Contributions of any kind are welcome!
