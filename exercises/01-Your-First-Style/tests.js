@@ -25,7 +25,7 @@ describe("All the styles should be applied", function() {
     expect(bodyInlineStyle[0].style._values).toEqual(emptyBodyInlineStyle);
     // console.log(bodyInlineStyle[0].style._values.background);
   });
-  it("You should not change the exixsting head tag elements", function () {
+  it("You should not change the existing head tag elements", function () {
 
     let meta1 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
     let meta2 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
