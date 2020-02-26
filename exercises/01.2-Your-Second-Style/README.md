@@ -1,4 +1,4 @@
-# `01` Your First Style
+# `01.2` Your Second Style
 
 When doing CSS, the idea is to apply `css rules` to your `html elements`, you always have to select the element first, and then specify what rules you want to apply to it:
 
@@ -12,5 +12,5 @@ a {
 
 ## 📝 Instructions:
 
-1. Right now there is a style being applied that is responsable of making the anchor red.
-2. Change the style to make your anchor look yellow.
+1. Make your website background blue by selecting the `body` and applying the `background` rule with a `blue` value.
+2. Build and preview the exercise and your result should be a blue body of the page (the whole page blue).
