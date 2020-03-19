@@ -1,4 +1,4 @@
-# `01` Your First Style
+# `01.1` Your First Style
 
 When doing CSS, the idea is to apply `css rules` to your `html elements`, you always have to select the element first, and then specify what rules you want to apply to it:
 
