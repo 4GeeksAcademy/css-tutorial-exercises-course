@@ -1,3 +1,7 @@
+---
+intro: "https://www.youtube.com/watch?v=BDKdUPDez-U"
+---
+
 # Welcome to CSS Exercises!!
 
 My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
