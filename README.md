@@ -10,6 +10,14 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-exercises.git)
 
+During this course you will be learning the following concepts:
+
+1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`,
+2. Selecting HTML Elements from your website to apply the styles to.
+3. Apply CSS Rules (styles) to those elements.
+4. Use the most popular CSS Rules.
+5. Learn the most popular CSS Tricks.
+
 ## Manual installation (if you prefer not to use gitpod)
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
