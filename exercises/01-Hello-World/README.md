@@ -20,6 +20,9 @@ Look at this example:
 <a href="https://google.com" target="_blank">Click me to open google.com</a>
 ```
 
+We have an HTML anchor `<a>` that takes people to google.com when clicked.
+We use CSS to tell (selected) all the anchor tags and make then pink.
+
 ## 📝 Instructions
 
 Paste this code on your website to see the results.
