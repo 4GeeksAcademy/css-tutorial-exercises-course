@@ -1,6 +1,7 @@
 # Welcome to CSS Exercises!!
 
-We are very excited to have you here !! 🎉 😂
+My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
+Learning to code is hard, you need coaching! DM me on twitter if you have any question.
 
 During this course you will be learning the following concepts:
 
