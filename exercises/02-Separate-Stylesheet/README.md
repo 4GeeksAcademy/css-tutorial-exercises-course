@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=T0anCc5fvSg"
+---
+
 # `02` Separate Stylesheet
 
 If you use the html `<link>` tag, you can also have your styles on a separate file that we normally call `styles.css`.
