@@ -1,4 +1,4 @@
-# `02` Background
+# `02.1` Background
 
 La regla `background` del CSS nos permite asignar y trabajar con el background de cualquier contenedor (container). Los valores de background pueden ser un `color` o una` imagen`.
 

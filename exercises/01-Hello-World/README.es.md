@@ -1,10 +1,10 @@
 # `01` Hello World en CSS
 
-CSS es sobre estilos (styles)). Para aplicar estilos, siempre debe seguir estos pasos:
+CSS es sobre estilos (styles). Para aplicar estilos, siempre debe seguir estos pasos:
 
 1. Lee el HTML y elije en tu mente a qué elemento deseas decorar o aplicar estilos.
 1. Programáticamente selecciona un elemento que deseas decorar con los selectores de CSS.
-2. Escribe el estilo que quieras usando las reglas CSS.
+2. Escribe el estilo que quieras usando las reglas de CSS.
 
 ¡Eso es todo! El resto es solo semántica.! 😁
 
@@ -20,8 +20,8 @@ Mira este ejemplo:
 <a href="https://google.com" target="_blank">Click me to open google.com</a>
 ```
 
-Tenemos un enlace de HTML `<a>` que lleva a las personas a google.com cuando se hace clic.
-Usamos CSS para decir (seleccionado) que todas las etiquetas enlace y luego hacerlas rosadas.
+Tenemos un enlace de HTML `<a>` que lleva a las personas a google.com cuando se hace click.
+Usamos CSS para selectionar todas las etiquetas `<a>` (anclas) y luego hacerlas rosadas.
 
 ## 📝 Instrucciones
 
