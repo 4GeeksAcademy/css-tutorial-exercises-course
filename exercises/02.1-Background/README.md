@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=MJI0-sFmTe8"
+---
+
 # `02.1` Background
 
 The `background` CSS rule allows us to assign and work with the background of any container. The background values can be a `color` or an `image`.

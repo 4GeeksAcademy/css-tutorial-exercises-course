@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=C5sOchuD2d4"
+---
+
 # `01.1` The Style Tag
 
 If you want to add styles into a website by writing CSS you have to always add it withing a `<style>` tag.

@@ -1,3 +1,6 @@
+---
+tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
+---
 # `01` Hello World in CSS
 
 CSS is about styles. To apply styles you always have to follow this steps:
