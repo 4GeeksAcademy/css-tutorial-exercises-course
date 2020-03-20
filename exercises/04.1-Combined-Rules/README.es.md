@@ -1,4 +1,4 @@
-# `04` Reglas Combinadas
+# `04.1` Reglas Combinadas
 
 Los archivos CSS ocupan espacio en tu servidor y también tardan en descargarse (como todo); es otro documento de texto que el navegador debe descargar antes de mostrar la página, por lo que es importante mantener el documento CSS lo más pequeño posible.
 

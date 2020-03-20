@@ -1,0 +1,26 @@
+.card {
+	display: inline-block;
+	width: 50px;
+	height: 80px;
+	position: relative;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 5px;
+}
+.card:after {
+	font-size: 70%;
+	font-weight: bold;
+}
+
+.spades,
+.spades:after {
+	content: "♤";
+	color: black;
+}
+
+.heart,
+.heart:after {
+	content: "♡";
+	color: red;
+}

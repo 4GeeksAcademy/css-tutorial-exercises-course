@@ -1,4 +1,4 @@
-# `04` Combined Rules
+# `04.1` Combined Rules
 
 CSS files take space on your server and also take time to download (like everything); it is yet another text document that the browser has to download before rendering the page, which is why is important to keep the CSS document as small as possible.
 
