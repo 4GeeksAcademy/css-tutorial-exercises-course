@@ -1,4 +1,4 @@
-# `02` Separate Sylesheet
+# `02` Separate Stylesheet
 
 If you use the html `<link>` tag, you can also have your styles on a separate file that we normally call `styles.css`.
 

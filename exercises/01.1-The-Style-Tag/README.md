@@ -10,7 +10,7 @@ You can have as many style tags as you want but it is recomended to have only on
 
 ## 📝 Instructions
 
-Add a `<style>` tag into your website and make the select thethe `<p>` to run its text into blue color.
+Add a `<style>` tag into your website and using CSS select the all `<p>` tags to turn their text into blue color.
 
 ## 💻 Preview
 
