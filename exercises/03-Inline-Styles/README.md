@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=jIMPLzpryuI"
+---
+
 # `03` Inline Styles
 
 Inline styles are a very bad idea unless you have no choice (and that's a very uncommon situation). Sadly, we have to teach you how to do it because there is a chance you will need to use them at some point.
