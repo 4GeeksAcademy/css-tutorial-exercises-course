@@ -6,10 +6,6 @@ The obvious way create a rounded profile picture is to create an image tag and a
 
 ![Example Image](http://i.imgur.com/H7btEoU.png)
 
-Instead of doing that, the right approach will be to create a squared div (a.ka: with equal width and height), assign the image as a background, and then apply a border-radius to that div.
-
-If the image ends up being bigger than the div (or with different proportions) we can adjust the background-position or background-size to choose what part of the image we want to display inside of the circle.
-
 ## 📝 Instructions:
 
 
