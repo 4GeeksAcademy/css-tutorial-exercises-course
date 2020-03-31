@@ -1,5 +1,9 @@
 {
     "language": "css",
     "title": "Learn CSS Interactively",
-    "description": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises."
+    "description": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
+    "duration": 8,
+    "difficulty": "easy",
+    "video-solutions": true,
+    "graded": true
 }
