@@ -38,7 +38,7 @@ Note: Once you finish downloading, you will find a "exercises" folder that conta
 ```sh
 $ npm i jest@24.8.0 -g
 $ cd ./css-exercises
-$ breathecode run -l html
+$ breathecode run
 ```
 
 <p align="center">
