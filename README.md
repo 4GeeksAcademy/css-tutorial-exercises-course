@@ -18,22 +18,17 @@ During this course you will be learning the following concepts:
 4. Use the most popular CSS Rules.
 5. Learn the most popular CSS Tricks.
 
-## Manual installation (if you prefer not to use gitpod)
+## Manual installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1) After downloading the exercise, make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
 ```
 This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
 
-2) Download the react exercises by cloning this repository
-```
-$ git clone https://github.com/4GeeksAcademy/css-exercises
-```
-
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-3) Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+2) Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
@@ -45,7 +40,7 @@ $ breathecode run
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-# How are the exercises organized?
+## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
 
