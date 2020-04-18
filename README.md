@@ -8,7 +8,7 @@
 
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-exercises.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-tutorial-exercises-course.git)
 
 During this course you will be learning the following concepts:
 
