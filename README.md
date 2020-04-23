@@ -11,7 +11,7 @@
   </tr>
 </table>
 
-Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question. You'll be learning the following concepts:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
 1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`,
 2. Selecting HTML Elements from your website to apply the styles to.
