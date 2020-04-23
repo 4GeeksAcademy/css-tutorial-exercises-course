@@ -22,8 +22,8 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 �
 <h4>Before we start... other related tutorials</h4>
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a> ← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
