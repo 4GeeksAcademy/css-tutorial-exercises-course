@@ -3,10 +3,10 @@
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
       <h1 align="center"> CSS Exercises Tutorial at 4Geeks Academy</h1>
-      <img src="https://img.shields.io/github/last-commit/4geeksacademy/bootstrap-exercises" />
+      <img src="https://img.shields.io/github/last-commit/4geeksacademy/css-tutorial-exercises-course" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
+      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/css-tutorial-exercises-course.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
     </td>
   </tr>
 </table>
