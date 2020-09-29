@@ -4,7 +4,7 @@
 
 
 1. Set this URL as the background image of the page, and repeat it vertically only:
-   http://assets.breatheco.de/apis/img/bg/background-vertical.jpg
+   https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/background-vertical.jpg?raw=true
 
 2. Change the font-type of the h1 to Courier
    and the rest of the website to Times new Roman.
