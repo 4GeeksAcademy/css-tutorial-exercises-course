@@ -17,4 +17,4 @@ There are two possibl suite classes you can apply to the html element and it wil
 
 Replace the class property `spades` of the `<div>` with the class `heart` and look at the results.
 
-![Poker Card Heart](https://ucarecdn.com/e792fe99-61af-4164-a09a-3966e9e540e9/)
+![Poker Card Heart](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/04.2-1.png?raw=true)
