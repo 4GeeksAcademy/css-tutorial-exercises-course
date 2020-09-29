@@ -4,7 +4,7 @@
 
 La forma obvia de crear una imagen de perfil redondeada es crear una etiqueta de imagen y aplicar un border-radius: 100%. El problema con este enfoque es que solo funciona para imágenes cuadradas ... las imágenes de perfil con diferentes alturas y anchos no se verán como un círculo, se verán como óvalos:
 
-![Example Image](http://i.imgur.com/H7btEoU.png)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/08-1.png?raw=true)
 
 En lugar de hacerlo, el enfoque correcto será crear un div cuadrado (a.ka: con igual ancho y alto), asignar la imagen como background y luego aplicar un border-radius a ese div.
 
