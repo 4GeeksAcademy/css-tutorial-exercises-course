@@ -19,6 +19,6 @@ rem: Relative to the original font-size of the page.
 
 
 The result should look like this:
-![Example Image](http://i.imgur.com/UZFY6HG.png)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/12-1.png?raw=true)
 
 
