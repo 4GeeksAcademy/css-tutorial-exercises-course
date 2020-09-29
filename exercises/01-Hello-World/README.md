@@ -34,4 +34,4 @@ Paste this code on your website to see the results.
 
 It should look like this:
 
-![01 Hello World Exercise Preview](https://ucarecdn.com/7e9496c0-549a-4767-b771-13b9bfc5d9c2/)
+![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01-1.png?raw=true)
