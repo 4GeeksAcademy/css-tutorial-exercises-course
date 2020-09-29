@@ -8,7 +8,7 @@ After you pick your favorite one, you can use it by linking your website with th
 <link href="https://fonts.googleapis.com/css?family=YOUR_FONT" rel="stylesheet">
 ```
 
-After your font is linked you need to assign the "font-family" CSS rule to whatever you want to apply the font, for example an <h1>.
+After your font is linked you need to assign the "font-family" CSS rule to whatever you want to apply the font, for example an `<h1>`.
 
 ## 📝 Instructions:
 
