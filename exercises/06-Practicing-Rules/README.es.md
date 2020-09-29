@@ -4,7 +4,7 @@
 
 
 1. Establece esta URL como la imagen de fondo de la página y repítala solo verticalmente:
-   http://assets.breatheco.de/apis/img/bg/background-vertical.jpg
+   https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/background-vertical.jpg?raw=true
 
 2. Cambie el tipo de fuente de h1 a Courier
    y el resto del sitio web a Times New Roman.
@@ -29,4 +29,4 @@
 
 El resultado debería ser algo como esto:
 
-![Example Image](http://i.imgur.com/KGk6D4P.png)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/raw/master/.learn/assets/06-1.png?raw=true)
