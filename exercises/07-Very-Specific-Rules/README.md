@@ -12,7 +12,7 @@ In this exercise, you can add your code only above the **READ ONLY BLOCK** of th
 3. Make the odd rows of the tables with yellow background using **tr:nth-child**.
 
 
-![Example Image](http://i.imgur.com/MyeiuOb.png)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/07-1.png?raw=true)
 
 
 
