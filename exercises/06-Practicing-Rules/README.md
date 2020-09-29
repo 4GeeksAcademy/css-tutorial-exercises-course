@@ -29,4 +29,4 @@
 
 The result should be something like this:
 
-![Example Image](http://i.imgur.com/KGk6D4P.png)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/06-1.png?raw=true)
