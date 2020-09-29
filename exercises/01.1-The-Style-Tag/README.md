@@ -20,4 +20,4 @@ Add a `<style>` tag into your website and using CSS select the all `<p>` tags to
 
 It should look like this:
 
-![01 Hello World Exercise Preview](https://ucarecdn.com/6719c50c-2539-43c5-9fe0-8f67d78afc32/)
+![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01-1.png?raw=true)
