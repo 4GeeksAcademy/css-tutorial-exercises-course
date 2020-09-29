@@ -12,7 +12,7 @@ Anchors are not only used within text- when you are going to use anchors outside
 5. Set the color of the text to white
 
 
-![Example Image](http://i.imgur.com/AqYDX7n.gif)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/13-1.gif?raw=true)
 
 To make the button look different when the user hovers over with the mouse, we use the "hover" selector: http://lmgtfy.com/?q=how+to+use+the+hover
 
