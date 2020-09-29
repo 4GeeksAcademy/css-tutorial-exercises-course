@@ -12,7 +12,7 @@ En este ejercicio, puedes agregar tu código solo por encima del **READ ONLY BLO
 3. Haz las filas impares de las tablas con fondo amarillo usando **tr:nth-child**.
 
 
-![Example Image](http://i.imgur.com/MyeiuOb.png)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/07-1.png?raw=true)
 
 
 
