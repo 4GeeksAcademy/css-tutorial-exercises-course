@@ -12,7 +12,7 @@ Siga estos pasos para que su enlace se vea así
 4. Eliminar subrayado: establece text-decoration a none
 5. Establecer el color del texto en blanco
 
-![Example Image](http://i.imgur.com/AqYDX7n.gif)
+![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/13-1.gif?raw=true)
 
 Para que el botón se vea diferente cuando el usuario pasa el mouse por encima, usamos el selector "hover":http://lmgtfy.com/?q=how+to+use+the+hover
 
