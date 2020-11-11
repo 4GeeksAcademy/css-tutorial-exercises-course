@@ -29,4 +29,4 @@ P.S: The background size cannot be combined, the browsers don't support it yet.\
 # Hint:
 
 - How to use the background-size: http://lmgtfy.com/?q=css+background
-- How to use the background-size: http://lmgtfy.com/?q=css+padding
+- How to use the padding: http://lmgtfy.com/?q=css+padding
