@@ -9,7 +9,7 @@ Learning to code is hard, you need coaching! DM me on twitter if you have any qu
 
 During this course you will be learning the following concepts:
 
-1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`,
+1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`,
 2. Selecting HTML Elements from your website to apply the styles to.
 3. Apply CSS Rules (styles) to those elements.
 4. Use the most popular CSS Rules.
