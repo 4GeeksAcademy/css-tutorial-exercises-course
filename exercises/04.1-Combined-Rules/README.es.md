@@ -10,7 +10,7 @@ border-style: solid;
 border-width: 1px;
 ```
 
-Las propiedades de border se pueden consolidar en una sola línea como:
+Las propiedades de border se pueden consolidar en una sola línea así:
 
 ```css
 border: black 1px solid;
@@ -19,7 +19,7 @@ border: black 1px solid;
 # 📝 Instrucciones:
 
 
-1. Combina las 4 reglas de padding una sola utilizando la regla "padding:".
+1. Combina las 4 reglas de padding una sola utilizando la regla "padding".
 2. Combina todas las reglas de background, menos el background size, en una sola línea usando la regla "background:".
 
 

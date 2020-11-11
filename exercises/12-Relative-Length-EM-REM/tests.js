@@ -17,7 +17,7 @@ describe("All the styles should be applied", function () {
     jest.resetModules();
   });
 
-  it("The H2 Tag should has font-size: 0.8em", function () {
+  it("The H2 Tag should have a font-size: 0.8em", function () {
     // get computed styles of any element you like
     document.querySelector(
       "head"
@@ -26,7 +26,7 @@ describe("All the styles should be applied", function () {
     var styles=window.getComputedStyle(h2Tag);
     expect(styles["font-size"]).toBe("0.8em");
   });
-  it("The H3 Tag should has font-size: 0.8rem", function () {
+  it("The H3 Tag should haave a font-size: 0.8rem", function () {
     // get computed styles of any element you like
     document.querySelector(
       "head"

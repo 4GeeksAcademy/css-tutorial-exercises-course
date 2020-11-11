@@ -19,7 +19,7 @@ border: black 1px solid;
 # 📝 Instructions:
 
 
-1. Combine the 4 padding rules into just one using the "padding:" rule.
+1. Combine the 4 padding rules into just one using the "padding" rule.
 2. Combine the all background rules, but the background size, into just one line using the "background:" rule.
 
 

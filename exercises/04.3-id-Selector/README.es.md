@@ -1,17 +1,20 @@
-# `04` Class Selector
+# `04` Selector de clase
 
-You can also select an element by `#id` and apply stiles to it.
+También puedes seleccionar un elemento por su `#id` y aplicarle estilos.
 
-#### The `#id` selector
+#### El selector `#id` 
 
 ```css
 #small{
     font-size: 9px;
 }
 ```
-Use the id property of the HTML element to select it. IDs should be unique, only one element must have the same ID.
-Note: The html tag with the `id="my_number_one"` will have a font-size of 9px.
+Usa la propiedad id del elemento HTML para seleccionar. Las IDs deberían ser únicas, solo un elemento puede tener la misma ID.
 
-# 📝 Instructions:
+Nota: La etiqueta HTML con `id="my_number_one"` tendrá un font-size de 9px.
 
-Add the id `button1` on to the `<span>` tag and compile to check the result on the console.
+# 📝 Instrucciones:
+
+Añade el id `button1` a la etiqueta `<span>` y compila para ver el resultado en la consola.
+
+
