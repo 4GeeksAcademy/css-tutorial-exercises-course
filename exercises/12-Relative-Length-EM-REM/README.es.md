@@ -1,6 +1,6 @@
 # `12` Longitud Relativa EM, REM
 
-HAsta ahora, hemos trabajado con píxeles como unidad de medida, por ejemplo, diciendo que una caja tiene 100 px de ancho.
+Hasta ahora, hemos trabajado con píxeles como unidad de medida, por ejemplo, diciendo que una caja tiene 100 px de ancho.
 
 Hay otros tipos de unidades que no son fijas, sino relativas. Las usamos cuando queremos que el tamaño del elemento esté relacionado con otro elemento o unidad de medida.
 

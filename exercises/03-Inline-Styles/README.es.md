@@ -2,7 +2,7 @@
 
 Los estilos inline son una muy mala idea a menos que no tengas otra opción (y esa es una situación muy poco común). Lamentablemente, tenemos que enseñarte cómo hacerlo porque existe la posibilidad de que necesites usarlos en algún momento.
 
-Para usar estiloss inline, en lugar de declarar una etiqueta <style> en el header del documento, debes establecer el atributo "style" de cualquier elemento con el código CSS que necesitas aplicar a ese elemento específico.
+Para usar estilos inline, en lugar de declarar una etiqueta <style> en el header del documento, debes establecer el atributo "style" de cualquier elemento con el código CSS que necesitas aplicar a ese elemento específico.
 
 Por ejemplo:
 

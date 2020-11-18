@@ -1,6 +1,3 @@
----
-tutorial: "https://www.youtube.com/watch?v=C5sOchuD2d4"
----
 
 # `01.1` Etiqueta Style 
 

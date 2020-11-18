@@ -1,7 +1,3 @@
----
-tutorial: "https://www.youtube.com/watch?v=T0anCc5fvSg"
----
-
 # `02` Hoja de estilos separada
 
 Si usas la etiqueta html `<link>`, puedes tener tus estilos en un archivo separado que normalmente se llama `styles.css`.
