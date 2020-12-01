@@ -9,9 +9,9 @@ We are going to use to classes and apply them to the same `<div>` element.
 ```
 
 The class `card` contains the styling rules to make the div look like a card: Borders, Height, Width, etc.
-The class `spades` contains the styling rules needed to make the card turn into a spades suite (black and with a spades sybbol).
+The class `spades` contains the styling rules needed to make the card turn into a spades suite (black and with a spades symbol).
 
-There are two possibl suite classes you can apply to the html element and it will make it look like a real poker card.
+There are two possible suite classes you can apply to the html element and it will make it look like a real poker card.
 
 # 📝 Instructions:
 

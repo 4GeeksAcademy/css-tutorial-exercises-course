@@ -1,6 +1,7 @@
 {
     "language": "css",
     "preview": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/preview.png?raw=true",
+    "repository": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course",
     "title": "Learn CSS Interactively",
     "intro": "https://www.youtube.com/watch?v=BDKdUPDez-U",
     "description": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
