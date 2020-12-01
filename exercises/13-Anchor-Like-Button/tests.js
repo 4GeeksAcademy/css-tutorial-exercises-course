@@ -82,7 +82,7 @@ describe("All the styles should be applied", function () {
     expect(orangeHoverSelector).toBe("#cc7a00");
   });
 
-  it("You should be careful the specifity", function () {
+  it("You should be careful with the specifity", function () {
     document.querySelector(
       "head"
     ).innerHTML=`<style>${css.toString()}</style>`;
