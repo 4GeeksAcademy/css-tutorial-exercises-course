@@ -1,4 +1,4 @@
-# `04` Selector de clase
+# `04.3` Selector de ID
 
 También puedes seleccionar un elemento por su `#id` y aplicarle estilos.
 
