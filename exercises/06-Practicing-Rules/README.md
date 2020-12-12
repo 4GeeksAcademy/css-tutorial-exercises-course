@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
+---
+
 # `06` Practicing Rules
 
 ## 📝 Instructions:

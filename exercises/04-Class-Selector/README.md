@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=RffCSMXgWFc"
+---
+
 # `04` Class Selector
 
 There are many ways to select HTML elements to apply styles to them, so far we have only use the `tag` selector, lets talk about the `.class` selector:
