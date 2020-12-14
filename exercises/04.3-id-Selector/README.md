@@ -1,4 +1,10 @@
-# `04` Class Selector
+---
+tutorial: "https://www.youtube.com/watch?v=9906LCSQJ8"
+---
+---
+tutorial: "https://www.youtube.com/watch?v=9906LCSQJ8"
+---
+# `04.3` The ID CSS Selector
 
 You can also select an element by `#id` and apply stiles to it.
 

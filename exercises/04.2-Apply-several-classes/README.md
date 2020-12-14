@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=da4tJDx48CY"
+---
+
 # `04.2` Apply several classes
 
 We have prepared a small CSS Stylesheet that contains the CSS styles to replicate poker cards.

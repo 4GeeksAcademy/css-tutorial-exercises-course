@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=3JxXkhxyAnI"
+---
+
 # `05` Specificity
 
 When creating a CSS document, you need to start from the most generic selector and end with the most specific ones, that is the way CSS works.
