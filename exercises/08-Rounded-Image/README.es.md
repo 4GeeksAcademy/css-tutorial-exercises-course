@@ -8,9 +8,8 @@ La forma obvia de crear una imagen de perfil redondeada es crear una etiqueta de
 
 ## 📝 Instrucciones:
 
-1. En lugar de hacerlo, el enfoque correcto será crear un div cuadrado (es decir: con igual ancho y alto), asignar la imagen como fondo y luego aplicar un borde-radius a ese div.
+Adicionalmente a border-radius tenemos que tambien utilizar la propiedad `object-fit`, [aqui hay una explicación](https://www.loom.com/share/15186e456dfd4741887997af40325721).
 
-2. Si la imagen termina siendo más grande que el div (o con diferentes proporciones), podemos ajustar 
-el background-position o background-size para elegir 
- qué parte de la imagen queremos mostrar dentro del círculo.
+Si la es mas grande que el div y quieres centrarla o enfocarte en una zona en particular puedes utilizar `object-position`.
 
+En este articulo puedes leer más [sobre la propiedad object fit](https://css-tricks.com/on-object-fit-and-object-position/)
