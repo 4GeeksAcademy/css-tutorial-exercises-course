@@ -9,14 +9,9 @@ The obvious way create a rounded profile picture is to create an image tag and a
 ## 📝 Instructions:
 
 
-1. Instead of doing that, the right approach will
-be to create a squared div (a.ka: with equal width
-and height), assign the image as a background, and
-then apply a border-radius to that div.
+In addition to the border-radius you have to use the `object-fit` css property, [here is an explanation](https://www.loom.com/share/15186e456dfd4741887997af40325721).
 
-2. If the image ends up being bigger than the div
-(or with different proportions) we can adjust the
-background-position or background-size to choose
-what part of the image we want to display inside
-of the circle.
+If the image ends up being bigger than the div (or with different proportions) we can adjust the object-position to choose what part of the image we want to display inside of the circle.
+
+You can also read [this great article about object fit](https://css-tricks.com/on-object-fit-and-object-position/)
 
