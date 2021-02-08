@@ -6,8 +6,7 @@ ports:
     - port: 3000
       onOpen: open-preview
 tasks:
-    - command: >
-        learnpack start --disable_grading;
+    - command: learnpack start --disableGrading;
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
