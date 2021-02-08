@@ -1,5 +1,28 @@
 {
+    "port": 3000,
+    "address": "https://ivory-badger-my28nt2n.ws-us03.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": {},
+    "webpack_template": null,
+    "disable_grading": true,
+    "onCompilerSuccess": "open-browser",
     "language": "css",
+    "compiler": "webpack",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
     "preview": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course",
     "title": "Learn CSS Interactively",
@@ -8,5 +31,239 @@
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "session": 6577320023859397000,
+    "exercises": [
+        {
+            "slug": "00-Welcome",
+            "title": "00-Welcome",
+            "done": false,
+            "path": "exercises/00-Welcome",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "01-Hello-World",
+            "title": "01-Hello-World",
+            "done": false,
+            "path": "exercises/01-Hello-World",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "01.1-The-Style-Tag",
+            "title": "01.1-The-Style-Tag",
+            "done": false,
+            "path": "exercises/01.1-The-Style-Tag",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "01.2-Your-First-Style",
+            "title": "01.2-Your-First-Style",
+            "done": false,
+            "path": "exercises/01.2-Your-First-Style",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "01.3-Your-Second-Style",
+            "title": "01.3-Your-Second-Style",
+            "done": false,
+            "path": "exercises/01.3-Your-Second-Style",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02-Separate-Stylesheet",
+            "title": "02-Separate-Stylesheet",
+            "done": false,
+            "path": "exercises/02-Separate-Stylesheet",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02.1-Background",
+            "title": "02.1-Background",
+            "done": false,
+            "path": "exercises/02.1-Background",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03-Inline-Styles",
+            "title": "03-Inline-Styles",
+            "done": false,
+            "path": "exercises/03-Inline-Styles",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04-Class-Selector",
+            "title": "04-Class-Selector",
+            "done": false,
+            "path": "exercises/04-Class-Selector",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "04.1-Combined-Rules",
+            "title": "04.1-Combined-Rules",
+            "done": false,
+            "path": "exercises/04.1-Combined-Rules",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04.2-Apply-several-classes",
+            "title": "04.2-Apply-several-classes",
+            "done": false,
+            "path": "exercises/04.2-Apply-several-classes",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "04.3-id-Selector",
+            "title": "04.3-id-Selector",
+            "done": false,
+            "path": "exercises/04.3-id-Selector",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "05-Specificity",
+            "title": "05-Specificity",
+            "done": false,
+            "path": "exercises/05-Specificity",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "06-Practicing-Rules",
+            "title": "06-Practicing-Rules",
+            "done": false,
+            "path": "exercises/06-Practicing-Rules",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "07-Very-Specific-Rules",
+            "title": "07-Very-Specific-Rules",
+            "done": false,
+            "path": "exercises/07-Very-Specific-Rules",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "08-Rounded-Image",
+            "title": "08-Rounded-Image",
+            "done": false,
+            "path": "exercises/08-Rounded-Image",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "09-Anchor-Styles",
+            "title": "09-Anchor-Styles",
+            "done": false,
+            "path": "exercises/09-Anchor-Styles",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "10-Your-Own-Font",
+            "title": "10-Your-Own-Font",
+            "done": false,
+            "path": "exercises/10-Your-Own-Font",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "11-Font-Awesome-Icons",
+            "title": "11-Font-Awesome-Icons",
+            "done": false,
+            "path": "exercises/11-Font-Awesome-Icons",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "12-Relative-Length-EM-REM",
+            "title": "12-Relative-Length-EM-REM",
+            "done": false,
+            "path": "exercises/12-Relative-Length-EM-REM",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "13-Anchor-Like-Button",
+            "title": "13-Anchor-Like-Button",
+            "done": false,
+            "path": "exercises/13-Anchor-Like-Button",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        }
+    ]
 }
