@@ -130,8 +130,7 @@ describe("All the styles should be applied", function () {
     expect(orangeHoverSelector).toContain('#bdbdbd');
     expect(orangeHoverSelector).toContain('no-repeat');
     expect(orangeHoverSelector).toContain('100px');
-    expect(orangeHoverSelector).toContain('url(https://assets.breatheco.de/apis/img/funny/baby.jpg)');
-    // expect(orangeHoverSelector).toBe('#bdbdbd url(https://assets.breatheco.de/img/funny/scared-baby.jpg) no-repeat 100px');
+    expect(orangeHoverSelector).toContain('url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true)');
   });
 
   it("the padding should include the shorthand property in the right order (top, right, bottom, left)", function () {

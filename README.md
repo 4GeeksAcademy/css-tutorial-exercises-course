@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
+    <td><img src="https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/logo.ico?raw=true"></td>
     <td>
       <h1 align="center"> CSS Exercises Tutorial at 4Geeks Academy</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/css-tutorial-exercises-course" />
@@ -33,22 +33,26 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 
 ## Manual installation
 
-1) After downloading the exercise, make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1) Install the learnpack package manager for education and the html plugin to compile an test html exercises: 
+
 ```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-html
 ```
 
-2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+2) Download the exercises 
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+```bash
+$ learnpack install css-tutorial-exercises-course
+```
 
-3) Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+Note: Once you finish downloading, you will need to `cd` into the exercises folder and you will find a "exercises" folder that contains all the exercises within.
+
+3) Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ cd ./css-exercises
-$ breathecode run
+$ learnpack start
 ```
 
 <p align="center">

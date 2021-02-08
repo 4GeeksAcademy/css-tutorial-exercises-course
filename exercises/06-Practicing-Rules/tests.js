@@ -26,7 +26,7 @@ describe("All the styles should be applied", function () {
     let body=document.querySelector("body");
     let styles=window.getComputedStyle(body);
     expect(styles["background"]).toBe(
-      `url(http://assets.breatheco.de/apis/img/bg/background-vertical.jpg) repeat-y`
+      `url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/background-vertical.jpg?raw=true) repeat-y`
     );
   });
   it("the font-family should be 'Times New Roman'", function () {
