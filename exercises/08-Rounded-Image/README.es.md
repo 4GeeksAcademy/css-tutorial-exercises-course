@@ -10,6 +10,6 @@ La forma obvia de crear una imagen de perfil redondeada es crear una etiqueta de
 
 Adicionalmente a border-radius tenemos que tambien utilizar la propiedad `object-fit`, [aqui hay una explicación](https://www.loom.com/share/15186e456dfd4741887997af40325721).
 
-Si la es mas grande que el div y quieres centrarla o enfocarte en una zona en particular puedes utilizar `object-position`.
+Si la imagen es mas grande que el div y quieres centrarla o enfocarte en una zona en particular puedes utilizar `object-position`.
 
 En este articulo puedes leer más [sobre la propiedad object fit](https://css-tricks.com/on-object-fit-and-object-position/)
