@@ -5,18 +5,18 @@ intro: "https://www.youtube.com/watch?v=BDKdUPDez-U"
 # ¡¡Bienvenido a los ejercicios de CSS!!
 
 Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr) ¡Estoy muy contento de que estén aquí! 🎉 😂
-Aprender a programar es dificil ¡Necesitas coaching! Envíame un DM vía Twitter si tienes alguna pregunta.
+Aprender a programar es dificil ¡Probablemente necesitarás coaching! Envíame un DM vía Twitter si tienes alguna duda.
 
 Durante este curso aprenderás los siguientes conceptos:
 
 1. Cómo aplicar CSS a tu sitio web de tres formas diferentes:
 Inline, agrupando todo dentro de la etiqueta `<style>` o usando una hoja de estilos externa `<link>`,
 2. Seleccionar elementos HTML para tu sitio web para aplicarle estilos,
-3. Aplicarle reglas CSS (estilos) a esos elementos,
+3. Aplicar reglas CSS (estilos) a esos elementos,
 4. A usar las reglas CSS más populares,
 5. Aprender los trucos más populares de CSS.
 
-Como te habrás dado cuenta, HTML sólo te permite crear sitios web básicos. Nadie quiere ver un sitio web en blanco con un texto horrible. ¡Así que es hora de aprender CSS! Aprende CSS para que tu sitio web sea hermoso ¡Hagámos que brille!
+Como te habrás dado cuenta, HTML sólo te permite crear sitios web básicos. Nadie quiere ver un sitio web en blanco con un texto horrible. ¡Así que es hora de aprender CSS! ¡Aprende CSS para que tu sitio web sea hermoso ¡Hagámos que brille!
 
 ## Colaboradores
 
