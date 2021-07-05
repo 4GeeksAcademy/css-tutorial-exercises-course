@@ -23,10 +23,11 @@ border: black 1px solid;
 2. Combina todas las reglas de background, menos el background size, en una sola línea usando la regla "background:".
 
 
+*Nota:**
 
-P.S: The background size no se puede combinar, los navegadores aún no lo admiten.\*\*
+ El background size no se puede combinar, los navegadores aún no lo admiten.\*\*
 
-# Hint:
+### Pista:
 
 - Como usar el background-size: http://lmgtfy.com/?q=css+background
 - Como usar el padding: http://lmgtfy.com/?q=css+padding

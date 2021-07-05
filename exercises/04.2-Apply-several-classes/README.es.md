@@ -7,11 +7,11 @@ Vamos a usar clases y aplicarlas al mismo elemento `<div>`.
 <div class="card spades">9</div>
 ```
 
-La clase `card`contiene las reglas de estilo para hacer que el div se vea como una carta: Bordes, ancho, etc.
+La clase `card` contiene las reglas de estilo para hacer que el div se vea como una carta: bordes, ancho, etc.
 
 La clase `spades` contienes las reglas de estilo requeridas para convertir la carta a la pinta de picas (negra con el símbolo de picas).
 
-Hay dos posibles clases de pintas que puedes aplicar al elemento html y hará que se vea como una carta de poker real.
+Hay dos posibles clases de palos/pintas que puedes aplicar al elemento html y hará que se vea como una carta de poker real.
 
 # 📝 Instrucciones:
 

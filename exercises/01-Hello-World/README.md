@@ -5,9 +5,9 @@ tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 
 CSS is about styles. To apply styles you always have to follow this steps:
 
-1. Read the HTML and pick in your mind what element you want to decorate or apply styles to.
-1. Programatically select the element you want to style using CSS Selectors.
-2. Write the styling that you want by using CSS rules.
+1. Read the HTML and pick what element do you want to decorate or apply styles to.
+2. Programatically select the element you want to style using CSS Selectors.
+3. Write the styling that you want by using CSS rules.
 
 That is it! The rest is just semantics! 😁
 
