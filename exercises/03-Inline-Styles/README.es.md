@@ -19,7 +19,10 @@ Nota: Puedes agregar tantas reglas CSS como desees, dentro de la misma línea, s
 
 1. Establece un estilo inline para cambiar el color de fondo de la tabla a verde (green). Para este ejercicio, NO uses el styles.css :(
 
+**Nota:**    
 
-### Pista:
+Puedes agregar tantas reglas CSS como desees, dentro de la misma línea, separadas por punto y coma.
+
+### 💡Pista:
 
 - Como usar el background-size: http://lmgtfy.com/?q=css+inline+style

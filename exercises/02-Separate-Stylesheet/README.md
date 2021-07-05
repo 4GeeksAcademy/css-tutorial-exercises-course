@@ -4,9 +4,9 @@ tutorial: "https://www.youtube.com/watch?v=T0anCc5fvSg"
 
 # `02` Separate Stylesheet
 
-If you use the html `<link>` tag, you can also have your styles on a separate file that we normally call `styles.css`.
+If you use the html `<link>` tag, you can also have your styles on a separate file that we usually call `styles.css`.
 
-That is an event better practice because it lets you have an CSS agnostic website, you can change the CSS later and make the website look 100% different, but still have the same exact HTML.
+That is an even better practice because it lets you have an CSS agnostic website, you can change the CSS later and make the website look 100% different, but still have the same exact HTML.
 
 ## 📝 Instructions:
 

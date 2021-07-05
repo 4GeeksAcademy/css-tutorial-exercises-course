@@ -13,4 +13,4 @@ a {
 ## 📝 Instrucciones:
 
 1. Haz que el fondo de tu sitio web sea azul (blue) seleccionando el `body` y aplicando la regla `background` con valor `blue`.
-2. Compila y muestra una vista previa del ejercicio y tu resultado debe ser un body azul en la página (toda la página azul).
+2. Compila y muestra una vista previa del ejercicio y tu resultado debe ser un body azul (toda la página azul).

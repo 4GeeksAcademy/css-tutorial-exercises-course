@@ -24,11 +24,12 @@ border: black 1px solid;
 
 
 1. Combine the 4 padding rules into just one using the "padding" rule.
+
 2. Combine the all background rules, but the background size, into just one line using the "background:" rule.
 
+**Note:**
 
-
-P.S: The background size cannot be combined, the browsers don't support it yet.\*\*
+ The background size cannot be combined, the browsers don't support it yet.\*\*
 
 # Hint:
 

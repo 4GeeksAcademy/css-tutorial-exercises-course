@@ -9,9 +9,11 @@ También puedes seleccionar un elemento por su `#id` y aplicarle estilos.
     font-size: 9px;
 }
 ```
-Usa la propiedad id del elemento HTML para seleccionar. Las IDs deberían ser únicas, solo un elemento puede tener la misma ID.
+Usa la propiedad id del elemento HTML para seleccionarlo. Las IDs deben ser únicas, solo un elemento puede tener la misma ID.
 
-Nota: La etiqueta HTML con `id="my_number_one"` tendrá un font-size de 9px.
+**Nota:**
+
+La etiqueta HTML con `id="my_number_one"` tendrá un font-size de 9px.
 
 # 📝 Instrucciones:
 

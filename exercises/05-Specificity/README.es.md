@@ -8,11 +8,11 @@ Porque cuanto más específico, más prioridad tiene.
 
 ## 📝 Instrucciones:
 
-```Plain/Text
-1. Anula el color de fondo (background-color) de #thirditem sin eliminar ningún código CSS, simplemente agrega al CSS una regla más específica al final del documento para anular el color de fondo a verde.
-```
 
-Tip:
+1. Anula el color de fondo (background-color) de #thirditem sin eliminar ningún código CSS, simplemente agrega al CSS una regla más específica al final del documento para anular el color de fondo a verde.
+
+
+### 💡 Pista:
 
 Puedes usar la anotación **!important** :
 https://css-tricks.com/when-using-important-is-the-right-choice/
