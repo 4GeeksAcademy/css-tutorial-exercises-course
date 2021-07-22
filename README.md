@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/logo.ico?raw=true"></td>
+    <td><img src="https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/4geeks-icon-blue.png?raw=true"></td>
     <td>
       <h1 align="center"> CSS Exercises Tutorial at 4Geeks Academy</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/css-tutorial-exercises-course" />
