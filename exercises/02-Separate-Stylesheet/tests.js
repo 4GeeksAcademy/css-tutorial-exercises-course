@@ -51,16 +51,11 @@ describe("All the styles should be applied", function () {
     let styles=window.getComputedStyle(body);
     expect(styles["background-repeat"]).toBe("inherit");
   });
-  it("You should not change the head tag", function () {
-
-    let meta1 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
-    let meta2 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
-    let link = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
-    let title = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
-    expect(meta1).not.toBe(-1)
-    expect(meta2).not.toBe(-1)
-    expect(link).not.toBe(-1)
-    expect(title).not.toBe(-1)
-    expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
+  it("You should not change the existing head tag elements", function () {
+    let meta = document.querySelector('head').querySelector("meta")
+    let link = document.querySelector('link').href
+    
+    expect(meta).toBe(null)
+    expect(link).toBe('http://localhost/styles.css')
   })
 });
