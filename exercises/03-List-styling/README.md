@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=jIMPLzpryuI"
 ---
 
-# `03` Inline Styles
+# `03` List styling
 
 Inline styles are a very bad idea unless you have no other choice (and that's a very uncommon situation). Sadly, we have to teach you how to do it because you may need to use them at some point.
 

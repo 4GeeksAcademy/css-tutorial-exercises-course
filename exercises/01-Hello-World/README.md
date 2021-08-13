@@ -3,35 +3,34 @@ tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 ---
 # `01` Hello World in CSS
 
-CSS is about styles. To apply styles you always have to follow this steps:
+CSS is about adding styles to our HTML elements. 
+The most basic way to apply a style to an HTML element is to use the html `style` attribute within the tag. This is called "inline styles" and works like this:
 
-1. Read the HTML and pick what element do you want to decorate or apply styles to.
-2. Programatically select the element you want to style using CSS Selectors.
-3. Write the styling that you want by using CSS rules.
+```HTML
+<a href="google.com" style="color: red; font-size: 14px;">Go to google</a>
+```
+
+This will set the text color of the link above to red, and the font size to 14 pixels.
+In contemporary web design this way of applying styles is discouraged, because it is not efficient - you have to apply styles tag by tag. But you will run into examples of it and need to be familiar with it.   
+
+To apply styles you always have to follow thеse steps:
+
+1. Read the HTML and pick what element you want to decorate to apply CSS to it.
+2. Apply the style with the `style` attribute as above. 
 
 That is it! The rest is just semantics! 😁
 
-Look at this example:
-
-```HTML
-<style>
-    a {
-        /* change this style to yellow */
-        color: pink;
-    }
-</style>
-<a href="https://google.com" target="_blank">Click me to open google.com</a>
-```
-
-We have an HTML anchor `<a>` that takes people to google.com when clicked.
-We use CSS to tell (selected) all the anchor tags and make then pink.
 
 ## 📝 Instructions
 
-Paste this code on your website to see the results.
+1. Within the `index.html` file, create the basic structure of an html page with the appropriate `<html>`, `<head>` and `<body>` tags.
+2. Inside of the body of the page, create an `<h1>` tag that reads "HELLO WORLD!!!".
+1. Set an inline style to change the text color of the tag to `color: orangered` and give it a solid red border of 1px. 
 
-## 💻 Preview
 
-It should look like this:
+### 💡 Hint:
 
-![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01-1.png?raw=true)
+- A convenient way to import the basic html structure of your web page is to just type an exclamation mark `!` and select the emmet option that will pop up in Gitpod. 
+- Read how to apply borders here: https://www.w3schools.com/css/css_border_shorthand.asp
+- For this exercise, do NOT use `styles.css` file or `<style>` tag.
+
