@@ -15,10 +15,13 @@ describe("All the styles should be applied", function () {
 
 
   });
+
   afterEach(() => {
     jest.resetModules();
   });
-  it("The body tag should not contains any inline style", function () {
+
+
+  it("The body tag should not contain any inline style", function () {
     document.querySelector(
       "head"
     ).innerHTML=`<style>${css.toString()}</style>`;

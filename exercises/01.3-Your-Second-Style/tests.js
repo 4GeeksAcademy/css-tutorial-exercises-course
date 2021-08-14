@@ -26,8 +26,8 @@ describe("All the styles should be applied", function() {
     // console.log(bodyInlineStyle[0].style._values.background);
   });
   it("You should not change the existing head tag elements", function () {
-    let meta = document.querySelector('head').querySelector("meta")
+    let meta = document.querySelector('head').querySelector("meta");
     
-    expect(meta).toBe(null)
+    expect(meta).toBe(null);
   })
 });
