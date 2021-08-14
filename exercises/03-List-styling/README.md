@@ -4,28 +4,35 @@ tutorial: "https://www.youtube.com/watch?v=jIMPLzpryuI"
 
 # `03` List styling
 
-Inline styles are a very bad idea unless you have no other choice (and that's a very uncommon situation). Sadly, we have to teach you how to do it because you may need to use them at some point.
+In the front end we often have to list items and the way to do that is with `<ul>` tags, for unordered/bulleted lists, and `<ol>` tags for ordered/numbered lists.  
 
-To use inline styles, instead of declaring a <style> tag in the header of the document, you have to set the "style" attribute of any element with the CSS code you need to apply to that specific element.
+We have CSS control over what these lists look like, what bullets or numbers they use, etc.
 
 For example:
 
-```html
-<a href="google.com" style="color: red; font-size: 14px;">Go to google</a>
+```HTML
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 ```
 
-Will set the color of that specific link to red and the font-size to 14px
+Will remove the numbers or bullets and will move the text to the left so there is no empty space where the bullets once were.
 
 **Note:** 
 
-You can append as many CSS rules as you want, within the same line, separated by semi-colon.
 
 ## 📝 Instructions:
 
 
-1. Set an inline style to change the background color of the table to green. For this exercise, do NOT use styles.css :(
-
+1. Make the Coca Cola drink numbers into lower case letters. 
+2. Make the Pepsi drink numbers into square bullets.
+3. Make the Healthy drink bullets into Armenian numbers. :) 
+4. Completely remove the bullets and extra spacing from the Web-developer drinks. 
 
 ### 💡 Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+inline+style
+- How to work with CSS list styles: https://www.w3schools.com/css/css_list.asp
+- Changing bullets into numbers and vice versa means that you would need to change the type of list - ordered or unordered. Changes in the html tags may be necessary. 
+- `armenian` is an actual possible value of `list-style-type`: https://www.w3schools.com/cssref/pr_list-style-type.asp
