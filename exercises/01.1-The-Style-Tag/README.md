@@ -16,14 +16,18 @@ You can have as many style tags as you want but it is recomended to have only on
 
 ## 📝 Instructions
 
-- Add a `<style>` tag into your website
-- Using CSS properties select all `<p>` tags to turn their text color to blue.
-- Make tthe font size 36px. 
-- Give the p tag padding of 40px.
+1. Add a `<style>` tag into your website
+2. Using CSS properties select all `<p>` tags to turn their text color to blue.
+3. Make the font (text) twice its original size - use the `em` units. 
+4. Give the `p` tag padding of `2rem`.
 
 ### 💡 Hint
 
-Remember that you will need the complete html structure of the page, because the `style` tags need to go inside of the `head` tags.
+- Remember that you will need the complete html structure of the page, because the `style` tags need to go inside of the `head` tags.
+
+- You can learn more about the different measurement units in CSS here:
+https://www.w3schools.com/cssref/css_units.asp
+
 
 ## 💻 Preview
 
