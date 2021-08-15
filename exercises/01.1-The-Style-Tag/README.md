@@ -4,8 +4,10 @@ tutorial: "https://www.youtube.com/watch?v=C5sOchuD2d4"
 
 # `01.1` The Style Tag
 
-If you want to add styles into a website by writing CSS you have to always add it within a `<style>` tag.
+A more efficient approach to adding styles into your webpages is by writing your CSS in a `<style>` tag, within the head section of your HTML code.
+
 You can have as many style tags as you want but it is recomended to have only one at the beginning of your website code.
+
 ```HTML
 <style>
     /* the website CSS Styles go here */
@@ -14,7 +16,14 @@ You can have as many style tags as you want but it is recomended to have only on
 
 ## 📝 Instructions
 
-Add a `<style>` tag into your website and using CSS select all `<p>` tags to turn their text into blue color.
+- Add a `<style>` tag into your website
+- Using CSS properties select all `<p>` tags to turn their text color to blue.
+- Make tthe font size 36px. 
+- Give the p tag padding of 40px.
+
+### 💡 Hint
+
+Remember that you will need the complete html structure of the page, because the `style` tags need to go inside of the `head` tags.
 
 ## 💻 Preview
 

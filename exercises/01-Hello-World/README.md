@@ -4,14 +4,16 @@ tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 # `01` Hello World in CSS
 
 CSS is about adding styles to our HTML elements. 
-The most basic way to apply a style to an HTML element is to use the html `style` attribute within the tag. This is called "inline styles" and works like this:
+
+The most **basic** way to apply a style to an HTML element is to use the html `style` attribute within the tag. This is called "inline styles" and works like this:
 
 ```HTML
 <a href="google.com" style="color: red; font-size: 14px;">Go to google</a>
 ```
 
 This will set the text color of the link above to red, and the font size to 14 pixels.
-In contemporary web design this way of applying styles is discouraged, because it is not efficient - you have to apply styles tag by tag. But you will run into examples of it and need to be familiar with it.   
+
+In contemporary web design this way of applying styles is **discouraged**, because it is not efficient - you have to apply styles tag by tag. But you will run into examples of it and need to be familiar with it.   
 
 To apply styles you always have to follow thеse steps:
 
