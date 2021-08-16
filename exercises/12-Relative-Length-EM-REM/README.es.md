@@ -20,6 +20,6 @@ rem: Relativo al font-size original de la página.
 
 El resultado debería verse así:
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/raw/master/.learn/assets/12-1.png?raw=true)
+![Example Image](../../.learn/assets/12-1.png?raw=true)
 
 

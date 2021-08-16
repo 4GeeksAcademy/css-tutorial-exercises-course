@@ -4,7 +4,7 @@
 
 
 1. Establece esta URL como la imagen de fondo de la página y repítela solo verticalmente:
-   https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/background-vertical.jpg?raw=true
+   [06- backgrund vertical](../../.learn/assets/background-vertical.jpg?raw=true)
 
 2. Cambia el tipo de fuente (`font-type`) del `h1` a `Courier` y el resto del sitio web a `Times New Roman`.
 

@@ -20,4 +20,4 @@ Siga estos pasos para que su enlace (anchor) se vea así
 
 6. Dentro del selector de hover: cambie el fondo del botón a un color naranja más oscuro.
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/13-1.gif?raw=true)
+![Example Image](../../.learn/assets/13-1.gif?raw=true)

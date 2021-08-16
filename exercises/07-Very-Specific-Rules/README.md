@@ -18,7 +18,7 @@ In this exercise, you can add your code only above the **READ ONLY BLOCK** of th
 3. Change the odd rows of the tables to a yellow background using `tr:nth-child`.
 
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/07-1.png?raw=true)
+![Example Image](../../.learn/assets/07-1.png?raw=true)
 
 
 
