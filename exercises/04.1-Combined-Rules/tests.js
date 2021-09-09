@@ -127,7 +127,7 @@ describe("All the styles should be applied", function () {
     expect(backImg).toBeFalsy();
     expect(backPos).toBeFalsy();
     expect(backRepeat).toBeFalsy();
-    expect(orangeHoverSelector).toContain('#bdbdbd');
+    expect(orangeHoverSelector).toContain('rgb(189, 189, 189)');
     expect(orangeHoverSelector).toContain('no-repeat');
     expect(orangeHoverSelector).toContain('100px');
     expect(orangeHoverSelector).toContain('url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true)');
