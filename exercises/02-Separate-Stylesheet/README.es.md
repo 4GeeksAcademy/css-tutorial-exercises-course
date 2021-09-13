@@ -8,9 +8,8 @@ Esa es una mejor práctica porque te permite tener un sitio web a sin diseño, p
 
 LLena el `styles.css` con el contenido necesario para que el body del sitio web azul (blue).
 
-
 ## 💡 Pista:
 
-Busca en Google cómo cambiar el color de fondo (background) de un body de un sitio web. 
++ Busca en Google cómo cambiar el color de fondo (`background-color`) de un body de un sitio web. 
 
  

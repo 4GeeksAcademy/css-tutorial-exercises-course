@@ -1,11 +1,10 @@
 # `07` Reglas Muy Especificas
 
-# **Importante:**
+## **Importante:**
 
 En este ejercicio, puedes agregar tu código solo arriba del **READ ONLY BLOCK** del código, puedes agregar tantas líneas como desees, pero siempre arriba.
 
 ## 📝 Instrucciones:
-
 
 1. Establece el color de texto `ul` a rojo (`red`) (anula los conflictos siendo más específico).
 

@@ -14,7 +14,7 @@ a:active {
 
 ## 📝 Instrucciones:
 
-1. Cambia los colores del borde del anchor, cuando lo presionas, a lo siguiente:
+1. Cambia los colores del borde del anchor, cuando le das clic, a lo siguiente:
 
 ```css
 border-color: #000 #aaa #aaa #000;

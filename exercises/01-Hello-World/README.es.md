@@ -7,8 +7,10 @@ tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 CSS trata sobre estilos (styles). Para aplicar estilos, siempre debes seguir estos pasos:
 
 1. Lee el HTML y elije qué elemento deseas decorar o aplicar estilos.
-1. Programáticamente selecciona el elemento que deseas decorar con los selectores de CSS.
-2. Escribe el estilo que quieras usando las reglas CSS.
+
+2. Programáticamente selecciona el elemento que deseas decorar con los selectores de CSS.
+
+3. Escribe el estilo que quieras usando las reglas CSS.
 
 ¡Eso es todo! El resto es solo semántica. 😁
 
@@ -29,9 +31,9 @@ Usamos CSS para selectionar todas las etiquetas `<a>` y luego hacerlas `pink`.
 
 ## 📝 Instrucciones
 
-Pega este código en tu sitio web para ver los resultados.
+1. Pega este código en tu sitio web para ver los resultados.
 
-## 💻 Preview
+## 💻 Vista previa:
 
 Debería verse así:
 

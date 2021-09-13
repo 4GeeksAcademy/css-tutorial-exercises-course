@@ -10,10 +10,11 @@ Puedes tener cuantas etiquetas `<style>`quieras pero se recomienda solo tener un
 </style>
 ```
 
-## 📝 Instruccciones
-Añade una etiqueta `<style>` en tu sitio web y usando CSS selecciona todas las etiquetas `<p>` para que su texto sea de color azul (blue) 
+## 📝 Instruccciones:
 
-## 💻 Vista previa
+1. Añade una etiqueta `<style>` en tu sitio web y usando CSS selecciona todas las etiquetas `<p>` para que su texto sea de color azul (`blue`).
+
+## 💻 Vista previa:
 
 Debería verse así:
 

@@ -17,8 +17,11 @@ The class `spades` contains the styling rules needed to make the card turn into 
 
 There are two possible suite classes you can apply to the html element to make it look like a real poker card.
 
-# 📝 Instructions:
+## 📝 Instructions:
 
 Replace the class property `spades` of the `<div>` with the class `heart` and look at the results.
+
+
+## Expected result:
 
 ![Poker Card Heart](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/04.2-1.png?raw=true)

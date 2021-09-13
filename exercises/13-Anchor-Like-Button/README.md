@@ -14,8 +14,10 @@ Anchors are not only used within text- when you are going to use anchors outside
 
 5. Set the color of the text to `white`.
 
-**To make the button look different when the user hovers over with the mouse, we use the "hover" selector: http://lmgtfy.com/?q=how+to+use+the+hover **
+*To make the button look different when the user hovers over with the mouse, we use the `:hover` selector: http://lmgtfy.com/?q=how+to+use+the+hover*
 
-6. Inside of the :hover selector change the background of the button to a darker orange.
+6. Inside of the `:hover` selector change the background of the button to a `darker orange`.
+
+## Expected result:
 
 ![Example Image](../../.learn/assets/13-1.gif?raw=true)
