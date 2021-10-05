@@ -20,4 +20,4 @@ Add a `<style>` tag into your website and using CSS select all `<p>` tags to tur
 
 It should look like this:
 
-![01 Hello World Exercise Preview](../../.learn/assets/01.1-1.png?raw=true)
+![01 Hello World Exercise Preview](../../../.learn/assets/01.1-1.png?raw=true)
