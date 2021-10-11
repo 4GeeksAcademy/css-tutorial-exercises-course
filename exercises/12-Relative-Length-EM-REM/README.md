@@ -22,6 +22,6 @@ REM: Relative to the original font-size of the page.
 
 
 The result should look like this:
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/12-1.png?raw=true)
+![Example Image](../../.learn/assets/12-1.png?raw=true)
 
 

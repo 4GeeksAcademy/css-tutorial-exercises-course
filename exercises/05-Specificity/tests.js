@@ -16,22 +16,15 @@ describe("All the styles should be applied", function () {
   });
 
 
-  it("You should not change the head tag", function () {
-
-    let meta1 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
-    let meta2 = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
-    let link = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
-    let title = document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
-    expect(meta1).not.toBe(-1)
-    expect(meta2).not.toBe(-1)
-    expect(link).not.toBe(-1)
-    expect(title).not.toBe(-1)
-    expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
-
-
-
-
-
+  it("You should not change the existing head tag elements", function () {
+    let head = document.querySelector('head');
+    let meta = head.querySelector("meta")
+    let link = head.querySelector('link').href
+    let title = head.querySelector('title')
+    
+    expect(meta).not.toBe(null)
+    expect(link).toBe('http://localhost/styles.css')
+    expect(title).not.toBe(null)
   })
   it("You should not delete or edit the existing code", function () {
 

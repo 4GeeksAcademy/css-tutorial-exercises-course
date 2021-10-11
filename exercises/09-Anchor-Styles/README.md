@@ -2,7 +2,7 @@
 
 People like to feel that they are clicking on something, a great approach to accomplish that is by faking a 3D effect. To do so, designers normally play with the borders, for example:
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/09-1.png?raw=true)
+![Example Image](../../.learn/assets/09-1.png?raw=true)
 
 You can control what css rules apply to each state of an anchor by using the `:hover` (for mouse hover) or `:active` (for mouse pressing) selectors, example:
 

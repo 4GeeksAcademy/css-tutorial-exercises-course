@@ -4,7 +4,7 @@ Muchos sitios web usan imágenes de perfil redondeadas ¡una técnica que realme
 
 La forma obvia de crear una imagen de perfil redondeada es crear una etiqueta de imagen y aplicar un `border-radius: 100%`. El problema con este enfoque es que solo funciona para imágenes cuadradas... Las imágenes de perfil generalmente tienen diferente altura y ancho no se verán como un círculo, se verán como óvalos:
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/08-1.png?raw=true)
+![Example Image](../../.learn/assets/08-1.png?raw=true)
 
 ## 📝 Instrucciones:
 
