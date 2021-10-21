@@ -58,7 +58,7 @@ describe("All the styles should be applied", function () {
     let meta = head.querySelector("meta")
     expect(meta).toBe(null)
     
-    let link = document.querySelector('link').href
-    expect(link).toBe('http://localhost/styles.css')
+    const pathname = new URL(document.querySelector('link').href).pathname
+    expect(pathname).toBe('/styles.css')
   })
 });
