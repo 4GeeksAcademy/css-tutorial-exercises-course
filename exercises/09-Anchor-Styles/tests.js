@@ -52,13 +52,16 @@ describe("All the styles should be applied", function () {
   });
 
   it("You should not change the existing head tag elements", function () {
-    let head = document.querySelector('head');
-    let meta = head.querySelector("meta")
-    let link = head.querySelector('link').href
-    let title = head.querySelector('title')
+    let head = document.querySelector('head')
+    expect(head).toBeTruthy()
     
+    let meta = head.querySelector("meta")
     expect(meta).not.toBe(null)
-    expect(link).toBe('http://localhost/styles.css')
+    
+    const pathname = new URL(document.querySelector('link').href).pathname
+    expect(pathname).toBe('/styles.css')
+    
+    let title = head.querySelector('title')
     expect(title).not.toBe(null)
   })
 });
