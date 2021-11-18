@@ -127,7 +127,7 @@ describe("All the styles should be applied", function () {
     expect(backImg).toBeFalsy();
     expect(backPos).toBeFalsy();
     expect(backRepeat).toBeFalsy();
-    expect(orangeHoverSelector).toContain('#bdbdbd');
+    expect(orangeHoverSelector).toContain('rgb(189, 189, 189)');
     expect(orangeHoverSelector).toContain('no-repeat');
     expect(orangeHoverSelector).toContain('100px');
     expect(orangeHoverSelector).toContain('url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true)');
@@ -161,13 +161,16 @@ describe("All the styles should be applied", function () {
     expect(padLeft).toBeFalsy();
   });
   it("You should not change the existing head tag elements", function () {
-    let head = document.querySelector('head');
-    let meta = head.querySelector("meta")
-    let link = head.querySelector('link').href
-    let title = head.querySelector('title')
+    let head = document.querySelector('head')
+    expect(head).toBeTruthy()
     
+    let meta = head.querySelector("meta")
     expect(meta).toBe(null)
-    expect(link).toBe('http://localhost/styles.css')
+    
+    const pathname = new URL(document.querySelector('link').href).pathname
+    expect(pathname).toBe('/styles.css')
+    
+    let title = head.querySelector('title')
     expect(title).not.toBe(null)
   })
 });

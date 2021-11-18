@@ -52,10 +52,13 @@ describe("All the styles should be applied", function () {
     expect(styles["background-repeat"]).toBe("inherit");
   });
   it("You should not change the existing head tag elements", function () {
-    let meta = document.querySelector('head').querySelector("meta")
-    let link = document.querySelector('link').href
+    let head = document.querySelector('head')
+    expect(head).toBeTruthy()
     
+    let meta = head.querySelector("meta")
     expect(meta).toBe(null)
-    expect(link).toBe('http://localhost/styles.css')
+    
+    const pathname = new URL(document.querySelector('link').href).pathname
+    expect(pathname).toBe('/styles.css')
   })
 });
