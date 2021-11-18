@@ -4,13 +4,21 @@ Al crear un documento CSS, debe comenzar desde el selector más genérico y term
 
 Se trata del nivel de especificidad. Si especificas que tu `div` con `id="thirditem"` tiene un fondo (`background-color`) azul (`blue`), y más adelante en el documento especificas que todos los `divs` tendrán un fondo amarillo (`yellow`), `#thirditem` mantendrá su fondo azul (`blue`). ¡y punto!
 
+
 *Porque cuanto más específico, más prioridad tiene.*
 
 ## 📝 Instrucciones:
 
 1. Anula el color de fondo (`background-color`) de `#thirditem` sin eliminar ningún código CSS, simplemente agrega al CSS una regla más específica al final del documento para anular el color de fondo a verde.
 
+<<<<<<< HEAD
 ## 💡 Pista:
+=======
+1. Anula el color de fondo (background-color) de #thirditem sin eliminar ningún código CSS, simplemente agrega al CSS una regla más específica al final del documento para anular el color de fondo actual y que cambie a verde.
+
+
+### 💡 Pista:
+>>>>>>> 1d998c3c73ff7c97c513d625df93c9c4041e6cf0
 
 Puedes usar la anotación **!important** :
 https://css-tricks.com/when-using-important-is-the-right-choice/

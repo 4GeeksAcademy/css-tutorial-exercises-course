@@ -21,4 +21,4 @@ You can have as many style tags as you want but it is recomended to have only on
 
 It should look like this:
 
-![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01.1-1.png?raw=true)
+![01 Hello World Exercise Preview](../../.learn/assets/01.1-1.png?raw=true)
