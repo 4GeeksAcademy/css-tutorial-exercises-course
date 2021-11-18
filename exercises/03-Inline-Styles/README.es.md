@@ -25,4 +25,4 @@ Puedes agregar tantas reglas CSS como desees, dentro de la misma línea, separad
 
 ### 💡Pista:
 
-- Como usar el background-size: http://lmgtfy.com/?q=css+inline+style
+- Como usar el background-color: http://lmgtfy.com/?q=css+inline+style
