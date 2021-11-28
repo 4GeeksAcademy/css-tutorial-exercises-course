@@ -12,10 +12,10 @@ También puedes seleccionar un elemento por su `#id` y aplicarle estilos.
 
 Usa la propiedad `id` del elemento HTML para seleccionarlo. Los `id` deben ser únicos, solo un elemento puede tener la misma `id`.
 
-*La etiqueta HTML con `id="my_number_one"` tendrá un font-size de `9px`.*
+*La etiqueta HTML con `id="small"` tendrá un font-size de `9px`.*
 
 ## 📝 Instrucciones:
 
-Añade el id `button1` a la etiqueta `<span>` y compila para ver el resultado en la consola.
+1. Añade el id `button1` a la etiqueta `<span>` y compila para ver el resultado en la consola.
 
 

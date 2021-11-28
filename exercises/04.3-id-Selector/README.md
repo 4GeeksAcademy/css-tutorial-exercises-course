@@ -16,8 +16,8 @@ You can also select an element by `#id` and apply stiles to it.
 
 Use the `id` property of the HTML element to select it. `Ids` should be unique, only one element must have the same ìd`.
 
-*The html tag with the `id="my_number_one"` will have a font-size of `9px`.*
+*The html tag with the `id="small"` will have a font-size of `9px`.*
 
 ## 📝 Instructions:
 
-Add the id `button1` on to the `<span>` tag and compile to check the result on the console.
+1. Add the id `button1` on to the `<span>` tag and compile to check the result on the console.
