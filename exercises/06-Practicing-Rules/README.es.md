@@ -21,4 +21,4 @@
 
 ## El resultado debería ser algo como esto:
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/raw/master/.learn/assets/06-1.png?raw=true)
+![Example Image](../../.learn/assets/06-1.png?raw=true)
