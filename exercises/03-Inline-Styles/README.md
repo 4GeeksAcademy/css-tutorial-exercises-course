@@ -16,12 +16,9 @@ For example:
 
 Will set the color of that specific link to red and the font-size to 14px
 
-**Note:** 
-
-You can append as many CSS rules as you want, within the same line, separated by semi-colon.
+*You can append as many CSS rules as you want, within the same line, separated by semi-colon.*
 
 ## 📝 Instructions:
-
 
 1. Set an inline style to change the background color of the table to green. For this exercise, do NOT use styles.css :(
 

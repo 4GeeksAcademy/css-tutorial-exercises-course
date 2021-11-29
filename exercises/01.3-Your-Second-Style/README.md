@@ -17,4 +17,5 @@ a {
 ## 📝 Instructions:
 
 1. Make your website background blue by selecting the `body` and applying the `background` rule with a `blue` value.
+
 2. Build and preview the exercise and your result should be a blue `body` (the whole page blue).

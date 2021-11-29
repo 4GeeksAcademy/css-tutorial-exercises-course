@@ -1,6 +1,6 @@
 # `11` Iconos Font Awesome 
 
-Como desarrollador / diseñador, querrás utilizar ciertos iconos para que tu sitio web sea fácil de entender. Por ejemplo, sabemos que el icono de "papelera" significa "eliminar".
+Como desarrollador, querrás utilizar ciertos iconos para que tu sitio web sea fácil de entender. Por ejemplo, sabemos que el icono de "papelera" significa "eliminar".
 
 ¡Pero usar iconos puede ser frustrante y llevar mucho tiempo! porque cada icono es una imagen y trabajar con imágenes ¡es horrible!
 
@@ -11,9 +11,10 @@ Después de vincular tu sitio web con font-awesome, puedes usar lo siguiente par
 ```html
 <i class="fa fa-camera-retro"></i> 
 <!--"camera-retro" será el nombre de tu icono-->
-```
+
 Puedes encontrar todos los nombres disponibles aquí: http://fontawesome.io/icons/
 ```
+
 
 ## 📝 Instrucciones:
 

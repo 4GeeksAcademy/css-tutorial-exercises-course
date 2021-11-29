@@ -2,7 +2,6 @@
 
 ## 📝 Instrucciones:
 
-
 1. Establece esta URL como la imagen de fondo de la página y repítela solo verticalmente:
    [06- backgrund vertical](../../.learn/assets/background-vertical.jpg?raw=true)
 
@@ -16,11 +15,10 @@
 
 6. Agrega un `left padding` a todo el documento de `20px` para que sea más fácil de leer.
 
-7. Agrega un fondo blanco semitransparente (0.2) al primer párrafo de "3 reasons you know you are learning" para que sea más fácil de leer (tienes que usar rgba para esto), y luego aplica un `padding` de `5px` a todos los lados de ese párrafo.
+7. Agrega un fondo blanco semitransparente (`semi-transparent background 0.2`) al primer párrafo de "3 reasons you know you are learning" para que sea más fácil de leer (tienes que usar `rgba` para esto), y luego aplica un `padding` de `5px` a todos los lados de ese párrafo.
 
-8. Cambia el color del `anchor`/enlace "hover" a verde (`green`) y elimina el subrayado (tienes que colocar el anchor para probarlo).
+8. Cambia el color del `anchor` "hover" a verde (`green`) y elimina el subrayado (tienes que colocar el anchor para probarlo).
 
+## El resultado debería ser algo como esto:
 
-El resultado debería ser algo como esto:
-
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/raw/master/.learn/assets/06-1.png?raw=true)
+![Example Image](../../.learn/assets/06-1.png?raw=true)

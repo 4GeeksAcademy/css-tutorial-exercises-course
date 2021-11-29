@@ -16,6 +16,6 @@ a {
 
 ## 📝 Instructions:
 
-1. Right now there is a style being applied that is responsable of making the anchor red.
+1. Right now there is a style being applied that is responsable of making the anchor `red`.
 
-2. Change the style to make your anchor look yellow.
+2. Change the style to make your anchor look `yellow`.

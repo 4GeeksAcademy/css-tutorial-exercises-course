@@ -13,9 +13,11 @@ La clase `spades` contienes las reglas de estilo requeridas para convertir la ca
 
 Hay dos posibles clases de palos/pintas que puedes aplicar al elemento html y hará que se vea como una carta de poker real.
 
-# 📝 Instrucciones:
+## 📝 Instrucciones:
 
 Remmplaza la propiedad `spades` de la clase del `<div>` por la clase `heart` y observa los resultados.
 
+
+## Resultado:
 
 ![Poker Card Heart](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/04.2-1.png?raw=true)

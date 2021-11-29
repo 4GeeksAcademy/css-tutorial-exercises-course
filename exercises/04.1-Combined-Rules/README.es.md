@@ -19,15 +19,13 @@ border: black 1px solid;
 # 📝 Instrucciones:
 
 
-1. Combina las 4 reglas de padding una sola utilizando la regla "padding".
-2. Combina todas las reglas de background, menos el background size, en una sola línea usando la regla "background:".
+1. Combina las 4 reglas de padding una sola utilizando la regla `padding`.
 
+2. Combina todas las reglas de background, menos el `background-size`, en una sola línea usando la regla `background:`.
 
-*Nota:**
+*El `background-size` no se puede combinar, los navegadores aún no lo admiten.*
 
- El background size no se puede combinar, los navegadores aún no lo admiten.\*\*
-
-### Pista:
+## Pista:
 
 - Como usar el background-size: http://lmgtfy.com/?q=css+background
 - Como usar el padding: http://lmgtfy.com/?q=css+padding

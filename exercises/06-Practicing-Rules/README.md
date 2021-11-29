@@ -8,7 +8,7 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 
 
 1. Set this URL as the background image of the page, and repeat it vertically only:
-   https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/background-vertical.jpg?raw=true
+   [06-background vertical](../../.learn/assets/background-vertical.jpg?raw=true)
 
 2. Change the font-type of the `h1` to `Courier`
    and the rest of the website to `Times new Roman`.
@@ -27,6 +27,6 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 8. Change the `anchor` "hover" color to `green` and remove the underline (you have to actually hover the anchor to test it).
 
 
-The result should be something like this:
+## The result should be something like this:
 
-![Example Image](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/06-1.png?raw=true)
+![Example Image](../../.learn/assets/06-1.png?raw=true)

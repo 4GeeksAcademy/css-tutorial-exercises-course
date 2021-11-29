@@ -14,4 +14,4 @@ Fill the `styles.css` with the content needed to make the website body blue.
 
 ## 💡Hint:
 
-Google how to change the background color of a website body.
++ Google how to change the `background-color` of a website body.
