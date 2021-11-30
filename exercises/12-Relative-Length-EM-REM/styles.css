@@ -4,5 +4,9 @@
 #the-second-one {
 	font-size: 25px;
 }
-
-/* YOUR CODE BELOW THIS LINE */
+.headings2 h2 {
+	font-size: 0.8em;
+}
+.headings3 h3 {
+	font-size: 0.8rem;
+}
