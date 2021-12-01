@@ -9,7 +9,7 @@ Font-awesome resuelve el problema de la "imagen" creando una nueva fuente en don
 Después de vincular tu sitio web con font-awesome, puedes usar lo siguiente para codificar e insertar un icono específico:
 
 ```html
-<i class="fa fa-camera-retro"></i> 
+<i class="fas fa-camera-retro"></i> 
 <!--"camera-retro" será el nombre de tu icono-->
 
 Puedes encontrar todos los nombres disponibles aquí: http://fontawesome.io/icons/
