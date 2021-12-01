@@ -9,7 +9,7 @@ Font-awesome solve the "image" problem by creating a new font- each letter is a 
 After linking your website with font-awesome, you can use the following code to insert a specific icon:
 
 ```html
-<i class="fa fa-camera-retro"></i> 
+<i class="fas fa-camera-retro"></i>
 <!-- "camera-retro" will be the name of the icon -->
 
 You can find all the available names here: http://fontawesome.io/icons/
@@ -17,5 +17,5 @@ You can find all the available names here: http://fontawesome.io/icons/
 
 ## 📝 Instructions:
 
-Add two more items into your list and add a different icon at the beginning of each item.
+1. Add two more items into your list and add a different icon at the beginning of each item.
 
