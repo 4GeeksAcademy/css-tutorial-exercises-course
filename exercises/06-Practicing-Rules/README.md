@@ -29,4 +29,4 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 
 ## The result should be something like this:
 
-![Example Image](../.././.learn/assets/06-1.png?raw=true)
+![Example Image](../../.learn/assets/06-1.png?raw=true)
