@@ -10,7 +10,7 @@ Siga estos pasos para que tu enlace (`anchor`) se vea así:
 
 2. Bordes redondeados: establece el `border-radius` en `4px`.
 
-3. Encuentra y aplica el color: usa el selector de `color`(color picker) para encontrar el color exacto y aplicaselo al `background`.
+3. Encuentra y aplica el color: usa el selector de `color` (color picker) para encontrar el color exacto y aplicárselo al `background`.
 
 4. Eliminar subrayado: establece `text-decoration` a `none`.
 

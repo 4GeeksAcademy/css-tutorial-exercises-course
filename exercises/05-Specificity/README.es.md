@@ -13,7 +13,4 @@ Se trata del nivel de especificidad. Si especificas que tu `div` con `id="thirdi
 
 ## 💡 Pista:
 
-+ Anula el color de fondo (background-color) de #thirditem sin eliminar ningún código CSS, simplemente agrega al CSS una regla más específica al final del documento para anular el color de fondo actual y que cambie a verde.
-
-+ Puedes usar la anotación **!important** :
-https://css-tricks.com/when-using-important-is-the-right-choice/
++ Puedes usar la anotación **!important** : https://css-tricks.com/when-using-important-is-the-right-choice/
