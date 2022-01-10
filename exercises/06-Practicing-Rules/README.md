@@ -7,8 +7,7 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 ## 📝 Instructions:
 
 
-1. Set this URL as the background image of the page, and repeat it vertically only:
-   [06- backgrund vertical](../../.learn/assets/background-vertical.jpg?raw=true)
+1. Set this URL as the background image of the page, and repeat it vertically only: `https://github.com/4GeeksAcademy/css-tutorial-exercises-course/raw/master/.learn/assets/background-vertical.jpg?raw=true`
 
 2. Change the font-type of the `h1` to `Courier`
    and the rest of the website to `Times new Roman`.
