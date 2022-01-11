@@ -37,4 +37,4 @@ Usamos CSS para selectionar todas las etiquetas `<a>` y luego hacerlas `pink`.
 
 Debería verse así:
 
-![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01-1.png?raw=true)
+![01 Hello World Exercise Preview](../../master/.learn/assets/01-1.png?raw=true)
