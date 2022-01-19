@@ -18,4 +18,4 @@ Puedes tener cuantas etiquetas `<style>`quieras pero se recomienda solo tener un
 
 Debería verse así:
 
-![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01.1-1.png?raw=true)
+![01 Hello World Exercise Preview](../../.learn/assets/01.1-1.png?raw=true)
