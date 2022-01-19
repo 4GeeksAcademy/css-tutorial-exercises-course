@@ -24,4 +24,4 @@ Replace the class property `spades` of the `<div>` with the class `heart` and lo
 
 ## Expected result:
 
-![Poker Card Heart](../../assets/04.2-1.png?raw=true)
+![Poker Card Heart](../../.learn/assets/04.2-1.png?raw=true)
