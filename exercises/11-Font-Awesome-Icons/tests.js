@@ -35,7 +35,7 @@ describe("All the styles should be applied", function() {
       expect(li[i].innerHTML).toBeTruthy();
     }
   });
-  it('the i tag should have a class "fa"', function() {
+  it('the i tag should have a class "fas"', function() {
     //or use query selector to compare hoy mane scriptags do we have
     const icon = document.querySelectorAll("i");
     expect(document.querySelector("i")).toBeTruthy();

@@ -25,4 +25,4 @@ Will set the color of that specific link to red and the font-size to 14px
 
 ### 💡 Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+inline+style
+- How to use the background-color: http://lmgtfy.com/?q=css+inline+style

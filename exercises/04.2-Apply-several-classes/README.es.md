@@ -20,4 +20,4 @@ Remmplaza la propiedad `spades` de la clase del `<div>` por la clase `heart` y o
 
 ## Resultado:
 
-![Poker Card Heart](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/04.2-1.png?raw=true)
+![Poker Card Heart](../../.learn/assets/04.2-1.png?raw=true)

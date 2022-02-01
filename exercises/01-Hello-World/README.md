@@ -36,4 +36,4 @@ We use CSS to tell (selected) all the anchor tags and make then pink.
 
 It should look like this:
 
-![01 Hello World Exercise Preview](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/01-1.png?raw=true)
+![01 Hello World Exercise Preview](../../.learn/assets/01-1.png?raw=true)
