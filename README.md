@@ -29,7 +29,7 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 
 <h2>One click installation:</h2>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-tutorial-exercises-course.git)
+<img src="https://gitpod.io/button/open-in-gitpod.svg" align="right">
 
 ## Manual installation
 
@@ -56,7 +56,7 @@ $ learnpack start
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+  <img  src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
 ## How are the exercises organized?
