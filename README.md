@@ -37,9 +37,9 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
-<h2>One click installation:</h2>
+## One click installation:
 
-<img src="https://gitpod.io/button/open-in-gitpod.svg" align="right">
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
 
 ## Manual installation
 
