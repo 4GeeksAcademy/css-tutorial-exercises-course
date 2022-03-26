@@ -67,6 +67,8 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
+Nota: Los ejercicios slon autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
+
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
