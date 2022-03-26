@@ -51,6 +51,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
+
 2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta: 
 
 ```bash

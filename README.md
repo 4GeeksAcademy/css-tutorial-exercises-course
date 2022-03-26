@@ -65,9 +65,8 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-<p align="center">
-  <img  src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+
 
 ## How are the exercises organized?
 
