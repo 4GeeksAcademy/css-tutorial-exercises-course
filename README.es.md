@@ -29,8 +29,9 @@
 
 ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
-    <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Aprende Formularios HTML5 </a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a>← estás aquí</li>
+  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Aprende Formularios HTML5 </a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a>← 🔥 estás aquí</li>
+    <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
 <p align="center">
@@ -41,7 +42,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 ## Instalación con un clic
 
-<img src="https://gitpod.io/button/open-in-gitpod.svg" align="right">
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)]
 
 ## Instalación manual 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
