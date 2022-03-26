@@ -13,18 +13,25 @@
 
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
-1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`,
+1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`.
+
 2. Selecting HTML Elements from your website to apply the styles to.
+
 3. Apply CSS Rules (styles) to those elements.
+
 4. Use the most popular CSS Rules.
+
 5. Learn the most popular CSS Tricks.
 
-<h4>Before we start... other related tutorials</h4>
+#### Before we start... other related tutorials
+
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← your are here now</li>
+    <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a>← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
+
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
 <h2>One click installation:</h2>
