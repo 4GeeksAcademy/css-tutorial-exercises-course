@@ -34,15 +34,14 @@ ol>
     <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
-<p align="center">
-  <img src="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/.learn/assets/animation.gif?raw=true">
-</p>
+
 
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
-## Instalación con un clic
+## Instalación  en un clic
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
+
 ## Instalación manual 
 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
@@ -67,6 +66,10 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
+<p align="center">
+  <img src="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/.learn/assets/animation.gif?raw=true">
+</p>
+
 Nota: Los ejercicios slon autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
@@ -82,7 +85,9 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (codificador) 💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 (tutorial de compilación) ✅ (documentación) 📖
+
 2. [David Hay (haydavid23)](https://github.com/haydavid23), contribución: (tests) ⚠️
+
 3. [Daniel Machota (@d4rkm0nst3r)](https://github.com/d4rkm0nst3r), contribución: (build-tutorial) ✅, Traducción 🌍
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
