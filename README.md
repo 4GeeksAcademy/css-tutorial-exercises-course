@@ -11,25 +11,35 @@
   </tr>
 </table>
 
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. 
 
-1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`,
+## You'll be learning the following concepts:
+
+1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an exeternal stylesheet `<link>`.
+
 2. Selecting HTML Elements from your website to apply the styles to.
+
 3. Apply CSS Rules (styles) to those elements.
+
 4. Use the most popular CSS Rules.
+
 5. Learn the most popular CSS Tricks.
 
-<h4>Before we start... other related tutorials</h4>
+#### Before we start... other related tutorials
+
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← your are here now</li>
+    <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← 🔥 your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
+
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
-<h2>One click installation:</h2>
+## One click installation:
 
-<img src="https://gitpod.io/button/open-in-gitpod.svg" align="right">
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
 
 ## Manual installation
 
@@ -55,9 +65,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-<p align="center">
-  <img  src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Note: The exercises have automatic grading but its very rigid and strict, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## How are the exercises organized?
 
@@ -71,9 +79,10 @@ Each exercise is a small react application containing the following files:
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+
+3. [Daniel Machota (@d4rkm0nst3r)](https://github.com/d4rkm0nst3r), contribution: (build-tutorial) ✅, Translation 🌍
+
+This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
