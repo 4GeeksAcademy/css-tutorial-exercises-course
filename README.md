@@ -1,8 +1,9 @@
+# CSS Exercises Tutorial at 4Geeks Academy
+<!-- hide -->
 <table>
   <tr>
     <td><img src="https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/4geeks-icon-blue.png?raw=true"></td>
     <td>
-      <h1 align="center"> CSS Exercises Tutorial at 4Geeks Academy</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/css-tutorial-exercises-course" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
@@ -12,6 +13,7 @@
 </table>
 
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. 
+<!-- endhide -->
 
 ## You'll be learning the following concepts:
 
