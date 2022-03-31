@@ -43,7 +43,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 ## Instalación  en un clic
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
 
 ## Instalación manual 
 
