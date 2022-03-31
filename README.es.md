@@ -12,7 +12,7 @@
   </tr>
 </table>
 
-¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un DM en Twitter] (https://twitter.com/alesanchezr) si tienes alguna pregunta. 
+¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un DM en Twitter](https://twitter.com/alesanchezr) si tienes alguna pregunta. 
 <!-- endhide -->
 
 ## En este tutorial aprenderás los siguientes conceptos:
