@@ -27,6 +27,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 5. Learn the most popular CSS Tricks.
 
+<!-- hide -->
 #### Before we start... other related tutorials
 
 <ol>
@@ -38,6 +39,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 </ol>
 
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
+<!-- endhide -->
 
 ## One click installation:
 
