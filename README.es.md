@@ -1,8 +1,9 @@
+# Tutorial de EJercicios de CSS de 4Geeks Academy
+<!-- hide -->
 <table>
   <tr>
     <td><img src="https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/4geeks-icon-blue.png?raw=true"></td>
     <td>
-      <h1 align="center"> Tutorial de EJercicios de CSS de 4Geeks Academy</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/css-tutorial-exercises-course" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
@@ -12,6 +13,7 @@
 </table>
 
 ¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un DM en Twitter] (https://twitter.com/alesanchezr) si tienes alguna pregunta. 
+<!-- endhide -->
 
 ## En este tutorial aprenderás los siguientes conceptos:
 
@@ -25,9 +27,10 @@
 
 5. Aprender los trucos CSS más populares.
 
+<!-- hide -->
 #### Antes de empezar... hay otros tutoriales 
 
-ol>
+<ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Aprende Formularios HTML5 </a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a>← 🔥 estás aquí</li>
@@ -35,8 +38,8 @@ ol>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
 
-
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
+<!-- endhide -->
 
 ## Instalación  en un clic
 
