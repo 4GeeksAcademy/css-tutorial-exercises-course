@@ -78,9 +78,10 @@ Nota: Los ejercicios slon autograduados pero los tests son muy rígidos y estric
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
 
-1. **index.js:** representa el archivo de entrada para toda la aplicación.
-2. **README.md:** contiene las instrucciones de los ejercicios.
-3. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
+1. **index.html:** representa el archivo de entrada para el ejercicio.
+2. **styles.css:** contiene los estilos y reglas de CSS
+3. **README.md:** contiene las instrucciones de los ejercicios.
+4. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
 
 ## Colaboradores
  
