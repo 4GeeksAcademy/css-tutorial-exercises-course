@@ -39,7 +39,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 </ol>
 
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
-<!-- endhide -->
+
 
 ## One click installation:
 
@@ -70,7 +70,7 @@ $ learnpack start
 ```
 
 Note: The exercises have automatic grading but its very rigid and strict, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
-
+<!-- endhide -->
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
