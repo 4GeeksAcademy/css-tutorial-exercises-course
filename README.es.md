@@ -39,7 +39,6 @@
 </ol>
 
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
-<!-- endhide -->
 
 ## Instalación  en un clic
 
@@ -74,7 +73,7 @@ $ learnpack start
 </p>
 
 Nota: Los ejercicios slon autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
-
+<!-- endhide -->
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
