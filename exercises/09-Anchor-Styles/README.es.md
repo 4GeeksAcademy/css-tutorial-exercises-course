@@ -1,6 +1,6 @@
 # `09` Estilos de enlaces (anchor) 3D
 
-A las personas les gusta sentir que están haciendo clic en algo, uuna manera de lograrlo es fingir un efecto 3D. Para hacerlo, los diseñadores normalmente juegan con los bordes, por ejemplo:
+A las personas les gusta sentir que están haciendo clic en algo, una manera de lograrlo es fingir un efecto 3D. Para hacerlo, los diseñadores normalmente juegan con los bordes, por ejemplo:
 
 ![Example Image](../../.learn/assets/09-1.png?raw=true)
 
