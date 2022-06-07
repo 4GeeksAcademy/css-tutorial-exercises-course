@@ -27,7 +27,7 @@ describe("All the styles should be applied", function () {
     let orangeHoverSelector="";
     for (let i=0; i<cssArray.length; i++) {
 
-      if (cssArray[i].selectorText==="ul li") {
+      if (cssArray[i].selectorText==="ul li" | cssArray[i].selectorText==="ul > li") {
         orangeHoverSelector=cssArray[i].style.color;
 
       }
@@ -44,7 +44,7 @@ describe("All the styles should be applied", function () {
 
     let orangeHoverSelector="";
     for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText==="ol li:nth-child(2)") {
+      if (cssArray[i].selectorText==="ol li:nth-child(2)" | cssArray[i].selectorText==="ol > li:nth-child(2)" ) {
         orangeHoverSelector=cssArray[i].style['background-color'];
 
       }
