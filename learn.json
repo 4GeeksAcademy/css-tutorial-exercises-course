@@ -12,7 +12,7 @@
     "video-solutions": true,
     "graded": true,
     "disabledActions": ["test"],
-    "disableGrading": false,
+    "disableGrading": true,
     "editor": {
         "version": "1.0.73"
     }
