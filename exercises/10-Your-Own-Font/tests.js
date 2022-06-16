@@ -19,7 +19,7 @@ describe("All the styles should be applied", function () {
     jest.resetModules();
   });
 
-  it("the  font-family in the #myTitle should exists", function () {
+  it("the  font-family in the .myTitle should exists", function () {
     // get computed styles of any element you like
     let cssArray=document.styleSheets[0].cssRules;
     // console.log("%%% ", cssArray)

@@ -14,5 +14,5 @@ Después de vincular tu fuente, debes asignar la regla CSS `font-family` a lo qu
 
 1. Enlaza cualquier fuente de google que desee en el sitio web.
 
-2. Aplica esa `font-family` (familia de fuentes) específica a `#myTitle`.
+2. Aplica esa `font-family` (familia de fuentes) específica a `.myTitle`.
 
