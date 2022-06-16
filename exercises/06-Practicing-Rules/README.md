@@ -18,7 +18,7 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 
 6. Add a `left padding` to the whole document of `20px` to make it easier to read.
 
-7. Add a white `semi-transparent background (0.2)` to the `first paragraph` to make it easier to read (you have tu use rgba for that) and write down "3 reasons you know you are learning". Then apply a `padding` of `5px` to all sides of that paragraph.
+7. Add a white `semi-transparent background (0.2)` to the `first paragraph` to make it easier to read (you have tu use `rgba` for that) and write down "3 reasons you know you are learning". Then apply a `padding` of `5px` to all sides of that paragraph.
 
 8. Change the `anchor` "hover" color to `green` and remove the underline (you have to actually hover the anchor to test it).
 

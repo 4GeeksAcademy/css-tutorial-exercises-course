@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=MJI0-sFmTe8"
 
 The `background` CSS rule allows us to assign and work with the background of any container. The background values can be a `color` or an `image`.
 
-If it is an image, you can specify if you want the image to be repeated horizontally, vertically, or both, or not at all, and you can also specify if you want it to resize and fit the whole container where its being applied, among other properties that can be modified.
+If it is an image, you can specify if you want the image to be repeated horizontally, vertically, or both, or not at all, and you can also specify if you want it to resize and fit the whole container where it is being applied, among other properties that can be modified.
 
 ## 📝 Instructions:
 
