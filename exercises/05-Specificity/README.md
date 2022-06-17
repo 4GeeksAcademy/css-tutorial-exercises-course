@@ -13,12 +13,12 @@ It's all about the level of Specificity. If you specify that your `div` with `id
 
 ## 📝 Instrucciones:
 
-1. Override the background-color of #thirditem without deleting any css code, simply append to the css a more specific rule at the end of the document to override the background-color to green.
+1. Override the `background-color` of `#thirditem` without deleting any css code, simply append to the css a more specific rule at the end of the document to override the background-color to green.
 
 
 ### 💡 Hint:
 
-You can use the **important!** annotation:
+You can use the **!important** annotation:
 https://css-tricks.com/when-using-important-is-the-right-choice/
 
 
