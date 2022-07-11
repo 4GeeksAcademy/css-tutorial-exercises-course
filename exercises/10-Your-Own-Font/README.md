@@ -14,5 +14,5 @@ After your font is linked you need to assign the `font-family` CSS rule to whate
 
 1. Link any google-font that you like into the website.
 
-2. Apply that specific `font-family` to `#myTitle`.
+2. Apply that specific `font-family` to `.myTitle`.
 
