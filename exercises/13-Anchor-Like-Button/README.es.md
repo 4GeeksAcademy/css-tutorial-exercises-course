@@ -10,15 +10,17 @@ Siga estos pasos para que tu enlace (`anchor`) se vea así:
 
 2. Bordes redondeados: establece el `border-radius` en `4px`.
 
-3. Encuentra y aplica el color: usa el selector de `color` (color picker) para encontrar el color exacto y aplicárselo al `background`.
+3. Haz que el `border` sea `1px solid #ffffff`
 
-4. Eliminar subrayado: establece `text-decoration` a `none`.
+4. Encuentra y aplica el color: usa el selector de `color` (color picker) para encontrar el color exacto y aplicárselo al `background`.
 
-5. Establecer el color del texto en blanco (`white`)
+5. Eliminar subrayado: establece `text-decoration` a `none`.
+
+6. Establecer el color del texto en blanco (`white`)
 
 *Para que el botón se vea diferente cuando el usuario pasa el mouse por encima, usamos el selector `:hover`: http://lmgtfy.com/?q=how+to+use+the+hover*
 
-6. Dentro del selector `:hover` cambia el fondo del botón a un color naranja más oscuro.
+7. Dentro del selector `:hover` cambia el fondo del botón a `#cc7a00`.
 
 ## Reultado esperado:
 

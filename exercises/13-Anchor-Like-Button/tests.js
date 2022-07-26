@@ -75,7 +75,7 @@ describe("All the styles should be applied", function () {
     let orangeHoverSelector="";
     for (let i=0; i<cssArray.length; i++) {
       if (cssArray[i].selectorText===".orange-btn:hover") {
-        orangeHoverSelector=cssArray[i].style.background;
+        orangeHoverSelector=cssArray[i].style.background ;
       }
     }
 
