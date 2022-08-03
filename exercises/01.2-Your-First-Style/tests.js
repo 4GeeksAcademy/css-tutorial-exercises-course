@@ -14,10 +14,10 @@ describe("All the styles should be applied", function() {
     jest.resetModules();
   });
 
-  it("The background should be blue", function() {
-    const body = document.querySelector("body");
-    var styles = window.getComputedStyle(body);
-    expect(styles["background"]).toBe("blue");
+  it("The anchor tag should be yellow", function() {
+    const a = document.querySelector("a");
+    var styles = window.getComputedStyle(a);
+    expect(styles["color"]).toBe("yellow");
   });
   it("The body tag should not contains any inline style", function() {
     let bodyInlineStyle = document.getElementsByTagName("body");
