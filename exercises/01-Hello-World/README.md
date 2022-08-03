@@ -18,7 +18,6 @@ Look at this example:
 ```HTML
 <style>
     a {
-        /* change this style to yellow */
         color: pink;
     }
 </style>
