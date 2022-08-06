@@ -54,7 +54,7 @@ describe("All the styles should be applied", function () {
     ).innerHTML=`<style>${css.toString()}</style>`;
     let divTag=document.querySelector(".orange-btn");
     let classTagStyles=window.getComputedStyle(divTag);
-    expect(classTagStyles["background"]).toBe("rgb(255, 153, 51)");
+    expect(classTagStyles["background"]).toBe("orange");
   });
   it("the  underline should to be removed", function () {
     document.querySelector(
@@ -79,7 +79,7 @@ describe("All the styles should be applied", function () {
       }
     }
 
-    expect(orangeHoverSelector).toBe("#cc7a00");
+    expect(orangeHoverSelector).toBe("darkorange");
   });
 
   it("You should be careful with the specifity", function () {
