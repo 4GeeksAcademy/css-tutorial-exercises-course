@@ -1,107 +1,90 @@
-const fs=require("fs");
-const path=require("path");
-const html=fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
-const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
+const fs = require('fs');
+const path = require('path');
+const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
+const css = fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
+document.documentElement.innerHTML = html.toString();
+
+jest.dontMock('fs');
 
 
-jest.dontMock("fs");
 
 
-
-describe("All the styles should be applied", function () {
-  beforeEach(() => {
-    //here I import the HTML into the document
-    document.documentElement.innerHTML=html.toString();
-
-
-  });
-  afterEach(() => {
-    jest.resetModules();
-  });
-
-  it("the  padding  should be '10px'", function () {
+describe("All the styles should be applied", ()=>{
+  const meta = document.querySelector("meta")
+  const title = document.querySelector('title')
+  const link = document.querySelector('link')
+  test("the  padding  should be '10px'", ()=>{
     document.querySelector(
       "head"
 
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let divTag=document.querySelector(".orange-btn");
-    let classTagStyles=window.getComputedStyle(divTag);
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let divTag = document.querySelector(".orange-btn");
+    let classTagStyles = window.getComputedStyle(divTag);
 
     expect(classTagStyles["padding"]).toBe("10px");
   });
-  it("the  border radius should be '4px'", function () {
+  test("the  border radius should be '4px'", ()=>{
     document.querySelector(
       "head"
 
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let divTag=document.querySelector(".orange-btn");
-    let classTagStyles=window.getComputedStyle(divTag);
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let divTag = document.querySelector(".orange-btn");
+    let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["border-radius"]).toBe("4px");
   });
-  it("the  border should be '1px solid #ffffff;'", function () {
+  test("the  background should be 'orange'", ()=>{
     document.querySelector(
       "head"
 
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let divTag=document.querySelector(".orange-btn");
-    let classTagStyles=window.getComputedStyle(divTag);
-    expect(classTagStyles["border"]).toBe("1px solid #ffffff");
-  });
-  it("the  background should be 'rgb(255, 153, 51)'", function () {
-    document.querySelector(
-      "head"
-
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let divTag=document.querySelector(".orange-btn");
-    let classTagStyles=window.getComputedStyle(divTag);
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let divTag = document.querySelector(".orange-btn");
+    let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["background"]).toBe("orange");
   });
-  it("the  underline should to be removed", function () {
+  test("the  underline should to be removed", ()=>{
     document.querySelector(
       "head"
 
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let divTag=document.querySelector(".orange-btn");
-    let classTagStyles=window.getComputedStyle(divTag);
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let divTag = document.querySelector(".orange-btn");
+    let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["text-decoration"]).toBe("none");
   });
-  it("The mouse hover property should be #cc7a00", function () {
+  test("The mouse hover property should be 'darkorange'", ()=>{
     // get computed styles of any element you like
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let cssArray=document.styleSheets[0].cssRules;
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let cssArray = document.styleSheets[0].cssRules;
 
-    let orangeHoverSelector="";
-    for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText===".orange-btn:hover") {
-        orangeHoverSelector=cssArray[i].style.background;
+    let orangeHoverSelector = "";
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".orange-btn:hover") {
+        orangeHoverSelector = cssArray[i].style.background;
       }
     }
 
     expect(orangeHoverSelector).toBe("darkorange");
   });
 
-  it("You should be careful with the specifity", function () {
+  test("You should be careful with the specifity", ()=>{
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let cssArray=document.styleSheets[0].cssRules[0].selectorText;
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let cssArray = document.styleSheets[0].cssRules[0].selectorText;
     expect(cssArray).toBe(".orange-btn");
   }
   )
-  it("You should not change the existing head tag elements", function () {
+  test("You should not change the existing head tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
-    
-    let meta = head.querySelector("meta")
-    expect(meta).not.toBe(null)
-    
-    const pathname = new URL(document.querySelector('link').href).pathname
-    expect(pathname).toBe('/styles.css')
-    
-    let title = head.querySelector('title')
-    expect(title).not.toBe(null)
+
+    expect(meta).toBeTruthy()
+
+    let href = link.getAttribute('href')
+    expect(href).toBe('./styles.css')
+
+    expect(title).toBeTruthy()
   })
 
 });
