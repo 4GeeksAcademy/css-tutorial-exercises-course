@@ -8,7 +8,7 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 
 1. Set this URL as the background image of the page, and repeat it vertically only: `../../.learn/assets/background-vertical.jpg?raw=true`
 
-2. Change the font-type of the `h1` to `Courier` and the rest of the website to `Times new Roman`.
+2. Change the font-family of the `h1` to `Courier` and the rest of the website to `Times new Roman`.
 
 3. Change the color of `h1` to `red`.
 

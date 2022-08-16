@@ -4,7 +4,7 @@
 
 1. Establece esta URL como la imagen de fondo de la página y repítela solo verticalmente: `../../.learn/assets/background-vertical.jpg?raw=true`
 
-2. Cambia el tipo de fuente (`font-type`) del `h1` a `Courier` y el resto del sitio web a `Times New Roman`.
+2. Cambia el tipo de fuente (`font-family`) del `h1` a `Courier` y el resto del sitio web a `Times New Roman`.
 
 3. Cambia el color del `h1` a rojo(`red`).
 
