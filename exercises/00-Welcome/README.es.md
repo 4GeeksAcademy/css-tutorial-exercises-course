@@ -4,7 +4,7 @@ intro: "https://www.youtube.com/watch?v=BDKdUPDez-U"
 
 # ¡¡Bienvenido a los ejercicios de CSS!!
 
-Mi nombre es Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr) ¡Estoy muy contento de que estén aquí! 🎉 😂
+Mi nombre es Alejandro Sanchez [@alesanchezr](twitter.com/alesanchezr) ¡Estoy muy contento de que estén aquí! 🎉 😂
 Aprender a programar es dificil ¡Probablemente necesitarás coaching! Envíame un DM vía Twitter si tienes alguna duda.
 
 Durante este curso aprenderás los siguientes conceptos:
