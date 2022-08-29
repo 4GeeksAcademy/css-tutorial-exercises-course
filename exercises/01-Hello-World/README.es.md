@@ -19,7 +19,6 @@ Mira este ejemplo:
 ```HTML
 <style>
     a {
-        /* cambia este estilo a yellow */
         color: pink;
     }
 </style>
