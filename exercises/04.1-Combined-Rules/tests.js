@@ -9,7 +9,8 @@ jest.dontMock("fs");
 describe("All the styles should be applied", ()=> {
   const body = document.querySelector("body");
   const link = document.querySelector("link");
-  const title = document.querySelector('title')
+  const title = document.querySelector('title');
+
   test("The body tag should not contains any inline style", ()=> {
     document.querySelector(
       "head"
@@ -17,6 +18,7 @@ describe("All the styles should be applied", ()=> {
     let emptyBodyInlineStyle = {};
     expect(body.style._values).toEqual(emptyBodyInlineStyle);
   });
+
   test("the width should be '50px'", ()=> {
     // get computed styles of any element you like
     document.querySelector(
@@ -24,16 +26,17 @@ describe("All the styles should be applied", ()=> {
     ).innerHTML = `<style>${css.toString()}</style>`;
 
     let cssArray = document.styleSheets[0].cssRules;
-    // console.log("$$$:", cssArray)
     let orangeHoverSelector = "";
+
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === ".myBox") {
         orangeHoverSelector = cssArray[i].style.width;
       }
     }
-    expect(orangeHoverSelector).toBe('50px');
 
+    expect(orangeHoverSelector).toBe('50px');
   });
+
   test("the height should be '50px'", ()=> {
     // get computed styles of any element you like
     document.querySelector(
@@ -41,15 +44,15 @@ describe("All the styles should be applied", ()=> {
     ).innerHTML = `<style>${css.toString()}</style>`;
 
     let cssArray = document.styleSheets[0].cssRules;
-    // console.log("$$$:", cssArray)
     let orangeHoverSelector = "";
+
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === ".myBox") {
         orangeHoverSelector = cssArray[i].style.height;
       }
     }
-    expect(orangeHoverSelector).toBe('50px');
 
+    expect(orangeHoverSelector).toBe('50px');
   });
 
   test("the background-size should be contain", ()=> {
@@ -58,22 +61,23 @@ describe("All the styles should be applied", ()=> {
     ).innerHTML = `<style>${css.toString()}</style>`;
 
     let cssArray = document.styleSheets[0].cssRules;
-    // console.log("$$$:", cssArray)
     let orangeHoverSelector = "";
+
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === ".myBox") {
         orangeHoverSelector = cssArray[i].style['background-size'];
       }
     }
+
     expect(orangeHoverSelector).toBe('contain');
   });
+
   test("the background should include the shorthand property", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
 
     let cssArray = document.styleSheets[0].cssRules;
-    console.log("$$$:", cssArray)
     let orangeHoverSelector = "";
     let backImg = "";
     let backColor = "";
@@ -125,6 +129,7 @@ describe("All the styles should be applied", ()=> {
     expect(padBottom).toBeFalsy();
     expect(padLeft).toBeFalsy();
   });
+
   test("You should not change the existing head tag elements", ()=> {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()

@@ -7,17 +7,21 @@ jest.dontMock('fs');
 
 describe("All the styles should be applied", ()=>{
   const body = document.querySelector("body");
+
   test("The background should be blue", ()=>{
     let styles = window.getComputedStyle(body);
     expect(styles["background"]).toBe("blue");
   });
+
   test("The body tag should not contains any inline style", ()=>{
     let emptyBodyInlineStyle = {};
     expect(body.style._values).toEqual(emptyBodyInlineStyle);
   });
+
   test("You should not change the existing head tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
+    
     let meta = head.querySelector("meta")
     expect(meta).toBe(null)
   })

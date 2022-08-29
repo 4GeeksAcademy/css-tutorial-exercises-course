@@ -36,6 +36,7 @@ describe("All the styles should be applied", ()=>{
     let styles = window.getComputedStyle(body);
     expect(styles["background-repeat"]).toBe("inherit");
   });
+  
   test("You should not change the existing head tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
