@@ -17,11 +17,9 @@ describe("All the styles should be applied", ()=>{
 
     // get computed styles of any element you like
     let cssArray = document.styleSheets[0].cssRules;
-    // console.log("%%% ", cssArray)
     let orangeHoverSelector = "";
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === ".myTitle") {
-        // console.log("%%% ", cssArray[i].selectorText)
         orangeHoverSelector = cssArray[i].style['font-family'];
       }
     }
@@ -35,7 +33,6 @@ describe("All the styles should be applied", ()=>{
   });
   test("The link should be included in the head tag", ()=>{
     // let headContent=document.getElementsByTagName("*")
-    // console.log("###", headContent[1].innerHTML)
     expect(link.length).toBe(2);
   });
 

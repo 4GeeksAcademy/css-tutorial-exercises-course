@@ -21,17 +21,15 @@ describe("All the styles should be applied", function () {
     let title = head.querySelector('title')
     expect(title).not.toBe(null)
   })
-  
-  test("You should not delete or edit the existing code", function () {
 
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
+  test("You should not delete or edit the existing code", function () {
+    document.querySelector("head").innerHTML = `<style>${css.toString()}</style>`;
+
     let cssArray = document.styleSheets[0].cssRules[0].selectorText;
-    let cssArrayBackground = document.styleSheets[0].cssRules[0].style.background
-    console.log("back:", cssArrayBackground)
+    let cssArrayBackground = document.styleSheets[0].cssRules[0].style.background;
     let thirdItSelector = document.styleSheets[0].cssRules[1].selectorText;
-    let thirdItBackground = document.styleSheets[0].cssRules[1].style.background
+    let thirdItBackground = document.styleSheets[0].cssRules[1].style.background;
+
     expect(thirdItSelector).toBe("#thirditem");
     expect(thirdItBackground).toBe("yellow");
     expect(cssArray).toBe("ul li");

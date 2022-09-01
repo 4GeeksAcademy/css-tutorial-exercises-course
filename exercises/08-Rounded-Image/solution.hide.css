@@ -2,12 +2,8 @@ body {
 	background: #bdbdbd;
 }
 .rounded {
-	border-radius: 100%;
-	background-image: url("https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/.learn/assets/einstein.png?raw=true");
-	background-position-x: center;
-	background-position-y: center;
-	background-size: contain;
 	object-fit: cover;
 	width: 200px;
 	height: 200px;
+	border-radius: 100%;
 }

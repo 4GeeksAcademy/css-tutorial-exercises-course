@@ -6,9 +6,6 @@ document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
-
-
-
 describe("All the styles should be applied", ()=>{
   const meta = document.querySelector("meta")
   const title = document.querySelector('title')
@@ -23,7 +20,7 @@ describe("All the styles should be applied", ()=>{
 
     expect(classTagStyles["padding"]).toBe("10px");
   });
-  test("the  border radius should be '4px'", ()=>{
+  test("the border radius should be '4px'", ()=>{
     document.querySelector(
       "head"
 
@@ -32,7 +29,7 @@ describe("All the styles should be applied", ()=>{
     let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["border-radius"]).toBe("4px");
   });
-  test("the  background should be 'orange'", ()=>{
+  test("the background should be 'orange'", ()=>{
     document.querySelector(
       "head"
 
@@ -41,7 +38,7 @@ describe("All the styles should be applied", ()=>{
     let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["background"]).toBe("orange");
   });
-  test("the  underline should to be removed", ()=>{
+  test("the underline should be removed", ()=>{
     document.querySelector(
       "head"
 
@@ -67,7 +64,7 @@ describe("All the styles should be applied", ()=>{
     expect(orangeHoverSelector).toBe("darkorange");
   });
 
-  test("You should be careful with the specifity", ()=>{
+  test("You should be careful with the specificity", ()=>{
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;

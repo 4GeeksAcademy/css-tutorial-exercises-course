@@ -20,8 +20,8 @@ describe("All the styles should be applied", ()=>{
     expect(document.querySelectorAll("i").length).toBe(3);
   });
   test(" LI innerHTML exist", ()=>{
-    const li = document.querySelectorAll("li");
     expect(document.querySelector("li")).toBeTruthy();
+    const li = document.querySelectorAll("li");
     for (let i = 0; i < li.length; i++) {
       expect(li[i].innerHTML).toBeTruthy();
     }
