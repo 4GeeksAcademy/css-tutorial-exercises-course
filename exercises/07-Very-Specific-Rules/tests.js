@@ -11,19 +11,24 @@ describe("All the styles should be applied", ()=>{
   const title = document.querySelector('title')
   const link = document.querySelector('link')
   
-  test("The ul li color has to be red", ()=>{
+  test("The ul li color has to be red using !important", ()=>{
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
+
     let cssArray = document.styleSheets[0].cssRules;
-    let orangeHoverSelector = "";
+    let color = ""
+
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === "ul li" || cssArray[i].selectorText === "ul > li") {
-        orangeHoverSelector = cssArray[i].style["color"];
+        color = cssArray[i].cssText;
       }
     }
-    expect(orangeHoverSelector).toBe("red");
+    let reg = new RegExp(/\s*color:\s*red\s*!important\s*;\s*/gm)
+
+    expect(reg.test(color)).toBeTruthy();
   });
+
   test("The ul second element background should be green", ()=>{
     document.querySelector(
       "head"
@@ -39,6 +44,7 @@ describe("All the styles should be applied", ()=>{
 
     } expect(orangeHoverSelector).toBe("green");
   })
+
   test("The odd rows of the table should have yellow background", ()=>{
     document.querySelector(
       "head"
@@ -63,8 +69,8 @@ describe("All the styles should be applied", ()=>{
     let cssArray = document.styleSheets[0].cssRules[4].selectorText;
     expect(cssArray).toBe("ul li,\nol li");
     expect(cssBody).toBe("body");
-  }
-  )
+  })
+
   test("You should not change the existing head tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
@@ -76,4 +82,5 @@ describe("All the styles should be applied", ()=>{
 
     expect(title).toBeTruthy()
   })
+
 });
