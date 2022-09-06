@@ -11,73 +11,65 @@ describe("All the styles should be applied", () => {
   const title = document.querySelector('title')
   const link = document.querySelector('link')
 
-  test("The <img> tag has to be removed", () => {
+  const img = document.querySelector(".rounded")
+
+  test("the img tag should exist", () => {
+    expect(img).toBeTruthy();
+  })
+
+  test("the width in the img Tag should be equal to its height and vice versa", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
-    expect(document.querySelector("img")).toBeFalsy();
+
+    let cssArray = document.styleSheets[0].cssRules;
+
+    let width = "";
+    let height = "";
+    
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".rounded") {
+        width = cssArray[i].style["width"];
+        height = cssArray[i].style["height"];
+      }
+    }
+
+    // checks if styles return empty string "" or undefined 
+    expect(width).toBeTruthy();
+    expect(height).toBeTruthy();
+
+    expect(width).toBe(height);
+    expect(height).toBe(width);
   });
-  test("The <div> tag should exists", () => {
+
+  test("the border radius of the img Tag should be '100%'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
-    expect(document.querySelector("div")).toBeTruthy();
+
+    let imgStyle = window.getComputedStyle(img);
+    expect(imgStyle["border-radius"]).toBe("100%");
   });
-  test("the width in the div Tag should be '200px'", () => {
-    // get computed styles of any element you like
+
+  test("the object-fit value of the img Tag should be 'cover'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
-    const divTag = document.querySelector("div");
-    let idTagStyles = window.getComputedStyle(divTag);
-    expect(idTagStyles["width"]).toBe("200px");
+
+    let imgStyle = window.getComputedStyle(img);
+    expect(imgStyle["object-fit"]).toBe("cover");
   });
-  test("the height in the div Tag should be '200px'", () => {
-    // get computed styles of any element you like
+
+  test("the object-position value of the img Tag should be 'top'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
-    const divTag = document.querySelector("div");
-    let idTagStyles = window.getComputedStyle(divTag);
-    expect(idTagStyles["height"]).toBe("200px");
+
+    let imgStyle = window.getComputedStyle(img);
+    expect(imgStyle["object-position"]).toBe("top");
   });
-  test("the  border radius in the div Tag should be '100%'", () => {
-    // get computed styles of any element you like
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    const divTag = document.querySelector("div");
-    let idTagStyles = window.getComputedStyle(divTag);
-    expect(idTagStyles["border-radius"]).toBe("100%");
-  });
-  test("the  background position x  in the div Tag should be 'center'", () => {
-    // get computed styles of any element you like
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    const divTag = document.querySelector("div");
-    let idTagStyles = window.getComputedStyle(divTag);
-    expect(idTagStyles["background-position-x"]).toBe("center");
-  });
-  test("the  background position y  in the div Tag should be 'center'", () => {
-    // get computed styles of any element you like
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    const divTag = document.querySelector("div");
-    let idTagStyles = window.getComputedStyle(divTag);
-    expect(idTagStyles["background-position-y"]).toBe("center");
-  });
-  test("the  background image in the div Tag should exists", () => {
-    // get computed styles of any element you like
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    const divTag = document.querySelector("div");
-    let idTagStyles = window.getComputedStyle(divTag);
-    expect(idTagStyles["background-image"]).toBeTruthy();
-  });
-  test("You should not change the existing head tag elements", ()=>{
+
+  test("You should not change the existing head tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
