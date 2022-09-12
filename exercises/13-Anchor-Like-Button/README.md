@@ -10,13 +10,15 @@ Anchors are not only used within text- when you are going to use anchors outside
 
 3. The background should be `orange` when not hovered, and `darkorange` on hover (`:hover`).
 
-4. Remove underline: Set `text-decoration` to `none`.
+4. Find and apply the color: Use the color picker to find the color and apply make the background to that color.
 
-5. Set the color of the text to `white`.
+5. Remove underline: Set `text-decoration` to `none`.
+
+6. Set the color of the text to `white`.
 
 *To make the button look different when the user hovers over with the mouse, we use the `:hover` selector: http://lmgtfy.com/?q=how+to+use+the+hover*
 
-6. Inside of the `:hover` selector change the background of the button to a `darker orange`.
+7. Inside of the `:hover` selector change the background of the button to `#cc7a00`.
 
 ## Expected result:
 

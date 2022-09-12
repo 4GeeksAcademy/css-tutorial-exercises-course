@@ -1,126 +1,95 @@
-const fs=require("fs");
-const path=require("path");
-const html=fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
-const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
+const fs = require("fs");
+const path = require("path");
+const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
+const css = fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock("fs");
 
-describe("All the styles should be applied", function () {
-  beforeEach(() => {
-    //here I import the HTML into the document
-    document.documentElement.innerHTML=html.toString();
+describe("All the styles should be applied", ()=> {
+  const body = document.querySelector("body");
+  const link = document.querySelector("link");
+  const title = document.querySelector('title');
 
-    //apply the styles from the stylesheet if needed
-    // document.querySelector(
-    //   "head"
-    // ).innerHTML = `<style>${css.toString()}</style>`;
-  });
-  afterEach(() => {
-    jest.resetModules();
-  });
-
-  // it("The styles.css file should be empty", function () {
-  //   console.log(css);
-  //   expect(css.toString()==="").toBeTruthy();
-  // });
-  // it("The Head tag should includes a Style tag", function () {
-  //   expect(html.toString().indexOf(`<style`)>-1).toBeTruthy();
-  // });
-  it("The body tag should not contains any inline style", function () {
+  test("The body tag should not contains any inline style", ()=> {
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
-    let bodyInlineStyle=document.getElementsByTagName("style");
-    let emptyBodyInlineStyle={};
-    expect(bodyInlineStyle[0].style._values).toEqual(emptyBodyInlineStyle);
-    console.log("sty: ", bodyInlineStyle[0]);
+    ).innerHTML = `<style>${css.toString()}</style>`;
+    let emptyBodyInlineStyle = {};
+    expect(body.style._values).toEqual(emptyBodyInlineStyle);
   });
-  it("the width should be '50px'", function () {
+
+  test("the width should be '50px'", ()=> {
     // get computed styles of any element you like
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
+    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray=document.styleSheets[0].cssRules;
-    // console.log("$$$:", cssArray)
-    let orangeHoverSelector="";
-    for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText===".myBox") {
-        orangeHoverSelector=cssArray[i].style.width;
+    let cssArray = document.styleSheets[0].cssRules;
+    let orangeHoverSelector = "";
+
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".myBox") {
+        orangeHoverSelector = cssArray[i].style.width;
       }
     }
-    expect(orangeHoverSelector).toBe('50px');
 
+    expect(orangeHoverSelector).toBe('50px');
   });
-  it("the height should be '50px'", function () {
+
+  test("the height should be '50px'", ()=> {
     // get computed styles of any element you like
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
+    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray=document.styleSheets[0].cssRules;
-    // console.log("$$$:", cssArray)
-    let orangeHoverSelector="";
-    for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText===".myBox") {
-        orangeHoverSelector=cssArray[i].style.height;
+    let cssArray = document.styleSheets[0].cssRules;
+    let orangeHoverSelector = "";
+
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".myBox") {
+        orangeHoverSelector = cssArray[i].style.height;
       }
     }
+
     expect(orangeHoverSelector).toBe('50px');
-
   });
-  // it("the background should be in rgb code rgb(189, 189, 189)", function() {
-  //   // get computed styles of any element you like
-  //   const body = document.querySelector(".myBox");
-  //   var styles = window.getComputedStyle(body);
-  //   expect(styles["background"]).toBe("rgb(189, 189, 189)");
-  // });
 
-  // it("the padding-top should be deleted", function () {
-  //   // get computed styles of any element you like
-  //   const body=document.querySelector(".myBox");
-  //   var styles=window.getComputedStyle(body);
-  //   expect(styles["padding-top"]).toBeFalsy();
-  //   expect(styles["padding-bottom"]).toBeFalsy();
-  //   expect(styles["padding-right"]).toBeFalsy();
-  //   expect(styles["padding-left"]).toBeFalsy();
-
-  // });
-
-  it("the background-size should be contain", function () {
+  test("the background-size should be contain", ()=> {
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
+    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray=document.styleSheets[0].cssRules;
-    // console.log("$$$:", cssArray)
-    let orangeHoverSelector="";
-    for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText===".myBox") {
-        orangeHoverSelector=cssArray[i].style['background-size'];
+    let cssArray = document.styleSheets[0].cssRules;
+    let orangeHoverSelector = "";
+
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".myBox") {
+        orangeHoverSelector = cssArray[i].style['background-size'];
       }
     }
+
     expect(orangeHoverSelector).toBe('contain');
   });
-  it("the background should include the shorthand property", function () {
+
+  test("the background should include the shorthand property", ()=> {
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
+    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray=document.styleSheets[0].cssRules;
-    console.log("$$$:", cssArray)
-    let orangeHoverSelector="";
+    let cssArray = document.styleSheets[0].cssRules;
+    let orangeHoverSelector = "";
     let backImg = "";
     let backColor = "";
     let backPos = "";
     let backRepeat = "";
-    for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText===".myBox") {
-        orangeHoverSelector=cssArray[i].style.background;
-        backImg=cssArray[i].style['background-image'];
-        backColor=cssArray[i].style['background-color'];
-        backPos=cssArray[i].style['background-position-x'];
-        backRepeat=cssArray[i].style['background-repeat'];
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".myBox") {
+        orangeHoverSelector = cssArray[i].style.background;
+        backImg = cssArray[i].style['background-image'];
+        backColor = cssArray[i].style['background-color'];
+        backPos = cssArray[i].style['background-position-x'];
+        backRepeat = cssArray[i].style['background-repeat'];
       }
     }
     expect(backColor).toBeFalsy();
@@ -133,25 +102,25 @@ describe("All the styles should be applied", function () {
     expect(orangeHoverSelector).toContain('url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true)');
   });
 
-  it("the padding should include the shorthand property in the right order (top, right, bottom, left)", function () {
+  test("the padding should include the shorthand property in the right order (top, right, bottom, left)", ()=> {
     document.querySelector(
       "head"
-    ).innerHTML=`<style>${css.toString()}</style>`;
+    ).innerHTML = `<style>${css.toString()}</style>`;
 
-    let cssArray=document.styleSheets[0].cssRules;
+    let cssArray = document.styleSheets[0].cssRules;
     // console.log("$$$:", cssArray)
-    let orangeHoverSelector="";
-    let padTop= "";
-    let padRight= "";
-    let padBottom= "";
-    let padLeft= "";
-    for (let i=0; i<cssArray.length; i++) {
-      if (cssArray[i].selectorText===".myBox") {
-        orangeHoverSelector=cssArray[i].style.padding;
-        padTop=cssArray[i].style['padding-top']
-        padRight=cssArray[i].style['padding-right']
-        padBottom=cssArray[i].style['padding-bottom']
-        padLeft=cssArray[i].style['padding-left']
+    let orangeHoverSelector = "";
+    let padTop = "";
+    let padRight = "";
+    let padBottom = "";
+    let padLeft = "";
+    for (let i = 0; i < cssArray.length; i++) {
+      if (cssArray[i].selectorText === ".myBox") {
+        orangeHoverSelector = cssArray[i].style.padding;
+        padTop = cssArray[i].style['padding-top']
+        padRight = cssArray[i].style['padding-right']
+        padBottom = cssArray[i].style['padding-bottom']
+        padLeft = cssArray[i].style['padding-left']
       }
     }
     expect(orangeHoverSelector).toBe('10px 190px 50px 30px');
@@ -160,17 +129,17 @@ describe("All the styles should be applied", function () {
     expect(padBottom).toBeFalsy();
     expect(padLeft).toBeFalsy();
   });
-  it("You should not change the existing head tag elements", function () {
+
+  test("You should not change the existing head tag elements", ()=> {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
-    
+
     let meta = head.querySelector("meta")
     expect(meta).toBe(null)
-    
-    const pathname = new URL(document.querySelector('link').href).pathname
-    expect(pathname).toBe('/styles.css')
-    
-    let title = head.querySelector('title')
-    expect(title).not.toBe(null)
+
+    const href = link.getAttribute("href")
+    expect(href).toBe('./styles.css')
+
+    expect(title).toBeTruthy()
   })
 });
