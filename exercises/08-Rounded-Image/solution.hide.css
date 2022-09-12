@@ -1,0 +1,10 @@
+body {
+	background: #bdbdbd;
+}
+.rounded {
+	object-fit: cover;
+	object-position: top;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}

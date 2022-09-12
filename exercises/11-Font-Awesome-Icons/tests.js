@@ -1,46 +1,38 @@
-const fs = require("fs");
-const path = require("path");
-const html = fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
+const fs = require('fs');
+const path = require('path');
+const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 const css = fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
+document.documentElement.innerHTML = html.toString();
 
-jest.dontMock("fs");
+jest.dontMock('fs');
 
-describe("All the styles should be applied", function() {
-  beforeEach(() => {
-    //here I import the HTML into the document
-    document.documentElement.innerHTML = html.toString();
+let cssArray = null;
 
-    //apply the styles from the stylesheet if needed
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-  });
-  afterEach(() => {
-    jest.resetModules();
-  });
-
-  it("ul tag should exists", function() {
+describe("All the styles should be applied", ()=>{
+  const icons = document.querySelectorAll("i");
+  test("ul tag should exists", ()=>{
     expect(document.querySelector("ul")).toBeTruthy();
   });
-  it("At least 3 li tags should exist", function() {
+  test("At least 3 li tags should exist", ()=>{
     expect(document.querySelectorAll("li").length).toBe(3);
   });
-  it("At least 3 i tags should exist", function() {
+  test("At least 3 i tags should exist", ()=>{
     expect(document.querySelectorAll("i").length).toBe(3);
   });
-  it(" LI innerHTML exist", function() {
-    const li = document.querySelectorAll("li");
+  test(" LI innerHTML exist", ()=>{
     expect(document.querySelector("li")).toBeTruthy();
+    const li = document.querySelectorAll("li");
     for (let i = 0; i < li.length; i++) {
       expect(li[i].innerHTML).toBeTruthy();
     }
   });
-  it('the i tag should have a class "fas"', function() {
+  test('the i tag should have a class "fas"', ()=>{
     //or use query selector to compare hoy mane scriptags do we have
-    const icon = document.querySelectorAll("i");
-    expect(document.querySelector("i")).toBeTruthy();
-    for (let i = 0; i < icon.length; i++) {
-      expect(icon[i].classList.contains("fa")).toBeTruthy();
-    }
+    expect(icons).toBeTruthy();
+    
+    icons.forEach(icon=>{
+      let hasFas = icon.classList.contains("fas")
+      expect(hasFas).toBe(true);
+    })
   });
 });
