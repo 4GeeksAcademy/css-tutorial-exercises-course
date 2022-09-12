@@ -55,15 +55,6 @@ describe("All the styles should be applied", () => {
     // get computed styles of any element you like
     expect(h1TagStyles["color"]).toBe("red");
   });
-  test("the text-align in the H1 Tag should be 'center'", () => {
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    let h1Tag = document.querySelector("h1");
-    let h1TagStyles = window.getComputedStyle(h1Tag);
-    // get computed styles of any element you like
-    expect(h1TagStyles["text-align"]).toBe("center");
-  });
   test("the text-decoration in the H2 Tag should be 'underline'", () => {
     document.querySelector(
       "head"
@@ -82,15 +73,7 @@ describe("All the styles should be applied", () => {
     let idTagStyles = window.getComputedStyle(idTag);
     expect(idTagStyles["padding"]).toBe("5px");
   });
-  test("the background-color in the #id1 Tag should be 'semi transparent white'", () => {
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    // get computed styles of any element you like
-    const idTag = document.querySelector("#id1");
-    let idTagStyles = window.getComputedStyle(idTag);
-    expect(idTagStyles["background-color"]).toBe("rgba(255, 255, 255, 0.2)");
-  });
+
   test("The a hover underline should be removed", () => {
     document.querySelector(
       "head"

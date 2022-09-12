@@ -42,15 +42,6 @@ describe("All the styles should be applied", () => {
     expect(height).toBe(width);
   });
 
-  test("the border radius of the img Tag should be '100%'", () => {
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-
-    let imgStyle = window.getComputedStyle(img);
-    expect(imgStyle["border-radius"]).toBe("100%");
-  });
-
   test("the object-fit value of the img Tag should be 'cover'", () => {
     document.querySelector(
       "head"

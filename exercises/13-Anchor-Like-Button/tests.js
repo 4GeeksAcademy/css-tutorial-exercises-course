@@ -29,15 +29,6 @@ describe("All the styles should be applied", ()=>{
     let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["border-radius"]).toBe("4px");
   });
-  test("the background should be 'orange'", ()=>{
-    document.querySelector(
-      "head"
-
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    let divTag = document.querySelector(".orange-btn");
-    let classTagStyles = window.getComputedStyle(divTag);
-    expect(classTagStyles["background"]).toBe("orange");
-  });
   test("the underline should be removed", ()=>{
     document.querySelector(
       "head"
@@ -46,22 +37,6 @@ describe("All the styles should be applied", ()=>{
     let divTag = document.querySelector(".orange-btn");
     let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["text-decoration"]).toBe("none");
-  });
-  test("The mouse hover property should be 'darkorange'", ()=>{
-    // get computed styles of any element you like
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    let cssArray = document.styleSheets[0].cssRules;
-
-    let orangeHoverSelector = "";
-    for (let i = 0; i < cssArray.length; i++) {
-      if (cssArray[i].selectorText === ".orange-btn:hover") {
-        orangeHoverSelector = cssArray[i].style.background;
-      }
-    }
-
-    expect(orangeHoverSelector).toBe("darkorange");
   });
 
   test("You should be careful with the specificity", ()=>{

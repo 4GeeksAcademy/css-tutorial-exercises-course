@@ -28,23 +28,6 @@ describe("All the styles should be applied", ()=>{
     var styles = window.getComputedStyle(h3Tag);
     expect(styles["font-size"]).toBe("0.8rem");
   });
-  test("You should add your rules below the existing code", ()=>{
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    let cssArray = document.styleSheets[0].cssRules[0].selectorText;
-
-    expect(cssArray).toBe("#my-first-div");
-  }
-  )
-  test("You should add your rules below the existing code", ()=>{
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-    let cssArray = document.styleSheets[0].cssRules[1].selectorText;
-    expect(cssArray).toBe("#the-second-one");
-  }
-  )
   test("You should not change the existing head tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()

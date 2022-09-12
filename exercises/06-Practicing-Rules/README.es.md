@@ -10,11 +10,11 @@
 
 4. Haz todos los `h2` tengan subrayado.
 
-5. Centra el `h1`.
+5. Agrega un `left padding` a todo el documento de `20px` para que sea más fácil de leer.
 
-6. Agrega un `left padding` a todo el documento de `20px` para que sea más fácil de leer.
+6. Agrega un fondo blanco semitransparente (`semi-transparent background 0.2`) al primer párrafo de "3 reasons you know you are learning" para que sea más fácil de leer (tienes que usar `rgba` para esto).
 
-7. Agrega un fondo blanco semitransparente (`semi-transparent background 0.2`) al primer párrafo de "3 reasons you know you are learning" para que sea más fácil de leer (tienes que usar `rgba` para esto), y luego aplica un `padding` de `5px` a todos los lados de ese párrafo.
+7. Luego aplica un `padding` de `5px` a todos los lados de ese párrafo.
 
 8. Cambia el color del `anchor` "hover" a verde (`green`) y elimina el subrayado (tienes que colocar el anchor para probarlo).
 

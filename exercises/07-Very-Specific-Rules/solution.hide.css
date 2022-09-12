@@ -1,6 +1,7 @@
 /** Insert your code here **/
+
 ul li {
-	color: red;
+	color: red !important;
 }
 
 ol li:nth-child(2) {
@@ -10,6 +11,7 @@ ol li:nth-child(2) {
 tr:nth-child(odd) {
 	background: yellow;
 }
+
 /*********** READ ONLY BLOCK ******
 You CANNOT UPDATE anything from here on,
 only add lines of code on top of this lines

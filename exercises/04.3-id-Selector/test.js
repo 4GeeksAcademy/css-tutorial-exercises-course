@@ -15,6 +15,7 @@ test("There should be a span tag", () => {
 test("The span tag should have id 'button1'", () => {
     expect(span).toBeTruthy();
     let id = span.id
+    expect(id).toBeTruthy();
     expect(id).toBe('button1');
 });
 

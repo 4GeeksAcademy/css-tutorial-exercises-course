@@ -24,7 +24,7 @@ describe("All the styles should be applied", ()=>{
         color = cssArray[i].cssText;
       }
     }
-    let reg = new RegExp(/\s*color:\s*red\s*!important\s*;\s*/gm)
+    let reg = new RegExp(/color:\s*red\s*!important\s*;/gm)
 
     expect(reg.test(color)).toBeTruthy();
   });
