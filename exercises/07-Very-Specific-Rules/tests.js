@@ -35,14 +35,16 @@ describe("All the styles should be applied", ()=>{
     ).innerHTML = `<style>${css.toString()}</style>`;
     let cssArray = document.styleSheets[0].cssRules;
 
-    let orangeHoverSelector = "";
+    let background = "";
+    let backgroundColor="";
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === "ol li:nth-child(2)" || cssArray[i].selectorText === "ol > li:nth-child(2)") {
-        orangeHoverSelector = cssArray[i].style['background-color'];
+        background = cssArray[i].style['background'];
+        backgroundColor = cssArray[i].style['background-color'];
 
       }
 
-    } expect(orangeHoverSelector).toBe("green");
+    } expect(background === 'green' || backgroundColor === 'green').toBeTruthy();
   })
 
   test("The odd rows of the table should have yellow background", ()=>{
@@ -51,14 +53,16 @@ describe("All the styles should be applied", ()=>{
     ).innerHTML = `<style>${css.toString()}</style>`;
     let cssArray = document.styleSheets[0].cssRules;
 
-    let orangeHoverSelector = "";
+    let background = "";
+    let backgroundColor = "";
     for (let i = 0; i < cssArray.length; i++) {
       if (cssArray[i].selectorText === "tr:nth-child(odd)") {
-        orangeHoverSelector = cssArray[i].style['background'];
-
+        background = cssArray[i].style['background'];
+        backgroundColor = cssArray[i].style['background-color'];
+        
       }
 
-    } expect(orangeHoverSelector).toBe("yellow");
+    } expect(background === "yellow" || backgroundColor === "yellow").toBeTruthy();
   })
 
   test("Write all your rules above the existing code", ()=>{
