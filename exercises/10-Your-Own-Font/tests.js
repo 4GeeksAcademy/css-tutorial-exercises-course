@@ -33,7 +33,7 @@ describe("All the styles should be applied", ()=>{
   });
   test("The link should be included in the head tag", ()=>{
     // let headContent=document.getElementsByTagName("*")
-    expect(link.length).toBe(2);
+    expect(link.length).toBeGreaterThanOrEqual(2);
   });
 
 
