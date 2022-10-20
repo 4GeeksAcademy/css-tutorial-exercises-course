@@ -31,7 +31,7 @@ describe("All the styles should be applied", ()=>{
     expect(icons).toBeTruthy();
     
     icons.forEach(icon=>{
-      let hasFa = icon.classList.contains("fa-")
+      let hasFa = icon.classList.toString().includes("fa-")
       expect(hasFa).toBeTruthy();
     })
   });
