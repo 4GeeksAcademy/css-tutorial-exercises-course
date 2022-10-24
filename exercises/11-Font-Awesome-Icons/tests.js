@@ -26,13 +26,13 @@ describe("All the styles should be applied", ()=>{
       expect(li[i].innerHTML).toBeTruthy();
     }
   });
-  test('the i tag should have a class "fas"', ()=>{
+  test('the i tag(s) should have Font Awesome class(es) starting with "fa" | ex. "fa-solid"', ()=>{
     //or use query selector to compare hoy mane scriptags do we have
     expect(icons).toBeTruthy();
     
     icons.forEach(icon=>{
-      let hasFas = icon.classList.contains("fas")
-      expect(hasFas).toBe(true);
+      let hasFa = icon.classList.toString().includes("fa-")
+      expect(hasFa).toBeTruthy();
     })
   });
 });
