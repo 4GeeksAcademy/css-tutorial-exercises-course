@@ -20,5 +20,6 @@ In this exercise, you can add your code only above the **READ ONLY BLOCK** of th
 
 ![Example Image](../../.learn/assets/07-1.png?raw=true)
 
+## :bulb: Hint:
 
-
+1. The `!important` attribute helps to override over other attributes.
