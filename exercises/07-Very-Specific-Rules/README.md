@@ -22,4 +22,4 @@ In this exercise, you can add your code only above the **READ ONLY BLOCK** of th
 
 ## :bulb: Hint:
 
-1. the !important attribute helps to override over other attributes
+1. The `!important` attribute helps to override over other attributes.

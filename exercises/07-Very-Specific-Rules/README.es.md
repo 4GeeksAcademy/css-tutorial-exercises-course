@@ -15,5 +15,6 @@ En este ejercicio, puedes agregar tu código solo arriba del **READ ONLY BLOCK**
 
 ![Example Image](../../.learn/assets/07-1.png?raw=true)
 
+## :bulb: Pista:
 
-
+1. El atributo `!important` ayuda a sobreescribir stilos.
