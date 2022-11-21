@@ -1,8 +1,8 @@
-# `01.2` Tu Segundo Estilo
+# `01.3` Tu Segundo Estilo
 
 Cuando usas CSS, la idea es aplicar `reglas css` a tus `elementos html`, siempre debes seleccionar primero el elemento y luego especificar qué reglas deseas aplicarle:
 
-Por ejemplo, este es el código si quiero que todos las anchors de mi sitio web (etiquetas `<a>`) sean azules:
+Por ejemplo, este es el código si quiero que todos las anchors de mi sitio web (`etiquetas <a>`) sean azules:
 
 ```css
 a {
