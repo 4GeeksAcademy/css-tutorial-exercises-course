@@ -75,8 +75,8 @@ Note: The exercises have automatic grading but its very rigid and strict, my rec
 
 Each exercise is a small react application containing the following files:
 
-1. **index.html:** all websites and exercises start from the index.html
-2. **styles.css:** your CSS code goes here, some exercises will make you update this file
+1. **index.html:** all websites and exercises start from the index.html.
+2. **styles.css:** your CSS code goes here, some exercises will make you update this file.
 3. **README.md:** contains exercise instructions.
 4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
