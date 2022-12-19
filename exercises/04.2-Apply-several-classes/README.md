@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=da4tJDx48CY"
 
 We have prepared a small CSS Stylesheet that contains the CSS styles to replicate poker cards.
 
-We are going to use to classes and apply them to the same `<div>` element.
+We are going to use two classes and apply them to the same `<div>` element.
 
 ```html
 <div class="card spades">9</div>
