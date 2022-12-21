@@ -11,6 +11,7 @@
     "difficulty": "easy",
     "videoSolutions": true,
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "projectType": "tutorial",
     "graded": true,
     "disabledActions": [],
     "disableGrading": false,
