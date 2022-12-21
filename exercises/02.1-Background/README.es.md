@@ -22,6 +22,6 @@ Si es una imagen, puedes especificar si quieres que la imagen se repita horizont
 
 Google es tu mejor amigo:
 
-- Como usar el background-size: http://lmgtfy.com/?q=css+background-size
+- Recomendamos buscar en google `css background-size` para entender un poco mejor esta propiedad.
 
-- Como usar el background-repeat: http://lmgtfy.com/?q=css+background-repeat
+- Tambien recomendamos buscar el `css background-repeat`
