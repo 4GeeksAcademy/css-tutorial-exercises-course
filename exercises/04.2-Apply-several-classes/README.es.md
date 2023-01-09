@@ -15,7 +15,7 @@ Hay dos posibles clases de palos/pintas que puedes aplicar al elemento html y ha
 
 ## 📝 Instrucciones:
 
-Remmplaza la propiedad `spades` de la clase del `<div>` por la clase `heart` y observa los resultados.
+Reemplaza la propiedad `spades` de la clase del `<div>` por la clase `heart` y observa los resultados.
 
 
 ## Resultado:
