@@ -4,9 +4,15 @@
     "skills": ["css-styling"],
     "preview": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course",
-    "title": "Learn CSS Interactively",
+    "title": {
+        "us": "Learn CSS Interactively",
+        "es": "Aprende CSS Interactivamente"
+    },
     "intro": "https://www.youtube.com/watch?v=BDKdUPDez-U",
-    "description": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
+    "description": {
+        "us": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
+        "es": "Aprende CSS con una docena de ejercicios interactivos y auto-corregidos"
+    },
     "duration": 8,
     "difficulty": "easy",
     "videoSolutions": true,
