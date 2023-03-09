@@ -2,7 +2,7 @@ ul li {
 	background: blue;
 }
 
-#thirditem {
+li + #thirditem {
 	background: yellow;
 }
 /****** DON NOT EDIT ANYTHING ABOVE THIS LINE ****/
