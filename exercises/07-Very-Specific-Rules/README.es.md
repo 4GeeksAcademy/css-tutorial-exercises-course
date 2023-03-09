@@ -14,6 +14,7 @@ En este ejercicio, puedes agregar tu código solo arriba del **READ ONLY BLOCK**
 
 
 ![Example Image](../../.learn/assets/07-1.png?raw=true)
+>Importante: **NO** debes modificar el archivo index.html
 
 ## :bulb: Pista:
 

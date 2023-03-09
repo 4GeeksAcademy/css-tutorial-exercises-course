@@ -29,7 +29,7 @@ describe("All the styles should be applied", ()=>{
     expect(reg.test(color)).toBeTruthy();
   });
 
-  test("The ul second element background should be green", ()=>{
+  test("The ol second element background should be green", ()=>{
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
