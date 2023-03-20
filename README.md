@@ -17,7 +17,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 ## You'll be learning the following concepts:
 
-1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag, or using an external stylesheet `<link>`.
+1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag, or using an external stylesheet `<link>`.
 
 2. Selecting HTML Elements from your website to apply the styles to.
 
