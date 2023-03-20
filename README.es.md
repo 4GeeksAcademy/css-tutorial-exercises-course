@@ -17,7 +17,7 @@
 
 ## En este tutorial aprenderás los siguientes conceptos:
 
-1. Usar cómo aplicar CSS a su sitio web de 3 maneras diferentes: en línea, agrupándolos dentro de una etiqueta `<style>` o usando una hoja de estilo externa `<link>`.
+1. Cómo aplicar CSS a su sitio web de 3 maneras diferentes: en línea, agrupándolos dentro de una etiqueta `<style>` o usando una hoja de estilos externa `<link>`.
 
 2. Seleccionar elementos HTML de su sitio web para aplicar los estilos.
 
@@ -48,7 +48,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
 
-```
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
@@ -72,11 +72,11 @@ $ learnpack start
   <img src="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/.learn/assets/animation.gif?raw=true">
 </p>
 
-Nota: Los ejercicios slon autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
+Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no presetes demasiada atención los tests y los uses solo como una sugerencia o podrías frustrarte.
 <!-- endhide -->
 ## ¿Cómo están organizados los ejercicios?
 
-Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
+Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
 
 1. **index.html:** representa el archivo de entrada para el ejercicio.
 2. **styles.css:** contiene los estilos y reglas de CSS
