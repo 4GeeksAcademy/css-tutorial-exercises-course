@@ -33,7 +33,7 @@
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Aprende Formularios HTML5 </a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a>← 🔥 estás aquí</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a>← 🔥 Estás aquí</li>
     <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
