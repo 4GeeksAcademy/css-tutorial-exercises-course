@@ -72,7 +72,7 @@ $ learnpack start
   <img src="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/.learn/assets/animation.gif?raw=true">
 </p>
 
-Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no presetes demasiada atención los tests y los uses solo como una sugerencia o podrías frustrarte.
+Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 <!-- endhide -->
 ## ¿Cómo están organizados los ejercicios?
 
