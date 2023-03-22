@@ -16,7 +16,7 @@ Las propiedades de border se pueden consolidar en una sola línea así:
 border: black 1px solid;
 ```
 
-# 📝 Instrucciones:
+## 📝 Instrucciones:
 
 
 1. Combina las 4 reglas de padding en una sola utilizando la regla `padding`.
