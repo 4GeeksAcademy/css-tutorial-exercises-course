@@ -10,8 +10,8 @@ That is an even better practice because it lets you have a CSS agnostic website,
 
 ## 📝 Instructions:
 
-Fill the `styles.css` with the content needed to make the website body blue.
+Fill the `styles.css` with the content needed to make the website's `body` blue.
 
 ## 💡 Hint:
 
-+ Google how to change the `background-color` of a website body.
++ Google how to change the `background-color` of a website's `body`.
