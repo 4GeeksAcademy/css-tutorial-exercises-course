@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 
 CSS trata sobre estilos (styles). Para aplicar estilos, siempre debes seguir estos pasos:
 
-1. Lee el HTML y elige qué elemento deseas decorar o aplicar estilos.
+1. Lee el HTML y elige qué elemento deseas decorar o aplicarle estilos.
 
 2. Programáticamente selecciona el elemento que deseas decorar con los selectores de CSS.
 
