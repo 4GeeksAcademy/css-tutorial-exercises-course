@@ -55,7 +55,7 @@ describe("All the styles should be applied", ()=> {
     expect(orangeHoverSelector).toBe('50px');
   });
 
-  test("The background-size should be contain", ()=> {
+  test("The background-size should be 'contain'", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
