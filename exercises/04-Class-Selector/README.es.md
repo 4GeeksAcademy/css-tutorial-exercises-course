@@ -13,7 +13,7 @@ Usa la propiedad `class` del elemento HTML para seleccionarlo. Las reglas de est
     font-size: 9px;
 }
 ```
-*Cualquier etiqueta html con `class="small"` tendrá un font-size de `9px`.*
+*Cualquier etiqueta HTML con `class="small"` tendrá un font-size de `9px`.*
 
 ## 📝 Instrucciones:
 
