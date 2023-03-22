@@ -16,7 +16,7 @@ For example:
 
 Will set the color of that specific link to red and the font-size to 14px
 
-*You can append as many CSS rules as you want, within the same line, separated by semi-colon.*
+*You can append as many CSS rules as you want, within the same line, separated by semicolon.*
 
 ## 📝 Instructions:
 
