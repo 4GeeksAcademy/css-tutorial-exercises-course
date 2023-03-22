@@ -25,7 +25,7 @@ Look at this example:
 ```
 
 We have an HTML anchor `<a>` that takes people to google.com when clicked.
-We use CSS to tell (select) all the anchor tags and make them pink.
+We use CSS to select all the anchor tags and make them pink.
 
 ## 📝 Instructions:
 
