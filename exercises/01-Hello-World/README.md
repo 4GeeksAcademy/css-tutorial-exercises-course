@@ -3,11 +3,11 @@ tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 ---
 # `01` Hello World in CSS
 
-CSS is about styles. To apply styles you always have to follow this steps:
+CSS is about styles. To apply styles you always have to follow these steps:
 
-1. Read the HTML and pick what element do you want to decorate or apply styles to.
+1. Read the HTML and pick what element you want to decorate or apply styles to.
 
-2. Programatically select the element you want to style using CSS Selectors.
+2. Programmatically select the element you want to style using CSS Selectors.
 
 3. Write the styling that you want by using CSS rules.
 
@@ -25,7 +25,7 @@ Look at this example:
 ```
 
 We have an HTML anchor `<a>` that takes people to google.com when clicked.
-We use CSS to tell (selected) all the anchor tags and make then pink.
+We use CSS to tell (select) all the anchor tags and make them pink.
 
 ## 📝 Instructions:
 
