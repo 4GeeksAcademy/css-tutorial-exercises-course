@@ -19,6 +19,6 @@ Estableceremos el color de este enlace específico a rojo (`red`) y el tamaño d
 
 1. Establece un estilo inline para cambiar el color de fondo de la tabla a verde (green). Para este ejercicio, NO uses el styles.css :(
 
-### 💡Pista:
+### 💡 Pista:
 
 - Como usar el background-color: http://lmgtfy.com/?q=css+inline+style
