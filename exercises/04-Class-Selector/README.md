@@ -4,11 +4,11 @@ tutorial: "https://www.youtube.com/watch?v=RffCSMXgWFc"
 
 # `04` Class Selector
 
-There are many ways to select HTML elements to apply styles to them, so far we have only use the `tag` selector, lets talk about the `.class` selector:
+There are many ways to select HTML elements to apply styles to them, so far we have only used the `tag` selector, so let's talk about the `.class` selector:
 
 ## `.class` Selector
 
-It is the most popular css selector, you will probably use it every 5 minutes.
+It is the most popular CSS selector, you will probably use it every 5 minutes.
 
 Use the class property of the HTML element to select it. Styling rules will apply to all elements with the same class value
 
