@@ -11,7 +11,7 @@ describe("All the styles should be applied", ()=> {
   const link = document.querySelector("link");
   const title = document.querySelector('title');
 
-  test("The body tag should not contains any inline style", ()=> {
+  test("The body tag should not contain any inline style", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -19,7 +19,7 @@ describe("All the styles should be applied", ()=> {
     expect(body.style._values).toEqual(emptyBodyInlineStyle);
   });
 
-  test("the width should be '50px'", ()=> {
+  test("The width should be '50px'", ()=> {
     // get computed styles of any element you like
     document.querySelector(
       "head"
@@ -37,7 +37,7 @@ describe("All the styles should be applied", ()=> {
     expect(orangeHoverSelector).toBe('50px');
   });
 
-  test("the height should be '50px'", ()=> {
+  test("The height should be '50px'", ()=> {
     // get computed styles of any element you like
     document.querySelector(
       "head"
@@ -55,7 +55,7 @@ describe("All the styles should be applied", ()=> {
     expect(orangeHoverSelector).toBe('50px');
   });
 
-  test("the background-size should be contain", ()=> {
+  test("The background-size should be contain", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -72,7 +72,7 @@ describe("All the styles should be applied", ()=> {
     expect(orangeHoverSelector).toBe('contain');
   });
 
-  test("the background should include the shorthand property", ()=> {
+  test("The background should include the shorthand property", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -102,7 +102,7 @@ describe("All the styles should be applied", ()=> {
     expect(orangeHoverSelector).toContain('url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true)');
   });
 
-  test("the padding should include the shorthand property in the right order (top, right, bottom, left)", ()=> {
+  test("The padding should include the shorthand property in the right order (top, right, bottom, left)", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
