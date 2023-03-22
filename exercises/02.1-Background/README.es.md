@@ -18,10 +18,10 @@ Si es una imagen, puedes especificar si quieres que la imagen se repita horizont
 
 6. Construye y previsualiza el ejercicio nuevamente.
 
-## 💡Pista:
+## 💡 Pista:
 
 Google es tu mejor amigo:
 
 - Recomendamos buscar en google `css background-size` para entender un poco mejor esta propiedad.
 
-- Tambien recomendamos buscar el `css background-repeat`
+- También recomendamos buscar `css background-repeat`
