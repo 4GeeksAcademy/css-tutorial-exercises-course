@@ -24,6 +24,6 @@ Use the class property of the HTML element to select it. Styling rules will appl
 
 Right now there is a class selected on the CSS that is called `.b-blue`. 
 
-Please apply that class to both of the `<p>` tags in the HTML file.
+Please apply that class to both of the HTML `<p>` tags.
 
 
