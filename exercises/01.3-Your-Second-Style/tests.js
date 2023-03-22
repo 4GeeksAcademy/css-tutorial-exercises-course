@@ -13,7 +13,7 @@ describe("All the styles should be applied", ()=>{
     expect(styles["background"]).toBe("blue");
   });
 
-  test("The body tag should not contains any inline style", ()=>{
+  test("The body tag should not contain any inline style", ()=>{
     let emptyBodyInlineStyle = {};
     expect(body.style._values).toEqual(emptyBodyInlineStyle);
   });
