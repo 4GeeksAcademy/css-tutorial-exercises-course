@@ -10,6 +10,6 @@ Llena el `styles.css` con el contenido necesario para que el `body` del sitio we
 
 ## 💡 Pista:
 
-+ Busca en Google cómo cambiar el color de fondo (`background-color`) del body de un sitio web. 
++ Busca en Google cómo cambiar el color de fondo (`background-color`) del `body` de un sitio web. 
 
  
