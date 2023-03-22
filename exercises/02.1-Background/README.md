@@ -19,14 +19,14 @@ If it is an image, you can specify if you want the image to be repeated horizont
 
 4.  Build and Preview the exercise again.
 
-5.  Change the background-repeat to 'inherit' to make it repeat over the x axis and y axis.
+5.  Change the background-repeat to 'inherit' to make it repeat over the x-axis and y-axis.
 
 6.  Build and Preview the exercise again.
 
 
-## 💡Hint:
+## 💡 Hint:
 
 Google is your best friend:
 
-- We recommend googling: `css background-size` and reading about it on w3schools and some other websites.
-- We also recommend googleing about `css background-repeat`.
+- We recommend googling: `css background-size` and reading about it on w3schools or any other websites.
+- We also recommend googling about `css background-repeat`.
