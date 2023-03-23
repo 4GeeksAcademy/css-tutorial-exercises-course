@@ -28,13 +28,13 @@ describe("All the styles should be applied", ()=>{
     expect(styles["background-size"]).toBe("contain");
   });
 
-  test("the background-repeat should be 'inherit' without quotes", ()=>{
+  test("the background-repeat should be 'repeat' without quotes", ()=>{
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
 
     let styles = window.getComputedStyle(body);
-    expect(styles["background-repeat"]).toBe("inherit");
+    expect(styles["background-repeat"]).toBe("repeat");
   });
   
   test("You should not change the existing head tag elements", ()=>{
