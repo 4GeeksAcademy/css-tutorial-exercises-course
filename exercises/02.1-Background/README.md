@@ -19,7 +19,7 @@ If it is an image, you can specify if you want the image to be repeated horizont
 
 4.  Build and Preview the exercise again.
 
-5.  Change the background-repeat to 'inherit' to make it repeat over the x axis and y axis.
+5.  Change the background-repeat to 'repeat' to make it repeat over the x axis and y axis.
 
 6.  Build and Preview the exercise again.
 

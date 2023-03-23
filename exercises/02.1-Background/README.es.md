@@ -14,7 +14,7 @@ Si es una imagen, puedes especificar si quieres que la imagen se repita horizont
 
 4. Construye y previsualiza el ejercicio nuevamente.
 
-5. Cambia el `background-repeat` a `inherit`  para que se repita sobre el eje x y el eje y.
+5. Cambia el `background-repeat` a `repeat`  para que se repita sobre el eje x y el eje y.
 
 6. Construye y previsualiza el ejercicio nuevamente.
 
