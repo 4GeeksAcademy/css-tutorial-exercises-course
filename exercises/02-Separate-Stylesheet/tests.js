@@ -10,7 +10,7 @@ describe("All the styles should be applied", ()=>{
   const link = document.querySelector("link");
   const body = document.querySelector("body");
 
-  test("The body tag should not contains any inline style", ()=>{
+  test("The body tag should not contain any inline style", ()=>{
     document.querySelector("head").innerHTML = `<style>${css.toString()}</style>`;
     let emptyBodyInlineStyle={};
     expect(body.style._values).toEqual(emptyBodyInlineStyle)
