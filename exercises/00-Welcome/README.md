@@ -6,11 +6,11 @@ intro: "https://www.youtube.com/watch?v=BDKdUPDez-U"
 
 My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
 
-Learning to code is hard, you will problably need coaching! DM me on twitter if you have any question.
+Learning to code is hard, you will probably need coaching! DM me on twitter if you have any questions.
 
 During this course you will be learning the following concepts:
 
-1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an external stylesheet `<link>`,
+1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag, or using an external stylesheet `<link>`,
 
 2. Selecting HTML Elements from your website to apply the styles to.
 
@@ -20,7 +20,7 @@ During this course you will be learning the following concepts:
 
 5. Learn the most popular CSS Tricks.
 
-As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what is CSS all about! Learn CSS to make your website beautiful. Let's make it shine!
+As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what CSS is all about! Learn CSS to make your website beautiful. Let's make it shine!
 
 ## Contributors
 

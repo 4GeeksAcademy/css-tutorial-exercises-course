@@ -28,7 +28,7 @@ test("There should be a target attribute pointing to '_blank'", ()=>{
     expect(target).toBe("_blank");
 })
 
-test("The anchor tag should not contains any inline style", ()=>{
+test("The anchor tag should not contain any inline style", ()=>{
     let emptyBodyInlineStyle = {};
     expect(a.style._values).toEqual(emptyBodyInlineStyle);
 });
