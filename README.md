@@ -12,12 +12,12 @@
   </tr>
 </table>
 
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. 
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
 <!-- endhide -->
 
 ## You'll be learning the following concepts:
 
-1. Using how to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag or using an external stylesheet `<link>`.
+1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag, or using an external stylesheet `<link>`.
 
 2. Selecting HTML Elements from your website to apply the styles to.
 
@@ -33,12 +33,12 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
     <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← 🔥 your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← 🔥 You are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
 
-Complete selection of autograded CSS exercises, anyone interested in learning CSS!
+Complete selection of autograded CSS exercises, for anyone interested in learning CSS!
 
 
 ## One click installation:
@@ -47,9 +47,9 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 
 ## Manual installation
 
-1) Install the learnpack package manager for education and the html plugin to compile an test html exercises: 
+1) Install the learnpack package manager for education and the html plugin to compile and test html exercises: 
 
-```
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
@@ -60,20 +60,21 @@ $ learnpack plugins:install learnpack-html
 $ learnpack install css-tutorial-exercises-course
 ```
 
-Note: Once you finish downloading, you will need to `cd` into the exercises folder and you will find a "exercises" folder that contains all the exercises within.
+Note: Once you finish downloading, you will need to `cd` into the exercises folder which contains all the exercises.
 
-3) Start the tutorial/exercises by running the following command at the same level were your learn.json file is:
+3) Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and strict, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
+
 <!-- endhide -->
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
 1. **index.html:** all websites and exercises start from the index.html.
 2. **styles.css:** your CSS code goes here, some exercises will make you update this file.
