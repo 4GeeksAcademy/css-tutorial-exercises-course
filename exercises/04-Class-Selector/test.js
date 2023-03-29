@@ -20,7 +20,7 @@ describe("Both p tags should have a blue background", () => {
         expect(title).toBe('04 Class selector')
     });
 
-    test("The body tag should not contains any inline style", () => {
+    test("The body tag should not contain any inline style", () => {
         document.querySelector(
             "head"
         ).innerHTML = `<style>${css.toString()}</style>`;
@@ -31,7 +31,7 @@ describe("Both p tags should have a blue background", () => {
     test("There should be two p tags", () => {
         expect(p.length).toBe(2)
     });
-    test("Both p tags should have a class name 'b-blue' without the quotation marks", () => {
+    test("Both p tags should have a class name 'b-blue'", () => {
         p.forEach(e=>{
             let eClass = e.getAttribute("class");
             expect(eClass).toBe("b-blue")

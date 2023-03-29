@@ -1,19 +1,19 @@
 # `04` El selector de clase
 
-Hay muchas formas de seleccionar los elementos HTML para aplicarles estilos, hasta ahora solo hemos usado la etiqueta selector, hablemos sobre el selector `.class`:
+Hay muchas formas de seleccionar los elementos HTML para aplicarles estilos, hasta ahora solo hemos usado los selectores de etiquetas, así que hablemos sobre el selector `.class`:
 
 ## Selector de clase:
 
 Es el selector de CSS más popular, probablemente lo usarás cada 5 minutos.
 
-Usa la propiedad de clase del elemento HTML para seleccionarlo. La reglas de estilo se aplicarán a todos los elementos con la misma clase.
+Usa la propiedad `class` del elemento HTML para seleccionarlo. Las reglas de estilo se aplicarán a todos los elementos con la misma clase.
 
 ```css
 .small{
     font-size: 9px;
 }
 ```
-*Cualquier etiqueta html con `class="small"` tendrá un  font-size de `9px`.*
+*Cualquier etiqueta HTML con `class="small"` tendrá un font-size de `9px`.*
 
 ## 📝 Instrucciones:
 
