@@ -2,15 +2,15 @@
 # `01.1` Etiqueta Style 
 
 Si quieres añadir estilos a tu sitio web escribiendo CSS siempre debes hacerlo dentro de una etiqueta `<style>`.
-Puedes tener cuantas etiquetas `<style>`quieras pero se recomienda solo tener una al principio del código de tu sitio web.
+Puedes tener cuantas etiquetas `<style>` quieras, pero se recomienda solo tener una al principio del código de tu sitio web.
 
 ```HTML
 <style>
-    /* los estilos CSS del sitio web van aquí */
+    /* Los estilos CSS del sitio web van aquí */
 </style>
 ```
 
-## 📝 Instruccciones:
+## 📝 Instrucciones:
 
 1. Añade una etiqueta `<style>` en tu sitio web y usando CSS selecciona todas las etiquetas `<p>` para que su texto sea de color azul (`blue`).
 
