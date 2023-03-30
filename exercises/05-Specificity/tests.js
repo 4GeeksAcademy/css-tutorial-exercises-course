@@ -30,7 +30,7 @@ describe("All the styles should be applied", function () {
     let thirdItSelector = document.styleSheets[0].cssRules[1].selectorText;
     let thirdItBackground = document.styleSheets[0].cssRules[1].style.background;
 
-    expect(thirdItSelector).toBe("#thirditem");
+    expect(thirdItSelector).toBe("li + #thirditem");
     expect(thirdItBackground).toBe("yellow");
     expect(cssArray).toBe("ul li");
     expect(cssArrayBackground).toBe("blue");
