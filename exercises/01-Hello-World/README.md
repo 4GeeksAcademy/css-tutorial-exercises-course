@@ -15,7 +15,7 @@ That is it! The rest is just semantics! 😁
 
 Look at this example:
 
-```HTML
+```html
 <style>
     a {
         color: pink;
