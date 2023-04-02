@@ -46,7 +46,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 ## Instalación manual 
 
-1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
+1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
 ```bash
 $ npm i learnpack -g
