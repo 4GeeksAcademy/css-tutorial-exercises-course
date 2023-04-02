@@ -47,7 +47,7 @@ Complete selection of autograded CSS exercises, for anyone interested in learnin
 
 ## Manual installation
 
-1) Install the learnpack package manager for education and the html plugin to compile and test html exercises: 
+1) Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```bash
 $ npm i learnpack -g
