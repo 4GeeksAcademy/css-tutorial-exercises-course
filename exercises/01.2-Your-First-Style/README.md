@@ -1,6 +1,3 @@
----
-tutorial: "https://www.youtube.com/watch?v=8b12AFC6bWs"
----
 
 # `01.2` Your First Style
 
