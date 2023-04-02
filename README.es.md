@@ -61,7 +61,7 @@ $ learnpack install css-tutorial-exercises-course
 
 Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
 
-3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo bc.json:
+3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
 ```sh
 $ npm i jest@24.8.0 -g
