@@ -33,5 +33,5 @@ Donde el valor de la izquierda de `/` es la propiedad `background-position` y la
 
 ## 💡 Pista:
 
-- Cómo usar el background-size: http://lmgtfy.com/?q=css+background
-- Cómo usar el padding: http://lmgtfy.com/?q=css+padding
+- Cómo usar el background: https://www.w3schools.com/cssref/css3_pr_background.php
+- Cómo usar el padding: https://www.w3schools.com/css/css_padding.asp
