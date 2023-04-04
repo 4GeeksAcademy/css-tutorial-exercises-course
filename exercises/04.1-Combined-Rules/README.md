@@ -32,7 +32,7 @@ border: black 1px solid;
 background: 50px / cover
 ```
 
-Where the left side of the `/` is the `background-position` rule and the right side is the `background-size` rule.
+Where the left side value of the `/` is the `background-position` rule and the right value is the `background-size` rule.
 
 ## 💡 Hint:
 
