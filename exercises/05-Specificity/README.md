@@ -13,7 +13,7 @@ It's all about the level of **specificity**. If you specify that your `div` with
 
 ## 📝 Instructions:
 
-1. Override the `background` of `#thirditem` without deleting any css code, simply append to the css a more specific rule at the end of the document to override the background-color to green.
+1. Override the `background` of `#thirditem` without deleting any CSS code, simply append to the CSS a more specific rule at the end of the document to override the background-color to green.
 
 
 ## 💡 Hint:
