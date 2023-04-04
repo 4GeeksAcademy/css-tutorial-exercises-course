@@ -23,7 +23,6 @@ border: black 1px solid;
 
 2. Combina todas las reglas de background en una sola línea usando la regla `background`.
 
-*Las propiedades `background-position` y `background-size` pueden usar el mismo tipo de datos por lo que entrarán en conflicto, la forma de arreglar esto es escribiendolo así:*
 *Las propiedades `background-position` y `background-size` pueden usar el mismo tipo de datos por lo que entrarán en conflicto, así que en vez de separar estas propiedades con un **espacio**, debes separarlas con una barra `/` de esta forma:*
 
 ```css
