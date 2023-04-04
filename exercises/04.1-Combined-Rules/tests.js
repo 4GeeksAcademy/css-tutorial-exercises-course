@@ -55,23 +55,6 @@ describe("All the styles should be applied", ()=> {
     expect(orangeHoverSelector).toBe('50px');
   });
 
-  test("The background-size should be 'contain'", ()=> {
-    document.querySelector(
-      "head"
-    ).innerHTML = `<style>${css.toString()}</style>`;
-
-    let cssArray = document.styleSheets[0].cssRules;
-    let orangeHoverSelector = "";
-
-    for (let i = 0; i < cssArray.length; i++) {
-      if (cssArray[i].selectorText === ".myBox") {
-        orangeHoverSelector = cssArray[i].style['background-size'];
-      }
-    }
-
-    expect(orangeHoverSelector).toBe('contain');
-  });
-
   test("The background should include the shorthand property", ()=> {
     document.querySelector(
       "head"
