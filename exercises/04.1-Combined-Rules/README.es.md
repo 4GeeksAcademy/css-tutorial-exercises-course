@@ -21,9 +21,15 @@ border: black 1px solid;
 
 1. Combina las 4 reglas de padding en una sola utilizando la regla `padding`.
 
-2. Combina todas las reglas de background, menos el `background-size`, en una sola línea usando la regla `background:`.
+2. Combina todas las reglas de background en una sola línea usando la regla `background`.
 
-*El `background-size` no se puede combinar, los navegadores aún no lo admiten.*
+*Las propiedades `background-position` y `background-size` pueden usar el mismo tipo de datos por lo que entrarán en conflicto, la forma de arreglar esto es escribiendolo así:*
+
+```css
+background: 50px / cover
+```
+
+Donde el valor de la izquierda de `/` es la propiedad `background-position` y la derecha es el `background-size`.
 
 ## 💡 Pista:
 
