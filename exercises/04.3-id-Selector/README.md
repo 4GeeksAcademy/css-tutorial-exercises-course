@@ -14,7 +14,7 @@ You can also select an element by `#id` and apply styles to it.
 }
 ```
 
-Use the `id` property of the HTML element to select it. `ids` should be unique, only one element must have the same `id`.
+Use the `id` property of the HTML element to select it. `ids` should be unique, don't use the same `id` on more than one element.
 
 *The HTML tag with the `id="small"` will have a font-size of `9px`.*
 
