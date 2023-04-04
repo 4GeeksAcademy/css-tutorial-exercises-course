@@ -22,7 +22,7 @@ border: black 1px solid;
 
 2. Combine all background rules into only one using the `background` rule.
 
-*The `background-position` and the `background-size` properties will conflict because they can handle the same type of values, so you must write them as follows:*
+*The `background-position` and the `background-size` properties will conflict because they can handle the same type of values, so instead of separating these properties with a `space` you must separate them with a forward slash `/` as follows:*
 
 ```css
 background: 50px / cover
