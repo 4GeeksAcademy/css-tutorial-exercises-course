@@ -4,11 +4,11 @@ A las personas les gusta sentir que están haciendo clic en algo, una manera de 
 
 ![Example Image](../../.learn/assets/09-1.png?raw=true)
 
-Puedes controlar qué reglas css se aplican a cada estado de un `anchor` utilizando los selectores: `:hover` (para el mouse) o `active` (para presionar el mouse), por ejemplo:
+Puedes controlar qué reglas CSS se aplican a cada estado de un `anchor` utilizando los selectores: `:hover` (cuando pasas por encima con el mouse) o `active` (cuando haces clic), por ejemplo:
 
 ```css
 a:active {
-  /* aquí puedes especificar cualquier regla de css que aplique al anchor mientras se presiona' */
+  /* aquí puedes especificar cualquier regla de CSS que aplique al anchor mientras se presiona' */
 }
 ```
 
