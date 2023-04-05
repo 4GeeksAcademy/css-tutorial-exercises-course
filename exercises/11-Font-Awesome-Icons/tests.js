@@ -19,7 +19,7 @@ describe("All the styles should be applied", ()=>{
   test("At least 3 i tags should exist", ()=>{
     expect(document.querySelectorAll("i").length).toBe(3);
   });
-  test("There should be some text on the li tags", ()=>{
+  test("The i tags should be inside the li tags", ()=>{
     expect(document.querySelector("li")).toBeTruthy();
     const li = document.querySelectorAll("li");
     for (let i = 0; i < li.length; i++) {
