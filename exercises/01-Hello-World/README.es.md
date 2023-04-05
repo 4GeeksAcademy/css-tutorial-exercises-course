@@ -1,6 +1,3 @@
----
-tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
----
 
 # `01` Hello World en CSS
 
@@ -16,7 +13,7 @@ CSS trata sobre estilos (styles). Para aplicar estilos, siempre debes seguir est
 
 Mira este ejemplo:
 
-```HTML
+```html
 <style>
     a {
         color: pink;

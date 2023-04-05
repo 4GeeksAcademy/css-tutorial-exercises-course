@@ -18,7 +18,7 @@ describe("The Table tag should contain inline style background: green",  ()=>{
     expect(title).toBe('03 Inline Styles')
   })
 
-  test("The background should be green",  ()=>{
+  test("The background color of the table should be green",  ()=>{
     const table = document.querySelector("table");
     // expect(table.style.background === "green").toBeTruthy();
     let styles = window.getComputedStyle(table);

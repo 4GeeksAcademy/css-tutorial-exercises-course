@@ -21,4 +21,4 @@ Estableceremos el color de este enlace específico a rojo (`red`) y el tamaño d
 
 ### 💡 Pista:
 
-- Como usar el background-color: http://lmgtfy.com/?q=css+inline+style
+- Como usar el background-color: https://www.w3schools.com/cssref/pr_background-color.php

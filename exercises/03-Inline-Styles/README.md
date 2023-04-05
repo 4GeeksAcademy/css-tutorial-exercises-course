@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=jIMPLzpryuI"
 
 `Inline` styles are a very bad idea unless you have no other choice (and that's a very uncommon situation). Sadly, we have to teach you how to do it because you may need to use it at some point.
 
-To use inline styles, instead of declaring a <style> tag in the header of the document, you have to set the "style" attribute of any element with the CSS code you need to apply to that specific element.
+To use inline styles, instead of declaring a `<style>` tag in the `<head>` of the document, you have to set the `style` attribute of any element with the CSS code you need to apply to that specific element.
 
 For example:
 
@@ -25,4 +25,4 @@ Will set the color of that specific link to red and the font-size to 14px
 
 ### 💡 Hint:
 
-- How to use the background-color: http://lmgtfy.com/?q=css+inline+style
+- How to use the background-color: https://www.w3schools.com/cssref/pr_background-color.php

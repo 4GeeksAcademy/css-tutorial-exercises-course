@@ -46,7 +46,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 ## Instalación manual 
 
-1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
+1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
 ```bash
 $ npm i learnpack -g
@@ -61,7 +61,7 @@ $ learnpack install css-tutorial-exercises-course
 
 Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
 
-3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo bc.json:
+3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
 ```sh
 $ npm i jest@24.8.0 -g
