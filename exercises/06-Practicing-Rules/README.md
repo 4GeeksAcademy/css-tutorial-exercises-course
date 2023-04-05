@@ -16,7 +16,7 @@ tutorial: "https://www.youtube.com/watch?v=4wguurrl-lU"
 
 5. Add a `left padding` to the whole document of `20px` to make it easier to read.
 
-6. Add a white `semi-transparent background (0.2)` to the `first paragraph` to make it easier to read (you have to use `rgba` for that) and type "3 reasons you know you are learning". 
+6. Add a `white semi-transparent background (0.2)` to the first `p` to make it easier to read (you have to use `rgba` for that).
 
 7. Then apply a `padding` of `5px` to all sides of that paragraph.
 
