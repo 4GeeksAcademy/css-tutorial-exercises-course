@@ -4,7 +4,7 @@ Como desarrollador, querrás utilizar ciertos iconos para que tu sitio web sea f
 
 ¡Pero usar iconos puede ser frustrante y llevar mucho tiempo! Porque cada icono es una imagen y trabajar con imágenes ¡es horrible!
 
-Font-awesome resuelve el problema de la "imagen" creando una nueva fuente en donde cada letra es un icono diferente y ahora puedes importar toda la fuente a tu sitio web y usar el icono que quieras.
+Font Awesome resuelve el problema de la "imagen" creando una nueva fuente en donde cada letra es un icono diferente y ahora puedes importar toda la fuente a tu sitio web y usar el icono que quieras.
 
 Después de vincular tu sitio web con font-awesome, puedes usar lo siguiente para codificar e insertar un icono específico:
 
