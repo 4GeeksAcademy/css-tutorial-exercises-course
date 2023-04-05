@@ -19,8 +19,8 @@ In this exercise, you can add your code only above the **READ ONLY BLOCK** of th
 
 
 ![Example Image](../../.learn/assets/07-1.png?raw=true)
->Important: You should **NOT** modify the index.html file
+>Important: You should **NOT** modify the index.html file.
 
 ## :bulb: Hint:
 
-1. The `!important` attribute helps to override over other attributes.
+1. The `!important` attribute helps to override other attributes.
