@@ -17,6 +17,6 @@ The obvious way to create a rounded profile picture is to create an image tag an
 
 + If the image ends up being bigger than its container (or with different proportions) you can adjust the `object-position` to choose what part of the image you want to display inside of the circle.
 
-+ You can also read [this great article about object fit](https://css-tricks.com/on-object-fit-and-object-position/)
++ You can also read [this great article about object fit](https://css-tricks.com/on-object-fit-and-object-position/).
 
-+ Additionally you can [read the documentation on object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) and [the documentation on object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
++ Additionally you can [read the documentation on object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) and [the documentation on object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit).
