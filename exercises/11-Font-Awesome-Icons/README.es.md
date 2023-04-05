@@ -13,7 +13,7 @@ Después de vincular tu sitio web con font-awesome, puedes usar lo siguiente par
 <!-- "camera-retro" será el nombre de tu icono -->
 ```
 
-*Puedes encontrar todos los iconos disponibles aquí: http://fontawesome.io/icons/*
+> *Puedes encontrar todos los iconos disponibles aquí: http://fontawesome.io/icons/*
 
 
 ## 📝 Instrucciones:
