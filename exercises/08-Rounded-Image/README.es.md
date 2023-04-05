@@ -18,6 +18,6 @@ El problema con este enfoque es que solo funciona para imágenes cuadradas... La
 
 + Si la imagen es más grande que su contenedor y quieres centrarla o enfocarte en una zona en particular, puedes utilizar `object-position`.
 
-+ En este artículo puedes leer más [sobre la propiedad object fit](https://css-tricks.com/on-object-fit-and-object-position/)
++ En este artículo puedes leer más [sobre la propiedad object fit](https://css-tricks.com/on-object-fit-and-object-position/).
 
-+ Adicionalmente, puedes [leer la documentación de object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) y [la documentación de object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
++ Adicionalmente, puedes [leer la documentación de object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) y [la documentación de object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit).
