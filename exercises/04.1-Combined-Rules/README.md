@@ -1,7 +1,3 @@
----
-tutorial: "https://youtu.be/watch?v=uQS5QeEE-B4"
----
-
 # `04.1` Combined Rules
 
 CSS files take up space on your server and also take time to download (like everything); it is yet another text document that the browser has to download before rendering the page, which is why it's important to keep the CSS document as small as possible.
@@ -22,14 +18,20 @@ border: black 1px solid;
 
 ## 📝 Instructions:
 
-1. Combine the 4 padding rules into just one using the `padding` rule.
+1. Combine the 4 padding rules into only one using the `padding` rule.
 
-2. Combine all background rules, but the `background-size`, into just one line using the `background:` rule.
+2. Combine all background rules into only one using the `background` rule.
 
-*The `background-size` cannot be combined, the browsers don't support it yet.*
+*The `background-position` and the `background-size` properties will conflict because they can handle the same type of values, so instead of separating these properties with a `space` you must separate them with a forward slash `/` as follows:*
+
+```css
+background: 50px / cover
+```
+
+Where the left side value of the forward slash `/` is the `background-position` rule and the right value is the `background-size` rule.
 
 ## 💡 Hint:
 
-- How to use the background-size: http://lmgtfy.com/?q=css+background
+- How to use the background: https://www.w3schools.com/cssref/css3_pr_background.php
 
-- How to use the padding: http://lmgtfy.com/?q=css+padding
+- How to use the padding: https://www.w3schools.com/css/css_padding.asp
