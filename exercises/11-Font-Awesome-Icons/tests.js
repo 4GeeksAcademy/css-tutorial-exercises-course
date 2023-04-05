@@ -10,7 +10,7 @@ let cssArray = null;
 
 describe("All the styles should be applied", ()=>{
   const icons = document.querySelectorAll("i");
-  test("ul tag should exists", ()=>{
+  test("the ul tag should exist", ()=>{
     expect(document.querySelector("ul")).toBeTruthy();
   });
   test("At least 3 li tags should exist", ()=>{
@@ -19,14 +19,14 @@ describe("All the styles should be applied", ()=>{
   test("At least 3 i tags should exist", ()=>{
     expect(document.querySelectorAll("i").length).toBe(3);
   });
-  test(" LI innerHTML exist", ()=>{
+  test("There should be some text on the li tags", ()=>{
     expect(document.querySelector("li")).toBeTruthy();
     const li = document.querySelectorAll("li");
     for (let i = 0; i < li.length; i++) {
       expect(li[i].innerHTML).toBeTruthy();
     }
   });
-  test('the i tag(s) should have Font Awesome class(es) starting with "fa" | ex. "fa-solid"', ()=>{
+  test('The i tags should have any Font Awesome class starting with "fa" | ex. "fa-solid"', ()=>{
     //or use query selector to compare hoy mane scriptags do we have
     expect(icons).toBeTruthy();
     
