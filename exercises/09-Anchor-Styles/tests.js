@@ -20,14 +20,14 @@ describe("All the styles should be applied", () => {
     expect(cssArray).toBe(".threeDimension");
   })
 
-  test("the 'a' tag in the index.html should not be deleted", () => {
+  test("The 'a' tag in the index.html should not be deleted", () => {
     // we can read from the source code
     // console.log(html.toString());
     expect(html.toString().indexOf(`<a`) > -1).toBeTruthy();
   });
 
 
-  test("The border-color rule for the 'threeDimension active ' property should match the instruction color", () => {
+  test("The border-color rule for the 'a.threeDimension:active' selector should match the instruction color", () => {
     // get computed styles of any element you like
     // let cssArray=document.styleSheets[0].cssRules;
     document.querySelector(
