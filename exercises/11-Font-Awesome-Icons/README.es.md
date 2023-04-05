@@ -18,5 +18,5 @@ Después de vincular tu sitio web con font-awesome, puedes usar lo siguiente par
 
 ## 📝 Instrucciones:
 
-Agrega dos elementos más a tu lista(`li`) y agrega un icono diferente al comienzo de cada elemento.
+Agrega dos elementos (`li`) más a tu lista y agrega un icono diferente al comienzo de cada elemento.
 
