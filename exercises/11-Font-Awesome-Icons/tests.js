@@ -10,7 +10,7 @@ let cssArray = null;
 
 describe("All the styles should be applied", ()=>{
   const icons = document.querySelectorAll("i");
-  test("the ul tag should exist", ()=>{
+  test("The ul tag should exist", ()=>{
     expect(document.querySelector("ul")).toBeTruthy();
   });
   test("At least 3 li tags should exist", ()=>{
