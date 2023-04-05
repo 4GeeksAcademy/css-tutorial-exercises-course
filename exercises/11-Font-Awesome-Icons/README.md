@@ -17,5 +17,5 @@ After linking your website with font-awesome, you can use the following code to 
 
 ## 📝 Instructions:
 
-1. Add two more items into your list and add a different icon at the beginning of each item.
+1. Add two more items (`li`) into your list and add a different icon at the beginning of each item.
 
