@@ -10,7 +10,7 @@ También puedes seleccionar un elemento por su `#id` y aplicarle estilos.
 }
 ```
 
-Usa la propiedad `id` del elemento HTML para seleccionarlo. Los `id` deben ser únicos, solo un elemento puede tener la misma `id`.
+Usa la propiedad `id` del elemento HTML para seleccionarlo. Los `id` deben ser únicos, así que no uses el mismo `id` en más de un elemento.
 
 *La etiqueta HTML con `id="small"` tendrá un font-size de `9px`.*
 

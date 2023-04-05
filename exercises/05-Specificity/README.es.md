@@ -1,8 +1,8 @@
 # `05` Especificidad
 
-Al crear un documento CSS, debe comenzar desde el selector más genérico y terminar con el más específico, esa es la forma en que funciona CSS.
+Al crear un documento CSS, se debe comenzar desde el selector más genérico y terminar con el más específico, esa es la forma en que funciona CSS.
 
-Se trata del nivel de especificidad. Si especificas que tu `div` con `id="thirditem"` tiene un fondo (`background-color`) azul (`blue`), y más adelante en el documento especificas que todos los `divs` tendrán un fondo amarillo (`yellow`), `#thirditem` mantendrá su fondo azul (`blue`). ¡y punto!
+Se trata del nivel de **especificidad**. Si especificas que tu `div` con `id="thirditem"` tiene un fondo (`background-color`) azul (`blue`), y más adelante en el documento especificas que todos los `divs` tendrán un fondo amarillo (`yellow`), `#thirditem` mantendrá su fondo azul (`blue`). ¡Y punto!
 
 
 *Porque cuanto más específico, más prioridad tiene.*
