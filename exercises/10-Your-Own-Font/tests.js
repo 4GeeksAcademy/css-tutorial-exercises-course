@@ -26,18 +26,18 @@ describe("All the styles should be applied", ()=>{
 
     expect(orangeHoverSelector).toBeTruthy();
   });
-  test('the h1 tag should have a class "myTitle"', ()=>{
+  test('The h1 tag should have a class "myTitle"', ()=>{
     //or use query selector to compare hoy mane scriptags do we have
     const h = document.querySelector("h1");
     expect(h.classList.contains("myTitle")).toBeTruthy();
   });
-  test("The link should be included in the head tag", ()=>{
+  test("The google-font link should be included in the head tag", ()=>{
     // let headContent=document.getElementsByTagName("*")
     expect(link.length).toBeGreaterThanOrEqual(2);
   });
 
 
-  test("The Head tag should not includes a Style tag", ()=>{
+  test("The head tag should not include a style tag", ()=>{
     expect(html.toString().indexOf(`<style`) > -1).toBeFalsy();
   });
 });
