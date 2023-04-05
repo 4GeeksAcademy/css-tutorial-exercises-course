@@ -4,7 +4,7 @@ As a developer/designer, you want to use certain icons to make your website easy
 
 But using icons can be frustrating and time-consuming because each icon is an image and working with images is horrible!
 
-Font-awesome solves the "image" problem by creating a new font- each letter is a different icon and you can now import the whole font into your website and use whatever icon you want.
+Font-awesome solves the "image" problem by creating a new font where each letter is a different icon and you can now import the whole font into your website and use whatever icon you want.
 
 After linking your website with font-awesome, you can use the following code to insert a specific icon:
 
