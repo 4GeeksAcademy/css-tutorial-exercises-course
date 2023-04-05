@@ -11,9 +11,9 @@ After linking your website with font-awesome, you can use the following code to 
 ```html
 <i class="fas fa-camera-retro"></i>
 <!-- "camera-retro" will be the name of the icon -->
-
-You can find all the available icons here: http://fontawesome.io/icons/
 ```
+
+*You can find all the available icons here: http://fontawesome.io/icons/*
 
 ## 📝 Instructions:
 
