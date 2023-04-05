@@ -11,7 +11,7 @@ describe("All the styles should be applied", () => {
   let link = document.querySelector("link")
   let title = document.querySelector('title')
 
-  test("the background should match", () => {
+  test("The background should match", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -21,7 +21,7 @@ describe("All the styles should be applied", () => {
       `url(../../.learn/assets/background-vertical.jpg?raw=true) repeat-y`
     );
   });
-  test("the font-family should be 'Times New Roman'", () => {
+  test("The font-family should be 'Times New Roman'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -29,7 +29,7 @@ describe("All the styles should be applied", () => {
     let styles = window.getComputedStyle(body);
     expect(styles["font-family"].toLowerCase()).toBe("\"times new roman\"");
   });
-  test("the padding-left should be '20px'", () => {
+  test("The padding-left should be '20px'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -37,7 +37,7 @@ describe("All the styles should be applied", () => {
     let styles = window.getComputedStyle(body);
     expect(styles["padding-left"]).toBe("20px");
   });
-  test("the font-family in the H1 Tag should be 'Courier'", () => {
+  test("The font-family in the h1 tag should be 'Courier'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -46,7 +46,7 @@ describe("All the styles should be applied", () => {
     // get computed styles of any element you like
     expect(h1TagStyles["font-family"].toLowerCase()).toBe("\"courier\"");
   });
-  test("the color in the H1 Tag should be 'red'", () => {
+  test("The color in the h1 tag should be 'red'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -55,7 +55,7 @@ describe("All the styles should be applied", () => {
     // get computed styles of any element you like
     expect(h1TagStyles["color"]).toBe("red");
   });
-  test("the text-decoration in the H2 Tag should be 'underline'", () => {
+  test("the text-decoration in the h2 tag should be 'underline'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -64,7 +64,7 @@ describe("All the styles should be applied", () => {
     let h2TagStyles = window.getComputedStyle(h2Tag);
     expect(h2TagStyles["text-decoration"]).toBe("underline");
   });
-  test("the padding in the #id1 Tag should be '5px'", () => {
+  test("The padding in the #id1 tag should be '5px'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -74,7 +74,7 @@ describe("All the styles should be applied", () => {
     expect(idTagStyles["padding"]).toBe("5px");
   });
 
-  test("The a hover underline should be removed", () => {
+  test("The a:hover underline should be removed", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -88,7 +88,7 @@ describe("All the styles should be applied", () => {
     expect(orangeHoverSelector).toBe("none");
   });
 
-  test("The a hover color should be green", () => {
+  test("The a:hover color should be green", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;

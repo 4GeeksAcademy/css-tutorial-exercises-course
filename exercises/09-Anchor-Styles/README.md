@@ -4,11 +4,11 @@ People like to feel that they are clicking on something, a great approach to acc
 
 ![Example Image](../../.learn/assets/09-1.png?raw=true)
 
-You can control what css rules apply to each state of an anchor by using the `:hover` (for mouse hover) or `:active` (for mouse pressing) selectors, example:
+You can control what CSS rules apply to each state of an anchor by using the `:hover` (for mouse hover) or `:active` (for mouse pressing) selectors, example:
 
 ```css
 a:active {
-  /* here you can specify whatever css rule that applies
+  /* here you can specify whatever CSS rule that applies
   to the anchor while being 'pressed' */
 }
 ```
