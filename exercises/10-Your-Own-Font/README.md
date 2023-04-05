@@ -1,6 +1,6 @@
 # `10` Your Own Font
 
-Yo canfind Google Fonts here: https://fonts.google.com
+You can find Google Fonts here: https://fonts.google.com
 
 Pick your favorite one, and then use it by linking your website with the URL in which the font is stored. You have to do that in the `<head>` tag of the HTML document like this:
 
