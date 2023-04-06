@@ -18,6 +18,6 @@ Usa la propiedad `class` del elemento HTML para seleccionarlo. Las reglas de est
 ## 📝 Instrucciones:
 
 En este momento hay una clase seleccionada en el CSS llamada
-`.b-blue`.
+`b-blue`.
 
 Por favor aplica la clase a ambas etiquetas HTML `<p>`.
