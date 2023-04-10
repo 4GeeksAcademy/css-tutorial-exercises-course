@@ -63,7 +63,7 @@ $ learnpack plugins:install learnpack-html
 $ learnpack install css-tutorial-exercises-course
 ```
 
-Note: Once you finish downloading, you will need to `cd` into the exercises folder which contains all the exercises.
+> Note: Once you finish downloading, you will need to `cd` into the exercises folder which contains all the exercises.
 
 3) Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 

@@ -44,7 +44,7 @@ Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier i
 
 Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
 
-> Una vez ya tengas abirto VSCode los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
+> Una vez ya tengas abierto VSCode los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación manual 
 
@@ -61,7 +61,7 @@ $ learnpack plugins:install learnpack-html
 $ learnpack install css-tutorial-exercises-course
 ```
 
-Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
+> Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
 
 3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
@@ -70,7 +70,6 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 <!-- endhide -->
 ## ¿Cómo están organizados los ejercicios?
 
@@ -80,6 +79,8 @@ Cada ejercicio es una pequeña aplicación de React que contiene los siguientes 
 2. **styles.css:** contiene los estilos y reglas de CSS
 3. **README.md:** contiene las instrucciones de los ejercicios.
 4. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
+
+> Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 
 ## Colaboradores
  
