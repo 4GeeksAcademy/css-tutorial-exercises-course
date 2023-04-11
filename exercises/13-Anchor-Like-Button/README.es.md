@@ -10,7 +10,7 @@ Sigue estos pasos para que tu enlace (`anchor`) se vea así:
 
 2. Bordes redondeados: establece el `border-radius` en `4px`.
 
-3. El `background` debe ser de color `orange`, y cuando el ratón esté sobre el botón (`:hover`), el `background` debe ser `darkorange`
+3. El `background` debe ser de color `orange`, y cuando el ratón esté sobre el botón (`:hover`), el `background` debe ser `darkorange`.
 
 4. Eliminar subrayado: establece `text-decoration` a `none`.
 
