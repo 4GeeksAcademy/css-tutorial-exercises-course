@@ -1,10 +1,10 @@
-# `13` Enlace (anchor) como botón: 
+# `13` Enlace (anchor) como botón
 
-Los enlaces (`anchors`) no solo se usan dentro del texto: cuando va a usar enlaces (`anchors`) fuera del texto, es mejor hacer que se vean como botones para que sea experiencia más amigable.
+Los enlaces (`anchors`) no solo se usan dentro del texto: cuando usas enlaces (`anchors`) fuera del texto, es mejor hacer que se vean como botones para que la experiencia sea más amigable.
 
 ## 📝 Instrucciones:
 
-Siga estos pasos para que tu enlace (`anchor`) se vea así:
+Sigue estos pasos para que tu enlace (`anchor`) se vea así:
 
 1. Haz que se vea como una caja: establece el `padding` en `10px`.
 
@@ -12,16 +12,14 @@ Siga estos pasos para que tu enlace (`anchor`) se vea así:
 
 3. El `background` debe ser de color `orange`, y cuando el ratón esté sobre el botón (`:hover`), el `background` debe ser `darkorange`
 
-4. Encuentra y aplica el color: usa el selector de `color` (color picker) para encontrar el color exacto y aplicárselo al `background`.
+4. Eliminar subrayado: establece `text-decoration` a `none`.
 
-5. Eliminar subrayado: establece `text-decoration` a `none`.
+5. Establece el color del texto a blanco (`white`)
 
-6. Establecer el color del texto en blanco (`white`)
++ *Para que el botón se vea diferente cuando el usuario pasa el ratón por encima, usamos el selector `:hover`: https://www.w3schools.com/cssref/sel_hover.php*
 
-*Para que el botón se vea diferente cuando el usuario pasa el mouse por encima, usamos el selector `:hover`: http://lmgtfy.com/?q=how+to+use+the+hover*
+6. Dentro del selector `:hover` cambia el fondo del botón a `darkorange`.
 
-7. Dentro del selector `:hover` cambia el fondo del botón a `#cc7a00`.
-
-## Reultado esperado:
+## Resultado esperado:
 
 ![Example Image](../../.learn/assets/13-1.gif?raw=true)
