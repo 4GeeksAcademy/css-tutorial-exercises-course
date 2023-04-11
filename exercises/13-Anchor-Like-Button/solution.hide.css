@@ -1,5 +1,6 @@
 .orange-btn {
-	/*your code here*/
+	display: inline-block;
+	/*your code below*/
 	padding: 10px;
 	border-radius: 4px;
 	text-decoration: none;
