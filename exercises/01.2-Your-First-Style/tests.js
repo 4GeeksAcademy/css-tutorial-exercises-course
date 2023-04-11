@@ -13,7 +13,7 @@ describe("All the styles should be applied", ()=>{
     expect(styles["color"]).toBe("yellow");
   });
 
-  test("The body tag should not contain any inline style", ()=>{
+  test("The <body> tag should not contain any inline style", ()=>{
     let bodyInlineStyle = document.getElementsByTagName("body");
     let emptyBodyInlineStyle = {};
     expect(bodyInlineStyle[0].style._values).toEqual(emptyBodyInlineStyle);
@@ -24,7 +24,7 @@ describe("All the styles should be applied", ()=>{
     expect(a.style._values).toEqual(emptyBodyInlineStyle);
   });
   
-  test("You should not change the existing head tag elements",  ()=>{
+  test("You should not change the existing <head> tag elements",  ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
     
