@@ -1,6 +1,6 @@
 .orange-btn {
 	display: inline-block;
-	/*your code below*/
+	/* your code below */
 	padding: 10px;
 	border-radius: 4px;
 	text-decoration: none;
@@ -9,6 +9,6 @@
 }
 
 .orange-btn:hover {
-	/*YOUR CODE HERE FOR THE HOVER STATE*/
+	/* YOUR CODE HERE FOR THE HOVER STATE */
 	background: darkorange;
 }
