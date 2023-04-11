@@ -35,7 +35,7 @@ describe("All the styles should be applied", function () {
     expect(cssArray).toBe("ul li");
     expect(cssArrayBackground).toBe("blue");
   })
-  test("You should use a more specific rule using the !important annotation ", function () {
+  test("You should use a more specific rule using the !important annotation", function () {
 
     document.querySelector(
       "head"
