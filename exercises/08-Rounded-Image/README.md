@@ -10,7 +10,7 @@ The obvious way to create a rounded profile picture is to create an image tag an
 
 1. Use `border-radius`.
 
-2. Use the properties `width` and `height` to make the image square shaped.
+2. Use the properties `width` and `height` to make the image a square shape.
 
 3. In this case, in addition to `border-radius`, you will have to use the `object-fit` CSS property, [here is an explanation](https://www.loom.com/share/15186e456dfd4741887997af40325721).
 
