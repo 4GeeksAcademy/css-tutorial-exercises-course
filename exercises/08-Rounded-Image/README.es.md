@@ -12,7 +12,9 @@ El problema con este enfoque es que solo funciona para imágenes cuadradas... La
 
 1. Usa `border-radius`.
 
-2. Además de `border-radius`, tenemos que utilizar también la propiedad `object-fit`, [aquí hay una explicación](https://www.loom.com/share/15186e456dfd4741887997af40325721).
+2. Usa las propiedades `width` y `height` para hacer que la imagen sea cuadrada.
+
+3. Además de `border-radius`, tenemos que utilizar también la propiedad `object-fit`, [aquí hay una explicación](https://www.loom.com/share/15186e456dfd4741887997af40325721).
 
 ## 💡 Pista:
 
