@@ -10,7 +10,7 @@ Anchors are not only used within text: when you are going to use anchors outside
 
 3. The background should be `orange` when not hovered, and `darkorange` on hover (`:hover`).
 
-4. Remove underline: Set `text-decoration` to `none`.
+4. Remove underline: set `text-decoration` to `none`.
 
 5. Set the color of the text to `white`.
 
