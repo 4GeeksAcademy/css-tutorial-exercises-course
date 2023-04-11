@@ -20,7 +20,7 @@ describe("All the styles should be applied", ()=>{
 
     expect(classTagStyles["padding"]).toBe("10px");
   });
-  test("The border radius should be '4px'", ()=>{
+  test("The border-radius should be '4px'", ()=>{
     document.querySelector(
       "head"
 
