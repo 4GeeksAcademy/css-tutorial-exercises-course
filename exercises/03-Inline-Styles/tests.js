@@ -7,7 +7,7 @@ jest.dontMock("fs");
 
 describe("The Table tag should contain inline style background: green",  ()=>{
 
-  test("You should not change the existing head tag elements",  ()=>{
+  test("You should not change the existing <head> tag elements",  ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
