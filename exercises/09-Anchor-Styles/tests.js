@@ -20,7 +20,7 @@ describe("All the styles should be applied", () => {
     expect(cssArray).toBe(".threeDimension");
   })
 
-  test("The 'a' tag in the index.html should not be deleted", () => {
+  test("The <a> tag in the index.html should not be deleted", () => {
     // we can read from the source code
     // console.log(html.toString());
     expect(html.toString().indexOf(`<a`) > -1).toBeTruthy();
@@ -71,7 +71,7 @@ describe("All the styles should be applied", () => {
 
   });
 
-  test("You should not change the existing head tag elements", () => {
+  test("You should not change the existing <head> tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
