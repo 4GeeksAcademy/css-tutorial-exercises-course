@@ -16,7 +16,7 @@ Anchors are not only used within text- when you are going to use anchors outside
 
 6. Set the color of the text to `white`.
 
-*To make the button look different when the user hovers over with the mouse, we use the `:hover` selector: http://lmgtfy.com/?q=how+to+use+the+hover*
+*To make the button look different when the user hovers over with the mouse, we use the `:hover` selector: https://www.w3schools.com/cssref/sel_hover.php*
 
 7. Inside of the `:hover` selector change the background of the button to `#cc7a00`.
 
