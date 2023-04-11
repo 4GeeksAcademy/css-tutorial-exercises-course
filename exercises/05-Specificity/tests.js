@@ -8,7 +8,7 @@ jest.dontMock('fs');
 
 describe("All the styles should be applied", function () {
 
-  test("You should not change the existing head tag elements", function () {
+  test("You should not change the existing <head> tag elements", function () {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
