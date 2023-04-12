@@ -13,11 +13,11 @@ describe("All the styles should be applied", () => {
 
   const img = document.querySelector(".rounded")
 
-  test("The img tag should exist", () => {
+  test("The <img> tag should exist", () => {
     expect(img).toBeTruthy();
   })
 
-  test("The width of the img tag should be equal to its height and vice versa", () => {
+  test("The width of the <img> tag should be equal to its height and vice versa", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -42,7 +42,7 @@ describe("All the styles should be applied", () => {
     expect(height).toBe(width);
   });
 
-  test("The object-fit value of the img tag should be 'cover'", () => {
+  test("The object-fit value of the <img> tag should be 'cover'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -51,7 +51,7 @@ describe("All the styles should be applied", () => {
     expect(imgStyle["object-fit"]).toBe("cover");
   });
 
-  test("The object-position value of the img tag should be 'top'", () => {
+  test("The object-position value of the <img> tag should be 'top'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -60,7 +60,7 @@ describe("All the styles should be applied", () => {
     expect(imgStyle["object-position"]).toBe("top");
   });
 
-  test("You should not change the existing head tag elements", () => {
+  test("You should not change the existing <head> tag elements", () => {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 

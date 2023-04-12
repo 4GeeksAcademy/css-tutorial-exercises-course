@@ -11,7 +11,7 @@ describe("All the styles should be applied", ()=> {
   const link = document.querySelector("link");
   const title = document.querySelector('title');
 
-  test("The body tag should not contain any inline style", ()=> {
+  test("The <body> tag should not contain any inline style", ()=> {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
@@ -113,7 +113,7 @@ describe("All the styles should be applied", ()=> {
     expect(padLeft).toBeFalsy();
   });
 
-  test("You should not change the existing head tag elements", ()=> {
+  test("You should not change the existing <head> tag elements", ()=> {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 

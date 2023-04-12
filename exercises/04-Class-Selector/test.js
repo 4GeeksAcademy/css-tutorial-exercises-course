@@ -6,10 +6,10 @@ document.documentElement.innerHTML = html.toString();
 
 jest.dontMock("fs");
 
-describe("Both p tags should have a blue background", () => {
+describe("Both <p> tags should have a blue background", () => {
     const body = document.querySelector("body")
     const p = document.querySelectorAll("p");
-    test("You should not change the existing head tag elements", () => {
+    test("You should not change the existing <head> tag elements", () => {
         let head = document.querySelector('head')
         expect(head).toBeTruthy()
 
@@ -20,7 +20,7 @@ describe("Both p tags should have a blue background", () => {
         expect(title).toBe('04 Class selector')
     });
 
-    test("The body tag should not contain any inline style", () => {
+    test("The <body> tag should not contain any inline style", () => {
         document.querySelector(
             "head"
         ).innerHTML = `<style>${css.toString()}</style>`;
@@ -28,10 +28,10 @@ describe("Both p tags should have a blue background", () => {
         expect(body.style._values).toEqual(emptyBodyInlineStyle)
     });
 
-    test("There should be two p tags", () => {
+    test("There should be two <p> tags", () => {
         expect(p.length).toBe(2)
     });
-    test("Both p tags should have a class name 'b-blue'", () => {
+    test("Both <p> tags should have a class name 'b-blue'", () => {
         p.forEach(e=>{
             let eClass = e.getAttribute("class");
             expect(eClass).toBe("b-blue")

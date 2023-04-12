@@ -10,13 +10,13 @@ describe("All the styles should be applied", ()=>{
   const link = document.querySelector("link");
   const body = document.querySelector("body");
 
-  test("The body tag should not contain any inline style", ()=>{
+  test("The <body> tag should not contain any inline style", ()=>{
     document.querySelector("head").innerHTML = `<style>${css.toString()}</style>`;
     let emptyBodyInlineStyle={};
     expect(body.style._values).toEqual(emptyBodyInlineStyle)
   });
 
-  test("You should not change the existing head tag elements", ()=>{
+  test("You should not change the existing <head> tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
     
@@ -27,7 +27,7 @@ describe("All the styles should be applied", ()=>{
     expect(href).toEqual('./styles.css')
   });
   
-  test("Your body tag background color should be blue", ()=>{
+  test("Your <body> tag background color should be blue", ()=>{
     let styles = window.getComputedStyle(body)
     expect(styles["background-color"]).toBe("blue")
   })
