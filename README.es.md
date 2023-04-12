@@ -27,6 +27,8 @@
 
 5. Aprender los trucos CSS más populares.
 
+> Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+
 <!-- hide -->
 #### Antes de empezar... hay otros tutoriales 
 
@@ -68,7 +70,6 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 <!-- endhide -->
 ## ¿Cómo están organizados los ejercicios?
 
