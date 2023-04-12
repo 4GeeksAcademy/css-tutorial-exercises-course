@@ -8,11 +8,11 @@ jest.dontMock("fs");
 describe("You should change the class on the div tag", () => {
     const div = document.querySelector("div");
 
-    test("The div class should NOT have the spades class", () => {
+    test('The <div> should NOT have the "spades" class', () => {
         expect(div.classList.contains("spade")).toBe(false);
     });
 
-    test("The div class should have the heart class", () => {
+    test('The <div> should have the "heart" class', () => {
         expect(div.classList.contains("heart")).toBe(true);
     });
 });

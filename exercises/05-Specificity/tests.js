@@ -8,7 +8,7 @@ jest.dontMock('fs');
 
 describe("All the styles should be applied", function () {
 
-  test("You should not change the existing head tag elements", function () {
+  test("You should not change the existing <head> tag elements", function () {
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 
@@ -35,7 +35,7 @@ describe("All the styles should be applied", function () {
     expect(cssArray).toBe("ul li");
     expect(cssArrayBackground).toBe("blue");
   })
-  test("You should use a more specific rule using the !important annotation ", function () {
+  test("You should use a more specific rule using the !important annotation", function () {
 
     document.querySelector(
       "head"
