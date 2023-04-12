@@ -10,7 +10,7 @@ describe("All the styles should be applied", ()=>{
   const meta = document.querySelector("meta")
   const title = document.querySelector('title')
   const link = document.querySelector('link')
-  test("The H2 Tag should have a font-size: 0.8em", ()=>{
+  test("The <h2> tag should have a font-size: 0.8em", ()=>{
     // get computed styles of any element you like
     document.querySelector(
       "head"
@@ -19,7 +19,7 @@ describe("All the styles should be applied", ()=>{
     var styles = window.getComputedStyle(h2Tag);
     expect(styles["font-size"]).toBe("0.8em");
   });
-  test("The H3 Tag should haave a font-size: 0.8rem", ()=>{
+  test("The <h3> tag should have a font-size: 0.8rem", ()=>{
     // get computed styles of any element you like
     document.querySelector(
       "head"
@@ -28,7 +28,7 @@ describe("All the styles should be applied", ()=>{
     var styles = window.getComputedStyle(h3Tag);
     expect(styles["font-size"]).toBe("0.8rem");
   });
-  test("You should not change the existing head tag elements", ()=>{
+  test("You should not change the existing <head> tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 

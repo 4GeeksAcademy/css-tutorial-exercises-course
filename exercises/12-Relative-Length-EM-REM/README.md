@@ -1,6 +1,6 @@
 # `12` Relative Length em, rem
 
-By now, we are used to working with pixels as measurement unit, for example, saying that a box has `100px` of width.
+By now, we are used to working with pixels as a measurement unit, for example, saying that a box has `100px` of width.
 
 There are other types of units that are not fixed, but relative. We use them when we want the element size to be related to another element or measurement unit.
 
@@ -8,11 +8,13 @@ There are other types of units that are not fixed, but relative. We use them whe
 
 In this exercise we have two `<h2>` headings. They are both `<h2>`, but one is bigger than the other because headings have relative font-sizes by default. 
 
-Since the first `div` has a bigger based `font-size`, then the heading resizes accordingly.
+Since the second `div` has a bigger based `font-size`, then the heading resizes accordingly.
 
-em: Relative to the current font-size of the parent.
+## In short:
 
-rem: Relative to the original font-size of the page.
++ em: Relative to the current font-size of the parent.
+
++ rem: Relative to the original font-size of the page.
 
 
 ## 📝 Instructions:

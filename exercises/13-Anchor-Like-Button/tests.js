@@ -10,7 +10,7 @@ describe("All the styles should be applied", ()=>{
   const meta = document.querySelector("meta")
   const title = document.querySelector('title')
   const link = document.querySelector('link')
-  test("the  padding  should be '10px'", ()=>{
+  test("The padding should be '10px'", ()=>{
     document.querySelector(
       "head"
 
@@ -20,7 +20,7 @@ describe("All the styles should be applied", ()=>{
 
     expect(classTagStyles["padding"]).toBe("10px");
   });
-  test("the border radius should be '4px'", ()=>{
+  test("The border-radius should be '4px'", ()=>{
     document.querySelector(
       "head"
 
@@ -29,7 +29,7 @@ describe("All the styles should be applied", ()=>{
     let classTagStyles = window.getComputedStyle(divTag);
     expect(classTagStyles["border-radius"]).toBe("4px");
   });
-  test("the underline should be removed", ()=>{
+  test("The underline should be removed", ()=>{
     document.querySelector(
       "head"
 
@@ -47,7 +47,7 @@ describe("All the styles should be applied", ()=>{
     expect(cssArray).toBe(".orange-btn");
   }
   )
-  test("You should not change the existing head tag elements", ()=>{
+  test("You should not change the existing <head> tag elements", ()=>{
     let head = document.querySelector('head')
     expect(head).toBeTruthy()
 

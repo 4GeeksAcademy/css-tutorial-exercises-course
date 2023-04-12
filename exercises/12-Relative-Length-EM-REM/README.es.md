@@ -1,4 +1,4 @@
-# `12` Longitud Relativa em, rem:
+# `12` Longitud Relativa em, rem
 
 Hasta ahora, hemos trabajado con píxeles como unidad de medida, por ejemplo, diciendo que un contenedor o caja tiene `100px` de ancho.
 
@@ -8,11 +8,13 @@ Hay otros tipos de unidades que no son absolutas, sino relativas. Las usamos cua
 
 En este ejercicio tenemos dos encabezados `<h2>`. Ambos son `<h2>`, pero uno es más grande que el otro porque los encabezados tienen `font-size` relativos por defecto. 
 
-Dado que el primer `div` tiene un `font-size` más grande, el título cambia de tamaño en consecuencia y el `heading` se adapta.
+Dado que el segundo `div` tiene un `font-size` más grande, el título cambia de tamaño en consecuencia y el `heading` se adapta.
 
-em: Relativo al `font-size` actual del padre.
+## En resumen:
 
-rem: Relativo al `font-size` original de la página.
++ em: Relativo al `font-size` actual del padre.
+
++ rem: Relativo al `font-size` original de la página.
 
 ## 📝 Instrucciones:
 
