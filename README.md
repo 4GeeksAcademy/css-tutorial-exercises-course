@@ -27,6 +27,8 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 5. Learn the most popular CSS Tricks.
 
+Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
+
 <!-- hide -->
 #### Before we start... other related tutorials
 
@@ -68,8 +70,6 @@ Note: Once you finish downloading, you will need to `cd` into the exercises fold
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
-
-Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
 
 <!-- endhide -->
 ## How are the exercises organized?
