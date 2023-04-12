@@ -15,6 +15,8 @@
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
 <!-- endhide -->
 
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/README.es.md) :es:*
+
 ## You'll be learning the following concepts:
 
 1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag, or using an external stylesheet `<link>`.
@@ -40,10 +42,11 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 Complete selection of autograded CSS exercises, for anyone interested in learning CSS!
 
+## One click installation (recommended):
 
-## One click installation:
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/css-tutorial-exercises-course)
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Manual installation
 
@@ -60,7 +63,7 @@ $ learnpack plugins:install learnpack-html
 $ learnpack install css-tutorial-exercises-course
 ```
 
-Note: Once you finish downloading, you will need to `cd` into the exercises folder which contains all the exercises.
+> Note: Once you finish downloading, you will need to `cd` into the exercises folder which contains all the exercises.
 
 3) Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
@@ -68,10 +71,8 @@ Note: Once you finish downloading, you will need to `cd` into the exercises fold
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
-
-Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
-
 <!-- endhide -->
+
 ## How are the exercises organized?
 
 Each exercise is a small React application containing the following files:
@@ -80,6 +81,8 @@ Each exercise is a small React application containing the following files:
 2. **styles.css:** your CSS code goes here, some exercises will make you update this file.
 3. **README.md:** contains exercise instructions.
 4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
 
 ## Contributors
 
