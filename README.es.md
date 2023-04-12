@@ -27,7 +27,7 @@
 
 5. Aprender los trucos CSS más populares.
 
-> Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 
 <!-- hide -->
 #### Antes de empezar... hay otros tutoriales 
