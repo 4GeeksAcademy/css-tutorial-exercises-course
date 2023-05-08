@@ -64,7 +64,7 @@ describe("All the styles should be applied", () => {
     let h2TagStyles = window.getComputedStyle(h2Tag);
     expect(h2TagStyles["text-decoration"]).toBe("underline");
   });
-  test("The padding in the #id1 tag should be '5px'", () => {
+  test("The padding in the p tag should be '5px'", () => {
     document.querySelector(
       "head"
     ).innerHTML = `<style>${css.toString()}</style>`;
