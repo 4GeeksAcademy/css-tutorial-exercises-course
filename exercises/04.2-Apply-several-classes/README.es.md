@@ -1,4 +1,4 @@
-# `04.2` Aplica varias clases
+# `04.2` Apply several classes
 
 Hemos preparado una pequeña hoja de estilos CSS que contiene estilos CSS para replicar cartas de poker.
 Vamos a usar clases y aplicarlas al mismo elemento `<div>`.
