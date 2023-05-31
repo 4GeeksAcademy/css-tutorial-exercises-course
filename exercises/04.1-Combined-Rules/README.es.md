@@ -34,4 +34,5 @@ Donde el valor de la izquierda de la barra `/` es la propiedad `background-posit
 ## 💡 Pista:
 
 - Cómo usar el background: https://www.w3schools.com/cssref/css3_pr_background.php
+
 - Cómo usar el padding: https://www.w3schools.com/css/css_padding.asp
