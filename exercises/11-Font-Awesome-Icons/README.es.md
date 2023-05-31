@@ -1,4 +1,4 @@
-# `11` Iconos Font Awesome 
+# `11` Font Awesome Icons
 
 Como desarrollador, querrás utilizar ciertos iconos para que tu sitio web sea fácil de entender. Por ejemplo, sabemos que el icono de "papelera" significa "eliminar".
 
