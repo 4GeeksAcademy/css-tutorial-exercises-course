@@ -1,4 +1,4 @@
-# `04` El selector de clase
+# `04` Class Selector
 
 Hay muchas formas de seleccionar los elementos HTML para aplicarles estilos, hasta ahora solo hemos usado los selectores de etiquetas, así que hablemos sobre el selector `.class`:
 
