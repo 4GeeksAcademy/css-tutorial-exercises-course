@@ -1,5 +1,5 @@
 
-# `01.1` Etiqueta Style 
+# `01.1` The Style Tag
 
 Si quieres añadir estilos a tu sitio web escribiendo CSS siempre debes hacerlo dentro de una etiqueta `<style>`.
 Puedes tener cuantas etiquetas `<style>` quieras, pero se recomienda solo tener una al principio del código de tu sitio web.
