@@ -13,4 +13,4 @@ Se trata del nivel de **especificidad**. Si especificas que tu `div` con `id="th
 
 ## 💡 Pista:
 
-+ Puedes usar la anotación **!important** : https://css-tricks.com/when-using-important-is-the-right-choice/
++ Puedes usar la notación **!important** : https://css-tricks.com/when-using-important-is-the-right-choice/
