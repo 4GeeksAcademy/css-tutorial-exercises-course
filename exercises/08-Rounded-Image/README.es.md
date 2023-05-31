@@ -1,4 +1,4 @@
-# `08` Imagen Redondeada
+# `08` Rounded Image
 
 Muchos sitios web usan imágenes de perfil redondeadas, ¡una técnica que realmente hace que un sitio web sea más hermoso!
 
