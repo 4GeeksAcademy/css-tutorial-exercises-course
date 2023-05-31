@@ -1,4 +1,4 @@
-# `05` Especificidad
+# `05` Specificity
 
 Al crear un documento CSS, se debe comenzar desde el selector más genérico y terminar con el más específico, esa es la forma en que funciona CSS.
 
