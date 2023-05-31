@@ -1,4 +1,4 @@
-# `10` Tu Propia Fuente
+# `10` Your Own Font
 
 Aquí puedes encontrar las fuentes de Google: https://fonts.google.com
 

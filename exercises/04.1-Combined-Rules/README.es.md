@@ -1,4 +1,4 @@
-# `04.1` Reglas Combinadas
+# `04.1` Combined Rules
 
 Los archivos CSS ocupan espacio en tu servidor y también tardan en descargarse (como todo); es otro documento de texto que el navegador debe descargar antes de mostrar la página, por lo que es importante mantener el documento CSS lo más pequeño posible.
 
@@ -34,4 +34,5 @@ Donde el valor de la izquierda de la barra `/` es la propiedad `background-posit
 ## 💡 Pista:
 
 - Cómo usar el background: https://www.w3schools.com/cssref/css3_pr_background.php
+
 - Cómo usar el padding: https://www.w3schools.com/css/css_padding.asp

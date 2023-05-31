@@ -8,7 +8,7 @@ Anchors are not only used within text: when you are going to use anchors outside
 
 2. Rounded borders: set `border-radius` to `4px`.
 
-3. The background should be `orange` when not hovered, and `darkorange` on hover (`:hover`).
+3. The `background` should be `orange` when not hovered, and `darkorange` on hover (`:hover`).
 
 4. Remove underline: set `text-decoration` to `none`.
 

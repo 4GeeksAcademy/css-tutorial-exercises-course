@@ -1,4 +1,4 @@
-# `02` Hoja de estilos separada
+# `02` Separate Stylesheet
 
 Si usas la etiqueta html `<link>`, puedes tener tus estilos en un archivo separado que normalmente se llama `styles.css`.
 

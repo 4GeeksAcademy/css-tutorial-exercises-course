@@ -18,7 +18,7 @@ Use the class property of the HTML element to select it. Styling rules will appl
 }
 ```
 
-*Any html tag with the `class="small"` will have a font-size of `9px`.*
+*Any HTML tag with the `class="small"` will have a font-size of `9px`.*
 
 ## 📝 Instructions:
 

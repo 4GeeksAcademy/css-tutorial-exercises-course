@@ -1,4 +1,4 @@
-# `01.3` Tu Segundo Estilo
+# `01.3` Your Second Style
 
 Cuando usas CSS, la idea es aplicar `reglas css` a tus `elementos html`, siempre debes seleccionar primero el elemento y luego especificar qué reglas deseas aplicarle:
 
