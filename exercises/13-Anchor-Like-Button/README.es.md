@@ -1,4 +1,4 @@
-# `13` Enlace (anchor) como botón
+# `13` Anchor Like Button
 
 Los enlaces (`anchors`) no solo se usan dentro del texto: cuando usas enlaces (`anchors`) fuera del texto, es mejor hacer que se vean como botones para que la experiencia del usuario sea más amigable.
 
