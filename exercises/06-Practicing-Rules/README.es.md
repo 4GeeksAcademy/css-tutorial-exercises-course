@@ -1,4 +1,4 @@
-# `06` Practicando las reglas
+# `06` Practicing Rules
 
 ## 📝 Instrucciones:
 
