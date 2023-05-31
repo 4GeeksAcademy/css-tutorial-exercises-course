@@ -1,7 +1,8 @@
 # `04.2` Apply several classes
 
 Hemos preparado una pequeña hoja de estilos CSS que contiene estilos CSS para replicar cartas de poker.
-Vamos a usar clases y aplicarlas al mismo elemento `<div>`.
+
+Vamos a usar dos clases y aplicarlas al mismo elemento `<div>`.
 
 ```html
 <div class="card spades">9</div>
