@@ -12,9 +12,9 @@ Since the second `div` has a bigger based `font-size`, then the heading resizes 
 
 ## In short:
 
-+ em: Relative to the current font-size of the parent.
++ em: Relative to the current `font-size` of the parent.
 
-+ rem: Relative to the original font-size of the page.
++ rem: Relative to the original `font-size` of the page.
 
 
 ## 📝 Instructions:
