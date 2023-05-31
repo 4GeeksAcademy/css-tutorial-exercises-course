@@ -1,4 +1,4 @@
-# `07` Reglas Muy Específicas
+# `07` Very Specific Rules
 
 ## **Importante:**
 
