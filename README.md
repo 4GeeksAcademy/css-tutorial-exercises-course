@@ -13,9 +13,9 @@
 </table>
 
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
-<!-- endhide -->
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 ## You'll be learning the following concepts:
 
@@ -50,7 +50,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Manual installation
 
-1) Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
+1) Install LearnPack, the package manager for learning tutorials and the HTML compiler plugin for LearnPack, make sure you also have node.js 14+:
 
 ```bash
 $ npm i learnpack -g
@@ -67,7 +67,7 @@ $ learnpack install css-tutorial-exercises-course
 
 3) Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
