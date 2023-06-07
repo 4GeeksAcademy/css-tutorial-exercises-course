@@ -48,14 +48,14 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación manual 
 
-1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
+1. Instala LearnPack, el package manager para tutoriales de aprendizaje y el node compiler plugin para LearnPack, asegúrate también de tener node.js 14+:
 
 ```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
-2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta: 
+2. Descarga estos ejercicios en particular usando LearnPack y luego `cd` para entrar en la carpeta: 
 
 ```bash
 $ learnpack install css-tutorial-exercises-course
@@ -65,7 +65,7 @@ $ learnpack install css-tutorial-exercises-course
 
 3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
