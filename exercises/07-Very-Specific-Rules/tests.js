@@ -26,7 +26,7 @@ describe("All the styles should be applied", ()=>{
     }
     let reg = new RegExp(/color:\s*red\s*!important\s*;/gm)
 
-    expect(reg.test(color)).toBeTruthy();
+    expect(reg.test(color.toLowerCase())).toBeTruthy();
   });
 
   test("The ol second element background should be green", ()=>{
@@ -42,6 +42,14 @@ describe("All the styles should be applied", ()=>{
         background = cssArray[i].style['background'];
         backgroundColor = cssArray[i].style['background-color'];
 
+      }
+
+      if(background){
+        background = background.toLowerCase()
+      }
+
+      if(backgroundColor){
+        backgroundColor = backgroundColor.toLowerCase()
       }
 
     } expect(background === 'green' || backgroundColor === 'green').toBeTruthy();
@@ -62,7 +70,7 @@ describe("All the styles should be applied", ()=>{
         
       }
 
-    } expect(background === "yellow" || backgroundColor === "yellow").toBeTruthy();
+    } expect(background.toLowerCase() === "yellow" || backgroundColor.toLowerCase() === "yellow").toBeTruthy();
   })
 
   test("Write all your rules above the existing code", ()=>{
