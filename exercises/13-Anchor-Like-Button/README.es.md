@@ -20,6 +20,6 @@ Sigue estos pasos para que tu enlace (`anchor`) se vea así:
 
 6. Dentro del selector `:hover` cambia el fondo del botón a `darkorange`.
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
 ![Example Image](../../.learn/assets/13-1.gif?raw=true)
