@@ -18,6 +18,6 @@ Anchors are not only used within text: when you are going to use anchors outside
 
 6. Inside of the `:hover` selector change the background of the button to `darkorange`.
 
-## Expected result:
+## 💻 Expected result:
 
 ![Example Image](../../.learn/assets/13-1.gif?raw=true)
