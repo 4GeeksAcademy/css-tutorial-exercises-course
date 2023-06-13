@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=2YkLDRZFk40"
 
 # `07` Very Specific Rules
 
-## 🔍 Important:
+## 🔎 Important:
 
 In this exercise, you can add your code only above the **READ-ONLY BLOCK** of the code, you can add as many lines as you want, but always above.
 
