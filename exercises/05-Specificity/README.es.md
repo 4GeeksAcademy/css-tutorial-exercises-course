@@ -1,4 +1,4 @@
-# `05` Especificidad
+# `05` Specificity
 
 Al crear un documento CSS, se debe comenzar desde el selector más genérico y terminar con el más específico, esa es la forma en que funciona CSS.
 
@@ -13,4 +13,4 @@ Se trata del nivel de **especificidad**. Si especificas que tu `div` con `id="th
 
 ## 💡 Pista:
 
-+ Puedes usar la anotación **!important** : https://css-tricks.com/when-using-important-is-the-right-choice/
++ Puedes usar la notación **!important** : https://css-tricks.com/when-using-important-is-the-right-choice/

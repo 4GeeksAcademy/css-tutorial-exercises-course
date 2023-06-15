@@ -1,4 +1,4 @@
-# `13` Enlace (anchor) como botón
+# `13` Anchor Like Button
 
 Los enlaces (`anchors`) no solo se usan dentro del texto: cuando usas enlaces (`anchors`) fuera del texto, es mejor hacer que se vean como botones para que la experiencia del usuario sea más amigable.
 
@@ -20,6 +20,6 @@ Sigue estos pasos para que tu enlace (`anchor`) se vea así:
 
 6. Dentro del selector `:hover` cambia el fondo del botón a `darkorange`.
 
-## Resultado esperado:
+## 💻 Resultado esperado:
 
 ![Example Image](../../.learn/assets/13-1.gif?raw=true)

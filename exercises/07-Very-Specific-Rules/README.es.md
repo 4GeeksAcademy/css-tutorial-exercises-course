@@ -1,6 +1,6 @@
-# `07` Reglas Muy Específicas
+# `07` Very Specific Rules
 
-## **Importante:**
+## 🔎 Importante:
 
 En este ejercicio, puedes agregar tu código solo arriba del **READ-ONLY BLOCK** del código, puedes agregar tantas líneas como desees, pero siempre arriba.
 

@@ -1,4 +1,4 @@
-# `12` Longitud Relativa em, rem
+# `12` Relative Length em, rem
 
 Hasta ahora, hemos trabajado con píxeles como unidad de medida, por ejemplo, diciendo que un contenedor o caja tiene `100px` de ancho.
 

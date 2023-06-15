@@ -43,8 +43,8 @@ describe("All the styles should be applied", function () {
     let cssArray = document.styleSheets[0].cssRules;
     let orangeHoverSelector = "";
     for (let i = 0; i < cssArray.length; i++) {
-      if (cssArray[i].selectorText === "#thirditem" && cssArray[i].style._importants.background === "important") {
-        orangeHoverSelector = cssArray[i].style.background;
+      if (cssArray[i].selectorText === "#thirditem" && cssArray[i].style._importants.background === "important" || cssArray[i].style._importants["background-color"] === "important") {
+        orangeHoverSelector = cssArray[i].style.background || cssArray[i].style["background-color"];
       }
     }
 

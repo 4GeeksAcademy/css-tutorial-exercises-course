@@ -1,5 +1,5 @@
 
-# `01` Hello World en CSS
+# `01` Hello World in CSS
 
 CSS trata sobre estilos (styles). Para aplicar estilos, siempre debes seguir estos pasos:
 

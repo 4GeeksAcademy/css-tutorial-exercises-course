@@ -1,6 +1,6 @@
-# `02.1` Background (fondo)
+# `02.1` Background
 
-La regla `background` del CSS nos permite asignar y trabajar con el background de cualquier contenedor (container). Los valores de background pueden ser `color` o una `imagen`.
+La regla `background` (fondo) de CSS nos permite asignar y trabajar con el background de cualquier contenedor (container). Los valores de background pueden ser `color` o una `imagen`.
 
 Si es una imagen, puedes especificar si quieres que la imagen se repita horizontalmente, verticalmente, ambas o ninguna, y también puedes especificar si quieres cambiar el tamaño y ajustar su tamaño al contenedor completo, entre otras propiedades, eso puede modificarse.
 
