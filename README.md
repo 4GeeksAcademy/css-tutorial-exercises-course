@@ -12,14 +12,14 @@
   </tr>
 </table>
 
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard; you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. 
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/README.es.md) :es:*
 <!-- endhide -->
 
 ## You'll be learning the following concepts:
 
-1. How to apply CSS to your website in 3 different ways: Inline, by grouping them together inside a `<style>` tag, or using an external stylesheet `<link>`.
+1. How to apply CSS to your website in 3 different ways: inline, by grouping them together inside a `<style>` tag, or by using an external stylesheet `<link>`.
 
 2. Selecting HTML Elements from your website to apply the styles to.
 
@@ -35,7 +35,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
     <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← 🔥 You are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a>← 🔥 You are here now!</li>
   <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
@@ -52,7 +52,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 [Clone the repository](https://4geeks.com/how-to/github-clone-repository) in your local environment and follow the steps below:
 
-1) Install LearnPack, the package manager for learning tutorials and the HTML compiler plugin for LearnPack, make sure you also have node.js 14+:
+1) Install LearnPack, the package manager for learning tutorials and the HTML compiler plugin for LearnPack; make sure you also have node.js 14+:
 
 ```bash
 $ npm i learnpack -g
