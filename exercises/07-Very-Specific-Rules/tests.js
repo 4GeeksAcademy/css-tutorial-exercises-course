@@ -70,7 +70,7 @@ describe("All the styles should be applied", ()=>{
         
       }
 
-    } expect(background && background.toLowerCase() === "yellow" || backgroundColor.toLowerCase() === "yellow").toBeTruthy();
+    } expect((background && background.toLowerCase() === "yellow") || (backgroundColor && backgroundColor.toLowerCase() === "yellow")).toBeTruthy();
   })
 
   test("Write all your rules above the existing code", ()=>{
