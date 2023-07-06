@@ -52,7 +52,7 @@ describe("All the styles should be applied", ()=>{
         backgroundColor = backgroundColor.toLowerCase()
       }
 
-    } expect(background === 'green' || backgroundColor === 'green').toBeTruthy();
+    } expect((background && background === 'green') || (backgroundColor && backgroundColor === 'green')).toBeTruthy();
   })
 
   test("The odd rows of the table should have yellow background", ()=>{
@@ -64,13 +64,13 @@ describe("All the styles should be applied", ()=>{
     let background = "";
     let backgroundColor = "";
     for (let i = 0; i < cssArray.length; i++) {
-      if (cssArray[i].selectorText === "tr:nth-child(odd)") {
+      if (cssArray[i].selectorText.includes( "tr:nth-child(odd)")) {
         background = cssArray[i].style['background'];
         backgroundColor = cssArray[i].style['background-color'];
         
       }
 
-    } expect(background.toLowerCase() === "yellow" || backgroundColor.toLowerCase() === "yellow").toBeTruthy();
+    } expect((background && background.toLowerCase() === "yellow") || (backgroundColor && backgroundColor.toLowerCase() === "yellow")).toBeTruthy();
   })
 
   test("Write all your rules above the existing code", ()=>{
