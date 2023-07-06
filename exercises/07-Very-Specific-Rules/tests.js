@@ -52,7 +52,7 @@ describe("All the styles should be applied", ()=>{
         backgroundColor = backgroundColor.toLowerCase()
       }
 
-    } expect(background && background === 'green' || backgroundColor === 'green').toBeTruthy();
+    } expect((background && background === 'green') || (backgroundColor && backgroundColor === 'green')).toBeTruthy();
   })
 
   test("The odd rows of the table should have yellow background", ()=>{
