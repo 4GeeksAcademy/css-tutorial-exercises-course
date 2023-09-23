@@ -96,6 +96,6 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 3. [Daniel Machota (@d4rkm0nst3r)](https://github.com/d4rkm0nst3r), contribution: (build-tutorial) ✅, Translation 🌍
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
-
+<!-- hide -->
 This and many other exercises are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sánchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and  [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+<!-- endhide -->
