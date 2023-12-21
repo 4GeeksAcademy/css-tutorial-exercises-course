@@ -43,7 +43,6 @@ describe("All the styles should be applied", function () {
     let cssArray = document.styleSheets[0].cssRules;
     let orangeHoverSelector = "";
     for (let i = 0; i < cssArray.length; i++) {
-      // here is the problem, the only selector acepted is #thirditem so if you read li + #thirditem or li #thirditem or li + #thirditem is not acepted
       if (cssArray[i].selectorText.endsWith("#thirditem") && cssArray[i].style._importants.background === "important" || cssArray[i].style._importants["background-color"] === "important") {
         orangeHoverSelector = cssArray[i].style.background || cssArray[i].style["background-color"];
       }
