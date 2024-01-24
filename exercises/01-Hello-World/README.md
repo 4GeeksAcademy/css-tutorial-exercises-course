@@ -32,7 +32,7 @@ That is it! The rest is just semantics! 😁
 
 ### 💡 Hint:
 
-- A convenient way to import the basic html structure of your web page is to just type an exclamation mark `!` and select the emmet option that will pop up in Gitpod. 
+- A convenient way to import the basic html structure of your web page is to just type an exclamation mark `!` and select the emmet option that will pop up in VSCode. 
 - Read how to apply borders here: https://www.w3schools.com/css/css_border_shorthand.asp
 - For this exercise, do NOT use `styles.css` file or `<style>` tag.
 
