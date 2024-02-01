@@ -1,9 +1,9 @@
 ---
 tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
 ---
-# `01` Hello World in CSS
+# `01` Style tag in CSS
 
-CSS is about styles. To apply styles you always have to follow these steps:
+Another way to apply styles is by using a `<style>` tag, you always have to follow these steps:
 
 1. Read the HTML and pick what element (tag) you want to decorate or apply styles to.
 
@@ -11,7 +11,7 @@ CSS is about styles. To apply styles you always have to follow these steps:
 
 3. Write the styling that you want by using [CSS property rules](https://4geeks.com/lesson/what-is-css-learn-css#properties).
 
-That is it! The rest is just semantics! 😁
+But make sure your CSS code is wrapped inside a `<style>` tag instead of using the tag `style` property.
 
 Look at this example:
 

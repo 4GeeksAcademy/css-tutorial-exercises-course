@@ -4,8 +4,8 @@ tutorial: "https://www.youtube.com/watch?v=C5sOchuD2d4"
 
 # `01.1` The Style Tag
 
-If you want to add styles into a website by writing CSS you always have to add it within a `<style>` tag.
-You can have as many style tags as you want, but it is recommended to have only one at the beginning of your website code.
+The previous exercise had a pre-writen `<style>` tag.
+Let's add one style tag ourselves. It is recommended to have only one style tag, always at the beginning of your website code.
 
 ```HTML
 <style>

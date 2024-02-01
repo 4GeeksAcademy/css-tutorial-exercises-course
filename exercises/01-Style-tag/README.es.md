@@ -1,7 +1,7 @@
 
 # `01` Hello World in CSS
 
-CSS trata sobre estilos (styles). Para aplicar estilos, siempre debes seguir estos pasos:
+Otra manera que existe de aplicar estilos es utilizar una etiqueta `<style>` en lugar de la propiedad `style`, siempre debes seguir estos pasos:
 
 1. Lee el HTML y elige qué elemento deseas decorar o aplicarle estilos.
 
@@ -9,7 +9,7 @@ CSS trata sobre estilos (styles). Para aplicar estilos, siempre debes seguir est
 
 3. Escribe el estilo que quieras usando las reglas CSS.
 
-¡Eso es todo! El resto es solo semántica. 😁
+Es importante clarar que tu codigo CSS debe estar encerrado dentro de etiquetas `<style>`.
 
 Mira este ejemplo:
 
