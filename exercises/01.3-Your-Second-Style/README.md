@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=W0CAqLIAoZI"
+tutorial: "https://www.youtube.com/watch?v=ituoKgAh6ds"
 ---
 
 # `01.3` Your Second Style

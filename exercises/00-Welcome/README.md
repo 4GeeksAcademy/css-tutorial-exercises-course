@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (run-tests) :warning:, (pull-request-review) :eyes: (run-tutorial) :white_check_mark: (documentation) :book:
 2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (run-tests) :warning:
+3. [Charly Chacon (charlytoc)](https://github.com/charlytoc), contribution: (tutorials, corrections), 🤖
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)

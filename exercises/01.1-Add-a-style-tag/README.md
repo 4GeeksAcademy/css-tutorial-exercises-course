@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=C5sOchuD2d4"
+tutorial: "https://www.youtube.com/watch?v=K1SrZxiiM6I"
 ---
 
 # `01.1` The Style Tag

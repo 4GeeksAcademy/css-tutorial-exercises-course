@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=CaSytmRcVGM"
+---
+
+
 # `04.2` Apply several classes
 
 Hemos preparado una pequeña hoja de estilos CSS que contiene estilos CSS para replicar cartas de poker.

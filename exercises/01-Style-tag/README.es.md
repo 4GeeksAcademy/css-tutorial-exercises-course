@@ -1,4 +1,6 @@
-
+---
+tutorial: "https://www.youtube.com/watch?v=9WrVN0rOg_k"
+---
 # `01` Style tag in CSS
 
 Otra manera que existe de aplicar estilos es utilizar una etiqueta `<style>` en lugar de la propiedad `style`, siempre debes seguir estos pasos:

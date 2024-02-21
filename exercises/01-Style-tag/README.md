@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
+tutorial: "https://www.youtube.com/watch?v=iDwXZoQR8EM"
 ---
 # `01` Style tag in CSS
 

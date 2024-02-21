@@ -1,4 +1,6 @@
-
+---
+tutorial: "https://www.youtube.com/watch?v=rX-0KNBCxrY"
+---
 # `01.1` The Style Tag
 
 Veamos otro ejemplo pero esta vez agregando la etiqueta `<style>` nosotros mismos.

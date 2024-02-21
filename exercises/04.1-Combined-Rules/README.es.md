@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=NYlPhkmqgmU"
+---
+
+
 # `04.1` Combined Rules
 
 Los archivos CSS ocupan espacio en tu servidor y también tardan en descargarse (como todo); es otro documento de texto que el navegador debe descargar antes de mostrar la página, por lo que es importante mantener el documento CSS lo más pequeño posible.

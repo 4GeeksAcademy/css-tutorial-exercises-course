@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=rbtHLA813pU"
+tutorial: "https://www.youtube.com/watch?v=h9WPp8gPMS8"
 ---
 # `00.1` Inline styles
 

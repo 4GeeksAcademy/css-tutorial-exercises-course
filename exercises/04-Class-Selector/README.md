@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=RffCSMXgWFc"
+tutorial: "https://www.youtube.com/watch?v=moLgdg7x84U"
 ---
 
 # `04` Class Selector

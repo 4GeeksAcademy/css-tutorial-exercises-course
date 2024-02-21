@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=da4tJDx48CY"
+tutorial: "https://www.youtube.com/watch?v=RISEpELEzEk"
 ---
 
 # `04.2` Apply several classes

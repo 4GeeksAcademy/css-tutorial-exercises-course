@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=8RntHMOAFqI"
+---
+
 # `01.2` Your First Style
 
 Cuando usas CSS, la idea es aplicar `reglas css` a tus `elementos html`, siempre debes seleccionar primero el elemento y luego especificar qué reglas deseas aplicarle:
