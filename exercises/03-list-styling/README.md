@@ -18,8 +18,8 @@ Will remove the numbers or bullets and will move the text to the left so there i
 
 **Note:** 
 
-Build the existing code first to see what the page originally looks like.
-Then make the changes below and build again.  
+Run the existing code first to see what the page originally looks like.
+Then make the changes below and run again.  
 
 ## 📝 Instructions:
 

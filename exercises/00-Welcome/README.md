@@ -26,8 +26,8 @@ As you may have noticed, HTML allows you to create only basic websites. Nobody w
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (run-tests) :warning:, (pull-request-review) :eyes: (run-tutorial) :white_check_mark: (documentation) :book:
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (run-tests) :warning:
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)

@@ -1,5 +1,5 @@
 
-# `01` Hello World in CSS
+# `01` Style tag in CSS
 
 Otra manera que existe de aplicar estilos es utilizar una etiqueta `<style>` en lugar de la propiedad `style`, siempre debes seguir estos pasos:
 

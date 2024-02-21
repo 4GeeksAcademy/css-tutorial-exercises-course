@@ -11,17 +11,17 @@ If it is an image, you can specify if you want the image to be repeated horizont
 ## 📝 Instructions:
 
 
-1.  Build the exercise.
+1.  Run the exercise.
 
 2.  Check the Preview.
 
 3.  On the styles.css file change the background-size to 'contain' (check the styles.css tab).
 
-4.  Build and Preview the exercise again.
+4.  Run and Preview the exercise again.
 
 5.  Change the background-repeat to 'repeat' to make it repeat over the x-axis and y-axis.
 
-6.  Build and Preview the exercise again.
+6.  Run and Preview the exercise again.
 
 
 ## 💡 Hint:

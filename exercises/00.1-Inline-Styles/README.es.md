@@ -1,4 +1,4 @@
-# `03` Inline Styles
+# `00.1` Inline styles
 
 
 CSS trata sobre agregar estilos (styles) y diseños a tus etiquetas y elementos HTML.
