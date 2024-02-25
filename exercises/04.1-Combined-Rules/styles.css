@@ -1,14 +1,10 @@
 .myBox {
 	width: 50px;
 	height: 50px;
-	padding-top: 10px;
-	padding-left: 30px;
-	padding-right: 190px;
-	padding-bottom: 50px;
+	padding: 10px 190px 50px 30px;
 
-    background: rgb(189, 189, 189);
-	background-image: url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true);
-	background-position-x: 100px;
-	background-repeat: no-repeat;
+	background: rgb(189, 189, 189)
+		url(https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/3a2d1dd03f58167a5a4894155af2d3aa4d41d647/.learn/assets/baby.jpg?raw=true)
+		no-repeat 100px;
 	background-size: contain;
 }
