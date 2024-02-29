@@ -17,11 +17,14 @@ Estableceremos el color de este enlace específico a rojo (`red`) y el tamaño d
 
 *Puedes agregar tantas reglas CSS como desees, dentro de la misma línea, separadas por punto y coma.*
 
-## 📝 Instrucciones:
+## 📝 Instrucciones
 
+1. Dentro del archivo `index.html`, crea la estructura básica de una página html con las etiquetas `<html>`, `<head>` y `<body>` adecuadas.
+2. Dentro del cuerpo de la página, crea una etiqueta `<h1>` que diga "¡¡¡HOLA MUNDO!!!".
+3. Establece un estilo en línea para cambiar el color del texto de la etiqueta a `color: orangered` y dale un borde rojo sólido de 1px.
 
-1. Establece un estilo inline para cambiar el color de fondo de la tabla a verde (green). Para este ejercicio, NO uses el styles.css :(
+### 💡 Consejo:
 
-### 💡 Pista:
-
-- Como usar el background-color: https://www.w3schools.com/cssref/pr_background-color.php
+- Una forma conveniente de importar la estructura básica html de tu página web es simplemente teclear un signo de exclamación `!` y seleccionar la opción emmet que aparecerá en VSCode.
+- Lee cómo aplicar bordes aquí: https://www.w3schools.com/css/css_border_shorthand.asp
+- Para este ejercicio, NO uses el archivo `styles.css` ni la etiqueta `<style>`.
