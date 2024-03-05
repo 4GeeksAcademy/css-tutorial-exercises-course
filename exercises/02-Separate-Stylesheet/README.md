@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=T0anCc5fvSg"
+tutorial: "https://www.youtube.com/watch?v=jAfXzx88i-4"
 ---
 
 # `02` Separate Stylesheet

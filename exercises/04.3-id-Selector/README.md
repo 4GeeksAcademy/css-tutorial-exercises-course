@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=9906LCSQJ8M"
+tutorial: "https://www.youtube.com/watch?v=DtMVtGdStKw"
 ---
 
 # `04.3` The ID CSS Selector

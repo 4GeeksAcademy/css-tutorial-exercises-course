@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=qcx31wUVmqI"
+---
+
 # `03` Estilo de listas
 
 En el desarrollo front end, a menudo tenemos que listar ítems y la forma de hacerlo es con las etiquetas `<ul>`, para listas desordenadas o con viñetas, y las etiquetas `<ol>` para listas ordenadas o numeradas.

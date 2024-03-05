@@ -1,5 +1,5 @@
 ---
-intro: "https://www.youtube.com/watch?v=BDKdUPDez-U"
+intro: "https://www.youtube.com/watch?v=mZPmxx18kXo"
 ---
 
 # ¡¡Bienvenido a los ejercicios de CSS!!
@@ -27,8 +27,8 @@ Como te habrás dado cuenta, HTML solo te permite crear sitios web básicos. Nad
 
 Muchas gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribución: (programador), (build-tests) :warning:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) :computer: (idea) 🤔, (run-tests) :warning:, (pull-request-review) :eyes: (run-tutorial) :white_check_mark: (documentation) :book:
+1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribución: (programador), (run-tests) :warning:
 
 Este proyecto sigue las especificaciones
 [all-contributors](https://github.com/kentcdodds/all-contributors)

@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=W0CAqLIAoZI"
+tutorial: "https://www.youtube.com/watch?v=ituoKgAh6ds"
 ---
 
 # `01.3` Your Second Style
@@ -18,4 +18,4 @@ a {
 
 1. Make your website background blue by selecting the `body` and applying the `background` rule with a `blue` value.
 
-2. Build and preview the exercise and your result should be a blue `body` (the whole page blue).
+2. Run and preview the exercise and your result should be a blue `body` (the whole page blue).

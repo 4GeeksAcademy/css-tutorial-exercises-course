@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=i7UegJUGnRs"
+---
+
 # `03` List styling
 
 In the front end we often have to list items and the way to do that is with `<ul>` tags, for unordered/bulleted lists, and `<ol>` tags for ordered/numbered lists.  
@@ -18,8 +22,8 @@ Will remove the numbers or bullets and will move the text to the left so there i
 
 **Note:** 
 
-Build the existing code first to see what the page originally looks like.
-Then make the changes below and build again.  
+Run the existing code first to see what the page originally looks like.
+Then make the changes below and run again.  
 
 ## 📝 Instructions:
 
