@@ -1,5 +1,5 @@
 ---
-tutorial: 'https://www.youtube.com/watch?v=h9WPp8gPMS8'
+Tutorial: 'https://www.youtube.com/watch?v=h9WPp8gPMS8'
 ---
 
 # `00.1` Inline styles
@@ -16,7 +16,7 @@ For example:
 <a href="google.com" style="color: red; font-size: 14px;">Go to google</a>
 ```
 
-We will set the color of this specific link to red (red) and the font size (font-size) to 14px.
+We will set the color of this specific link to red `(red)` and the font size `(font-size)` to `14px`.
 
 _You can add as many CSS rules as you want, within the same line, separated by a semicolon._
 
@@ -24,7 +24,7 @@ _You can add as many CSS rules as you want, within the same line, separated by a
 
 1. Dentro del archivo `index.html`, crea la estructura básica de una página HTML con las etiquetas <html>, <head> y <body> adecuadas.
 
-2. Within the body of the page, create an <h1> tag that says "HELLO WORLD!!!".
+2. Within the body of the page, create an `<h1>` tag that says "HELLO WORLD!!!".
 
 3. Set an inline style to change the text color of the tag to `color: orangered` and give it a solid red border of 1px
 
