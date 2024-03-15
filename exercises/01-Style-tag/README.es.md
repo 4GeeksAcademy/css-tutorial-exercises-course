@@ -11,7 +11,7 @@ Otra manera que existe de aplicar estilos es utilizar una etiqueta `<style>` en 
 
 3. Escribe el estilo que quieras usando las reglas CSS.
 
-Es importante clarar que tu codigo CSS debe estar encerrado dentro de etiquetas `<style>`.
+Es importante aclarar que tu codigo CSS debe estar encerrado dentro de etiquetas `<style>`.
 
 Mira este ejemplo:
 
