@@ -25,13 +25,9 @@ That is it! The rest is just semantics! 😁
 
 ## 📝 Instructions
 
-1. Within the `index.html` file, create the basic structure of an html page with the appropriate `<html>`, `<head>` and `<body>` tags.
-2. Inside of the body of the page, create an `<h1>` tag that reads "HELLO WORLD!!!".
-1. Set an inline style to change the text color of the tag to `color: orangered` and give it a solid red border of 1px. 
+1. Set an inline style to change the background color of the table to green. For this exercise, do NOT use styles.css :(. 
 
 
 ### 💡 Hint:
 
-- A convenient way to import the basic html structure of your web page is to just type an exclamation mark `!` and select the emmet option that will pop up in VSCode. 
-- Read how to apply borders here: https://www.w3schools.com/css/css_border_shorthand.asp
-- For this exercise, do NOT use `styles.css` file or `<style>` tag.
+- How to use the background-color: https://www.w3schools.com/cssref/pr_background-color.php
