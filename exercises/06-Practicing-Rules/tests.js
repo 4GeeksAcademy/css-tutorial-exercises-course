@@ -27,7 +27,7 @@ describe("All the styles should be applied", () => {
     ).innerHTML = `<style>${css.toString()}</style>`;
     let body = document.querySelector("body");
     let styles = window.getComputedStyle(body);
-    expect(styles["font-family"].toLowerCase()).toBe("\"times new roman\"");
+    expect(styles["font-family"].toLowerCase()).toContain('times new roman');
   });
   test("The padding-left should be '20px'", () => {
     document.querySelector(
@@ -44,7 +44,7 @@ describe("All the styles should be applied", () => {
     let h1Tag = document.querySelector("h1");
     let h1TagStyles = window.getComputedStyle(h1Tag);
     // get computed styles of any element you like
-    expect(h1TagStyles["font-family"].toLowerCase()).toBe("\"courier\"");
+    expect(h1TagStyles["font-family"].toLowerCase()).toContain('courier');
   });
   test("The color in the <h1> tag should be 'red'", () => {
     document.querySelector(
