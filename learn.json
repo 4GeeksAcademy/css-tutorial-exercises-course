@@ -21,7 +21,7 @@
     "graded": true,
     "disabledActions": [],
     "disableGrading": false,
-    "editor": 
+    "editor": {
         "version": "3.1.23"
     }
 }
