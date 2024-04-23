@@ -23,5 +23,9 @@
     "disableGrading": false,
     "editor": {
         "version": "3.1.23"
+    },
+    "video": {
+        "es":"https://www.youtube.com/watch?v=AuXnQHKhjxw",
+        "en": "https://www.youtube.com/watch?v=mZPmxx18kXo"
     }
 }
