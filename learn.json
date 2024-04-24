@@ -1,33 +1,36 @@
 {
-    "language": "html",
-    "slug": "css-tutorial-exercises-course",
-    "skills": ["css-styling"],
-    "preview": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/preview.png?raw=true",
-    "repository": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course",
-    "title": {
-        "us": "Learn CSS Interactively",
-        "es": "Aprende CSS Interactivamente"
-    },
-    "intro": "https://www.youtube.com/watch?v=BDKdUPDez-U",
-    "description": {
-        "us": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
-        "es": "Aprende CSS con una docena de ejercicios interactivos y auto-corregidos"
-    },
-    "duration": 8,
-    "difficulty": "easy",
-    "videoSolutions": true,
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "projectType": "tutorial",
-    "graded": true,
-    "disabledActions": [],
-    "disableGrading": false,
-    "editor": {
-        "version": "3.1.23"
-    },
-    "video": {
-        "intro": {
-            "es":"https://www.youtube.com/watch?v=AuXnQHKhjxw",
-            "en": "https://www.youtube.com/watch?v=mZPmxx18kXo"
-        }
+"language": "html",
+"slug": "css-tutorial-exercises-course",
+"skills": ["css-styling"],
+"preview": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/preview.png?raw=true",
+"repository": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course",
+"title": {
+    "us": "Learn CSS Interactively",
+    "es": "Aprende CSS Interactivamente"
+},
+"intro": "https://www.youtube.com/watch?v=BDKdUPDez-U",
+"description": {
+    "us": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
+    "es": "Aprende CSS con una docena de ejercicios interactivos y auto-corregidos"
+},
+"duration": 8,
+"difficulty": "easy",
+"videoSolutions": true,
+"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+"projectType": "tutorial",
+"graded": true,
+"disabledActions": [],
+"disableGrading": false,
+"editor": {
+    "version": "3.1.36"
+},
+"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+},
+"video": {
+    "intro": {
+        "es":"https://www.youtube.com/watch?v=AuXnQHKhjxw",
+        "en": "https://www.youtube.com/watch?v=mZPmxx18kXo"
     }
+}
 }
