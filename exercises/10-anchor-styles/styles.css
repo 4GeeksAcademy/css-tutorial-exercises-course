@@ -1,4 +1,3 @@
-
 .threeDimension {
 	display: block;
 	border: 1px solid;
@@ -13,5 +12,5 @@
 
 a.threeDimension:active {
 	/* your code here*/
-	
+	border-color: #000 #aaa #aaa #000;
 }
