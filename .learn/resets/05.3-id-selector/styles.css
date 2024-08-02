@@ -1,0 +1,8 @@
+#button1 {
+	background-color: #4caf50; /* Green */
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+}
