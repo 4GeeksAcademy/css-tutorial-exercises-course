@@ -1,4 +1,14 @@
-/** Insert your code here **/
+ul li {
+	color: red !important;
+}
+
+ol li:nth-child(2) {
+	background-color: green;
+}
+
+tr:nth-child(odd) {
+	background-color: yellow;
+}
 
 /********** READ-ONLY BLOCK ******
 You CANNOT UPDATE anything from here on,

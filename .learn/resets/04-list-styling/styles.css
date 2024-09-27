@@ -1,0 +1,14 @@
+body {
+	height: 100vh;
+	background: rgb(189, 189, 189);
+}
+
+.container {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	margin: 0 auto;
+	width: 70vw;
+	box-shadow: 3px 5px 20px #312f2f;
+	background-color: white;
+	padding: 120px;
+	width: 300px;
+}
