@@ -5,13 +5,13 @@
 "preview": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course/blob/master/preview.png?raw=true",
 "repository": "https://github.com/4GeeksAcademy/css-tutorial-exercises-course",
 "title": {
-    "us": "Learn CSS Interactively",
-    "es": "Aprende CSS Interactivamente"
+    "us": "Learn CSS with Interactive Exercises",
+    "es": "Aprende CSS con Ejercicios Interactivos"
 },
 "intro": "https://www.youtube.com/watch?v=BDKdUPDez-U",
 "description": {
-    "us": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises.",
-    "es": "Aprende CSS con una docena de ejercicios interactivos y auto-corregidos"
+    "us": "Learn CSS with an interactive and auto-graded tutorial with dozens of exercises. These CSS exercises are ideal for beginners looking to learn and practice fundamental CSS concepts, including selectors, styling rules, and responsive design techniques. Through hands-on tasks, learners will gain practical experience in applying styles to HTML elements, using external stylesheets, and mastering CSS specificity.",
+    "es": "Aprende CSS con una docena de ejercicios interactivos y auto-corregidos. Estos ejercicios de CSS son ideales para principiantes que buscan aprender y practicar conceptos fundamentales de CSS, incluidos selectores, reglas de estilo y técnicas de diseño responsivo. A través de tareas prácticas, los estudiantes obtendrán experiencia en la aplicación de estilos a elementos HTML, el uso de hojas de estilo externas y el dominio de la especificidad de CSS."
 },
 "duration": 8,
 "difficulty": "easy",
@@ -22,7 +22,7 @@
 "disabledActions": [],
 "disableGrading": false,
 "editor": {
-    "version": "4.0.0"
+    "version": "4.3"
 },
 "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
