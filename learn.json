@@ -20,7 +20,7 @@
     "disabledActions": [],
     "disableGrading": false,
     "editor": {
-        "version": "4.3"
+        "version": "3.4"
     },
     "telemetry": {
         "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
