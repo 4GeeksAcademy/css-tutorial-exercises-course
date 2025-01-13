@@ -27,8 +27,10 @@ Then make the changes below and run again.
 
 ## 📝 Instructions:
 
-1. Make the Coca Cola drinks numbers into lowercase letters. 
-2. Make the Pepsi drinks numbers into square bullets.
+Use the CSS rule `list-style-type` and CSS to:
+
+1. Turn the Coca Cola drinks numbers into lowercase letters  (Use `lower-alpha`) 
+2. Turn the Pepsi drinks numbers into square bullets.
 3. Make the Healthy drinks bullets into Armenian numbers.
 4. Completely remove the bullets from the web-developer drinks. 
 

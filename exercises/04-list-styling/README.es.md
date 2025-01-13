@@ -22,18 +22,21 @@ Eliminará los números o viñetas y moverá el texto hacia la izquierda para qu
 
 **Nota:**
 
-Construye el código existente primero para ver cómo se ve originalmente la página. Luego, realiza los cambios a continuación y construye de nuevo.
+Ejecuta el código existente primero para ver cómo se ve originalmente la página. Luego, realiza los cambios a continuación y construye de nuevo.
 
 ## 📝 Instrucciones:
 
-1. Convierte los números de las bebidas de Coca Cola en letras minúsculas.
-2. Convierte los números de las bebidas de Pepsi en viñetas cuadradas.
-3. Convierte las viñetas de las bebidas Saludables en números armenios.
-4. Elimina completamente las viñetas de las bebidas de web-developer.
+La regla `list-style-type` tiene muchos valores interesantes, utilizala para lograr:
+
+1. Conviertir los números de las bebidas de Coca Cola en letras minúsculas (Usa `lower-alpha`).
+2. Conviertir los números de las bebidas de Pepsi en viñetas cuadradas.
+3. Conviertir las viñetas de las bebidas Saludables en números armenios.
+4. Eliminar completamente las viñetas de las bebidas de web-developer.
 
 ## 💡 Pistas:
 
 - Cómo trabajar con estilos de lista en CSS: https://www.w3schools.com/css/css_list.asp
 - Cambiar viñetas por números y viceversa significa que necesitarías cambiar el tipo de lista, ordenada o no ordenada. Es posible que se requieran cambios en las etiquetas HTML.
 - `armenian` es un valor posible real de `list-style-type`: https://www.w3schools.com/cssref/pr_list-style-type.asp
+- `lower-alpha` es un valor posible real de `list-style-type`.
 
