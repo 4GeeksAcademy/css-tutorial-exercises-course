@@ -1,0 +1,25 @@
+.card {
+	width: 150px;
+	height: 240px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 240px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+}
+.card:after {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+.spades,
+.spades:after {
+	content: "♤";
+	color: black;
+}
+
+.heart,
+.heart:after {
+	content: "♡";
+	color: red;
+}
