@@ -19,6 +19,7 @@
     "autoPlay": "true",
     "graded": true,
     "disabledActions": [],
+    "technologies": ["web-development", "desarrollo-web", "front-end", "css"],
     "disableGrading": false,
     "editor": {
         "version": "5.0",
