@@ -30,7 +30,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 5. Learn the most popular CSS Tricks.
 
 <!-- hide -->
-#### Before we start... other related tutorials
+#### Before we start, other related tutorials
 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
