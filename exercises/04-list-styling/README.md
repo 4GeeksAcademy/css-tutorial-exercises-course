@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=i7UegJUGnRs"
 
 # `04` List styling
 
-In the front end, we often have to list items, and the way to do that is with `<ul>` tags, for unordered/bulleted lists, and `<ol>` tags for ordered/numbered lists.  
+When working in the front end, we often have to create item lists. We can do that using either `<ul>` or `<ol>` tags! You can use the `<ul>` tags for unordered/bulleted lists and the `<ol>` tags for ordered/numbered lists.  
 
 We have CSS control over what these lists look like, what bullets or numbers they use, etc.
 
