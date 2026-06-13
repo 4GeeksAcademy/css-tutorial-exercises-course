@@ -1,0 +1,17 @@
+
+.threeDimension {
+	display: block;
+	border: 1px solid;
+	border-color: #aaa #000 #000 #aaa;
+	width: 8em;
+	background: #fc0;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 22px;
+}
+
+a.threeDimension:active {
+	/* your code here*/
+	
+}
